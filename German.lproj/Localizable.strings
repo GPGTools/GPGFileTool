@@ -1,1 +1,16 @@
-Yes = "Ja";
+FTVerifyFileFindTitle = "Zu verfifizierende Datei auswählen";
+FTVerifyFileFindPrompt = "Auswählen";
+
+FTSignatureStatus = "Signaturstatus";
+FTMultipleSignatureStatuses = "Mehrfache Signaturstati";
+FTGoodSigStatus = "Gute Signatur erzeugt %@ mit %@ Gültigkeit von:\n\n%@\n%@";
+FTBadSigStatus = "Schlechte Signatur erzeugt %@ mit %@ Gültigkeit von:\n\n%@\n%@";
+FTGoodButExpiredSigStatus = "Gute, aber VERFALLENE, Signatur erzeugt %@ mit %@ Gültigkeit von:\n\n%@\n%@";
+FTGoodButKeyExpiredSigStatus = "Gute Signatur erzeugt %@ mit %@ Gültigkeit von VERFALLENEM Schlüssel:\n\n%@\n%@";
+FTNoKeySigStatus = "Kein passender Schlüssel im Schlüsselbund:\n\n%@.";
+FTNoSignatureSigStatus = "Daten wurden nicht signiert.";
+FTErrorSigStatus = "Während des Verifizierens von Daten ist ein Fehler aufgetreten.";
+FTSigSeparator = "\n------------------------\n";
+
+FTErrorTitle = "Fehler";
+FTErrorMessage = "Ein Fehler ist aufgetreten:  %@";
