@@ -1,6 +1,9 @@
 FTVerifyFileFindTitle = "Select File to Verify against";
 FTVerifyFileFindPrompt = "Select";
 
+FTEnterPassphrasePrompt = "For key:  %@, %@";
+FTEnterPassphraseAgainPrompt = "Try again:  %@, %@";
+
 FTSignatureStatus = "Signature Status";
 FTMultipleSignatureStatuses = "Multiple Signature Statuses";
 FTGoodSigStatus = "Good signature made %@ with %@ validity from:\n\n%@\n%@";

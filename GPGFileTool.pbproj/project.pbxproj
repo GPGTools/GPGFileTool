@@ -52,9 +52,9 @@
 //104
 		1058C7A6FEA54F5311CA2CBB = {
 			children = (
-				F52FB274037F73FB012884B0,
 				1058C7A7FEA54F5311CA2CBB,
-				F5D7EA360285C1C70128824A,
+				F52FB274037F73FB012884B0,
+				F55C3B4503A3DFCE0100011D,
 			);
 			isa = PBXGroup;
 			name = "Linked Frameworks";
@@ -159,12 +159,13 @@
 		};
 		2A37F4ABFDCFA73011CA2CEA = {
 			children = (
-				2A37F4AEFDCFA73011CA2CEA,
-				2A37F4ACFDCFA73011CA2CEA,
+				F55C3B5203A3DFE10100011D,
 				F530C423025276AC0128824A,
 				F530C424025276AC0128824A,
 				F511FDFC02629B760128824A,
 				F511FDFD02629B760128824A,
+				F55C3B5903A3E2640100011D,
+				F55C3B5A03A3E2640100011D,
 			);
 			isa = PBXGroup;
 			name = Classes;
@@ -270,7 +271,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build /Users/redbird/Development/macgpgcvs/GPGAppKit/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -416,6 +417,7 @@
 				F530C425025276AC0128824A,
 				F511FE0002629B770128824A,
 				F5C8211A02FF5E2D01000104,
+				F55C3B5B03A3E2640100011D,
 			);
 			isa = PBXHeadersBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +449,10 @@
 				F530C426025276AC0128824A,
 				F511FE0202629B770128824A,
 				F5C8211B02FF5E2D01000104,
+				F55C3AE203A3C1AF0100011D,
+				F55C3AE403A3C2220100011D,
+				F55C3AE703A3C2800100011D,
+				F55C3B5C03A3E2640100011D,
 			);
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,8 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1058C7A9FEA54F5311CA2CBB,
-				F5D7EA370285C1C70128824A,
 				F52FB27A037F73FB012884B0,
+				F55C3B4F03A3DFCE0100011D,
 			);
 			isa = PBXFrameworksBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +717,97 @@
 			path = "Read Me.rtf";
 			refType = 4;
 		};
+		F55C3AE103A3C1AF0100011D = {
+			isa = PBXFileReference;
+			path = GPGDocument_IBActions.m;
+			refType = 4;
+		};
+		F55C3AE203A3C1AF0100011D = {
+			fileRef = F55C3AE103A3C1AF0100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3AE303A3C2220100011D = {
+			isa = PBXFileReference;
+			path = GPGDocument_GnuPGActions.m;
+			refType = 4;
+		};
+		F55C3AE403A3C2220100011D = {
+			fileRef = F55C3AE303A3C2220100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3AE603A3C2800100011D = {
+			isa = PBXFileReference;
+			path = GPGDocument_Utility.m;
+			refType = 4;
+		};
+		F55C3AE703A3C2800100011D = {
+			fileRef = F55C3AE603A3C2800100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3B4503A3DFCE0100011D = {
+			isa = PBXFrameworkReference;
+			name = GPGAppKit.framework;
+			path = ../GPGAppKit/build/GPGAppKit.framework;
+			refType = 4;
+		};
+		F55C3B4F03A3DFCE0100011D = {
+			fileRef = F55C3B4503A3DFCE0100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3B5203A3DFE10100011D = {
+			children = (
+				2A37F4AEFDCFA73011CA2CEA,
+				2A37F4ACFDCFA73011CA2CEA,
+				F55C3AE103A3C1AF0100011D,
+				F55C3AE303A3C2220100011D,
+				F55C3AE603A3C2800100011D,
+			);
+			isa = PBXGroup;
+			name = GPGDocument;
+			refType = 4;
+		};
+		F55C3B5303A3E0860100011D = {
+			fileRef = F52FB274037F73FB012884B0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3B5803A3E0B80100011D = {
+			fileRef = F55C3B4503A3DFCE0100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3B5903A3E2640100011D = {
+			isa = PBXFileReference;
+			path = NSString_GPGFTExtensions.h;
+			refType = 4;
+		};
+		F55C3B5A03A3E2640100011D = {
+			isa = PBXFileReference;
+			path = NSString_GPGFTExtensions.m;
+			refType = 4;
+		};
+		F55C3B5B03A3E2640100011D = {
+			fileRef = F55C3B5903A3E2640100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55C3B5C03A3E2640100011D = {
+			fileRef = F55C3B5A03A3E2640100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
 		F571FE8802B61E510128824A = {
 			isa = PBXFileReference;
 			path = LocalizableStrings.h;
@@ -744,7 +841,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5D7EA380285C1C70128824A,
+				F55C3B5803A3E0B80100011D,
+				F55C3B5303A3E0860100011D,
 			);
 			isa = PBXCopyFilesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -801,24 +899,6 @@
 			isa = PBXFileReference;
 			path = TODO.ooutline;
 			refType = 4;
-		};
-		F5D7EA360285C1C70128824A = {
-			isa = PBXFrameworkReference;
-			name = GPGAppKit.framework;
-			path = ../GPGAppKit/build/GPGAppKit.framework;
-			refType = 2;
-		};
-		F5D7EA370285C1C70128824A = {
-			fileRef = F5D7EA360285C1C70128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F5D7EA380285C1C70128824A = {
-			fileRef = F5D7EA360285C1C70128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
 		};
 	};
 	rootObject = 2A37F4A9FDCFA73011CA2CEA;

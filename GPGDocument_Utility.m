@@ -1,8 +1,8 @@
 //
-//  LocalizableStrings.h
+//  GPGDocument_Utility.m
 //  GPGFileTool
 //
-//  Created by Gordon Worley on Tue June 11 2002.
+//  Created by Gordon Worley.
 //  Copyright (C) 2002 Mac GPG Project.
 //
 //  This code is free software; you can redistribute it and/or modify it under
@@ -21,24 +21,15 @@
 //  More info at <http://macgpg.sourceforge.net/> or <macgpg@rbisland.cx>
 //
 
-#import <Foundation/Foundation.h>
+#import "GPGDocument.h"
+#import "LocalizableStrings.h"
 
-extern NSString * FTVerifyFileFindTitle;
-extern NSString * FTVerifyFileFindPrompt;
+@implementation GPGDocument (Utility)
 
-extern NSString * FTEnterPassphrasePrompt;
-extern NSString * FTEnterPassphraseAgainPrompt;
+- (void)handle_exception: (NSException *) exception
+{
+    //NSLog(@"an error occured:  %@", exception);
+    NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
+}
 
-extern NSString * FTSignatureStatus;
-extern NSString * FTMultipleSignatureStatuses;
-extern NSString * FTGoodSigStatus;
-extern NSString * FTBadSigStatus;
-extern NSString * FTGoodButExpiredSigStatus;
-extern NSString * FTGoodButKeyExpiredSigStatus;
-extern NSString * FTNoKeySigStatus;
-extern NSString * FTNoSignatureSigStatus;
-extern NSString * FTErrorSigStatus;
-extern NSString * FTSigSeparator;
-
-extern NSString * FTErrorTitle;
-extern NSString * FTErrorMessage;
+@end
