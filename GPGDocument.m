@@ -21,6 +21,8 @@
     
     gpg_data = nil;
 
+    ppanel = [GPGPassphrasePanel panel];
+
     //needed later on for writing files
     objs = [NSMutableArray array];
     keys = [NSMutableArray array];
@@ -49,7 +51,7 @@
     [super dealloc];
 }
 
-- (void)write_file_with_data: (NSData *)data of_type: (NSString *)type
+- (BOOL)write_file_with_data: (NSData *)data of_type: (NSString *)type
 {
     NS_DURING
         NSSavePanel	*sp;
@@ -82,10 +84,15 @@
 
         if([sp runModalForDirectory: nil file: new_filename] == NSOKButton){
             [data writeToFile:[sp filename] atomically:NO];
+            NS_VALUERETURN(YES, BOOL);
         }
+        else
+            NS_VALUERETURN(NO, BOOL);
     NS_HANDLER
         [self handle_exception: localException];
-    NS_ENDHANDLER        
+    NS_ENDHANDLER
+
+    return NO;
 }
 
 - (NSData *)data_for_detached_signature
@@ -229,12 +236,14 @@
             break;
     }
     if (returned_data)	{
-        NSLog(@"in here");
-        [self write_file_with_data: returned_data of_type: returned_type];
-        if ([ckbox_open_after state])
-            [self open_file: self];
-        if ([ckbox_show_after state])
-            [self show_file_in_finder: self];
+        BOOL wrote_file = NO;
+        wrote_file = [self write_file_with_data: returned_data of_type: returned_type];
+        if (wrote_file)	{
+            if ([ckbox_open_after state])
+                [self open_file: self];
+            if ([ckbox_show_after state])
+                [self show_file_in_finder: self];
+        }
     }
 }
 
@@ -294,8 +303,10 @@
 @implementation GPGDocument (GnuPGActions)
 
 - (NSString *) context:(GPGContext *)context passphraseForDescription:(NSString *)description userInfo:(NSMutableDictionary *)userInfo {
-    GPGPassphrasePanel * panel = [GPGPassphrasePanel panel];
+    NSString *pass;
 
+    //NSLog(@"%@", description);
+    //[panel resetToDefaults];
     // This lot should be run as a sheet using the commented out code below,
     // but needs to run modally, hence the use of runModalFor...
     //[[GPGPassphrasePanel passphrasePanel] beginSheetWithPrompt: [context keyIdentifierFromMessageString:description]
@@ -303,9 +314,11 @@
     //modalDelegate: self
     //didEndSelector: nil
     //contextInfo: nil];
-    [panel runModalWithPrompt: description];
-
-    return [panel passphrase];
+    [ppanel runModalWithPrompt: description];
+    pass = [ppanel passphrase];
+    [ppanel resetToDefaults];
+    
+    return pass;
 }
 
 - (GPGRecipients *) get_recipients
@@ -531,7 +544,7 @@
         [context setPassphraseDelegate: self];
 
         returned_data = [[context decryptedData: gpg_data signatureStatus: &sig_status] data];
-        signee = [context keyOfSignatureAtIndex: 1];
+        signee = [context keyOfSignatureAtIndex: 0];
 
         NSRunInformationalAlertPanel(@"Signature Status", @"Status %d signature from:\n\n%@\n%@\n%@", nil, nil, nil, sig_status, [signee userID], [signee fingerprint], [signee creationDate]);
         /*NSBeginInformationalAlertSheet(@"Signature Status", nil, nil, nil, window, nil, nil, nil, nil,

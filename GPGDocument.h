@@ -16,6 +16,7 @@
     NSUserDefaults *defaults;
     GPGData *gpg_data;
     NSDictionary *types;
+    GPGPassphrasePanel *ppanel;
     
     IBOutlet NSTextField *path_to_file;
     IBOutlet NSButton *ckbox_armored, *ckbox_open_after, *ckbox_show_after;
@@ -23,7 +24,7 @@
     IBOutlet NSWindow *window;
 }
 
-- (void)write_file_with_data: (NSData *)data of_type: (NSString *)type;
+- (BOOL)write_file_with_data: (NSData *)data of_type: (NSString *)type;
 - (NSData *)data_for_detached_signature;
 
 @end

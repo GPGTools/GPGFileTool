@@ -20,6 +20,7 @@
 		089C165FFE840EACC02AAC07 = {
 			children = (
 				089C1660FE840EACC02AAC07,
+				F5516F2502B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = InfoPlist.strings;
@@ -191,6 +192,7 @@
 		2A37F4B4FDCFA73011CA2CEA = {
 			children = (
 				2A37F4B5FDCFA73011CA2CEA,
+				F5516F2302B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = GPGDocument.nib;
@@ -206,6 +208,7 @@
 		2A37F4B6FDCFA73011CA2CEA = {
 			children = (
 				2A37F4B7FDCFA73011CA2CEA,
+				F5516F2202B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = MainMenu.nib;
@@ -388,11 +391,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.8</string>
+	<string>0.8.1</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>12</string>
+	<string>13</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -425,8 +428,6 @@
 				080E96DBFE201CDB7F000001,
 				089C1661FE840EACC02AAC07,
 				F511FE0102629B770128824A,
-				F555C87002B4DE810128824A,
-				F555C87102B4DE810128824A,
 				F5A9BC1802B6A2620128824A,
 			);
 			isa = PBXResourcesBuildPhase;
@@ -521,6 +522,7 @@
 		F511FDFE02629B770128824A = {
 			children = (
 				F511FDFF02629B770128824A,
+				F5516F2402B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = Preferences.nib;
@@ -579,10 +581,52 @@
 			path = ../GPGME/build/GPGME.framework;
 			refType = 2;
 		};
+		F5516F2002B7E1140128824A = {
+			isa = PBXFileReference;
+			path = "Bitte lesen.rtf";
+			refType = 4;
+		};
+		F5516F2102B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/Credits.html;
+			refType = 4;
+		};
+		F5516F2202B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		F5516F2302B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/GPGDocument.nib;
+			refType = 4;
+		};
+		F5516F2402B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/Preferences.nib;
+			refType = 4;
+		};
+		F5516F2502B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		F5516F2602B7E16E0128824A = {
+			isa = PBXFileReference;
+			name = German;
+			path = German.lproj/Localizable.strings;
+			refType = 4;
+		};
 		F555C86D02B4DE810128824A = {
 			children = (
 				F555C86E02B4DE810128824A,
 				F555C86F02B4DE810128824A,
+				F5516F2002B7E1140128824A,
 			);
 			isa = PBXGroup;
 			name = Documentation;
@@ -598,18 +642,6 @@
 			path = "Read Me.rtf";
 			refType = 4;
 		};
-		F555C87002B4DE810128824A = {
-			fileRef = F555C86E02B4DE810128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F555C87102B4DE810128824A = {
-			fileRef = F555C86F02B4DE810128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F571FE8802B61E510128824A = {
 			isa = PBXFileReference;
 			path = LocalizableStrings.h;
@@ -623,6 +655,7 @@
 		F571FE8C02B61F450128824A = {
 			children = (
 				F571FE8D02B61F450128824A,
+				F5516F2602B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = Localizable.strings;
@@ -661,6 +694,7 @@
 		F5A9BC1602B6A2620128824A = {
 			children = (
 				F5A9BC1702B6A2620128824A,
+				F5516F2102B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = Credits.html;
