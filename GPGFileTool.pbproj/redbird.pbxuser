@@ -15,146 +15,19 @@
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 67840565;
-			"PBXTemplateGeometry-F5CA7ECB015C094F0DCA290F" = {
-				ContentSize = "{668, 621}";
-				LeftSlideOut = {
-					Collapsed = NO;
-					Frame = "{{0, 0}, {668, 621}}";
-					Split0 = {
-						Collapsed = NO;
-						Frame = "{{0, 0}, {668, 621}}";
-						Split0 = {
-							Frame = "{{0, 0}, {668, 621}}";
-						};
-						SplitCount = 1;
-						Tab0 = {
-							Frame = "{{0, 0}, {484, 208}}";
-						};
-						Tab1 = {
-							Debugger = {
-								Collapsed = NO;
-								Frame = "{{0, 0}, {664, 208}}";
-								Split0 = {
-									Frame = "{{0, 24}, {664, 184}}";
-									Split0 = {
-										Frame = "{{0, 0}, {325, 184}}";
-									};
-									Split1 = {
-										DebugVariablesTableConfiguration = (
-											Name,
-											123,
-											Value,
-											85,
-											Summary,
-											96.123,
-										);
-										Frame = "{{334, 0}, {330, 184}}";
-									};
-									SplitCount = 2;
-								};
-								SplitCount = 1;
-								Tab0 = {
-									Frame = "{{0, 0}, {100, 50}}";
-								};
-								Tab1 = {
-									Frame = "{{0, 0}, {100, 50}}";
-								};
-								TabCount = 2;
-								TabsVisible = YES;
-							};
-							Frame = "{{0, 0}, {664, 208}}";
-							LauncherConfigVersion = 7;
-						};
-						Tab2 = {
-							Frame = "{{0, 0}, {664, 50}}";
-							LauncherConfigVersion = 3;
-							Runner = {
-								Frame = "{{0, 0}, {664, 50}}";
-							};
-						};
-						Tab3 = {
-							BuildMessageFrame = "{{0, 0}, {614, 262}}";
-							BuildTranscriptFrame = "{{0, 271}, {614, 2}}";
-							BuildTranscriptFrameExpanded = YES;
-							Frame = "{{0, 0}, {612, 295}}";
-						};
-						Tab4 = {
-							Frame = "{{0, 0}, {612, 295}}";
-						};
-						TabCount = 5;
-						TabsVisible = NO;
-					};
-					SplitCount = 1;
-					Tab0 = {
-						Frame = "{{0, 0}, {313, 531}}";
-						GroupTreeTableConfiguration = (
-							TargetStatusColumn,
-							18,
-							MainColumn,
-							280,
-						);
-					};
-					Tab1 = {
-						ClassesFrame = "{{0, 0}, {280, 398}}";
-						ClassesTreeTableConfiguration = (
-							PBXBookColumnIdentifier,
-							20,
-							PBXClassColumnIdentifier,
-							237,
-						);
-						Frame = "{{0, 0}, {278, 659}}";
-						MembersFrame = "{{0, 407}, {280, 252}}";
-						MembersTreeTableConfiguration = (
-							PBXBookColumnIdentifier,
-							20,
-							PBXMethodColumnIdentifier,
-							236,
-						);
-					};
-					Tab2 = {
-						Frame = "{{0, 0}, {200, 100}}";
-					};
-					Tab3 = {
-						Frame = "{{0, 0}, {200, 557}}";
-						TargetTableConfiguration = (
-							ActiveObject,
-							16,
-							ObjectNames,
-							202.296,
-						);
-					};
-					Tab4 = {
-						BreakpointsTreeTableConfiguration = (
-							breakpointColumn,
-							197,
-							enabledColumn,
-							31,
-						);
-						Frame = "{{0, 0}, {250, 100}}";
-					};
-					TabCount = 5;
-					TabsVisible = NO;
-				};
-				NavBarShownByDefault = YES;
-				StatusViewVisible = NO;
-				Template = F5CA7ECB015C094F0DCA290F;
-				ToolbarVisible = NO;
-				WindowLocation = "{48, 103}";
-			};
+			PBXPerProjectTemplateStateSaveDate = 68158679;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
 						Split0 = {
 							Split0 = {
 								NavContent0 = {
-									bookmark = 7F17D685040AD4E600AB2055;
+									bookmark = 7F7B2C75040B30C400AB2055;
 									history = (
 										F527163803B3B7330100011D,
 										F527163903B3B7330100011D,
 										F527163A03B3B7330100011D,
 										7FDE5FE603B767000000011D,
-										7F8C3E8703C8C85C002884EA,
 										7F11B7A703E333DF0088D5B5,
 										7F11B7A803E333DF0088D5B5,
 										7F11B7A903E333DF0088D5B5,
@@ -177,13 +50,15 @@
 										7FBE06910409B16900AB2044,
 										7FBE06920409B16900AB2044,
 										7FBE06930409B16900AB2044,
-										7FEC7A65040AD3ED00AB2055,
 										7FEC7A66040AD3ED00AB2055,
 										7FEC7A67040AD3ED00AB2055,
 										7FEC7A68040AD3ED00AB2055,
 										7FEC7A69040AD3ED00AB2055,
 										7F17D683040AD4E600AB2055,
-										7FBE068F0409B16900AB2044,
+										7F7B2C6F040B30C400AB2055,
+										7F7B2C70040B30C400AB2055,
+										7F7B2C71040B30C400AB2055,
+										7F8C3E8703C8C85C002884EA,
 									);
 									prevStack = (
 										F573038203ACDF390100011D,
@@ -399,6 +274,9 @@
 										7FEC7A6E040AD3ED00AB2055,
 										7FEC7A6F040AD3ED00AB2055,
 										7F17D684040AD4E600AB2055,
+										7F7B2C72040B30C400AB2055,
+										7F7B2C73040B30C400AB2055,
+										7F7B2C74040B30C400AB2055,
 									);
 								};
 								NavCount = 1;
@@ -566,7 +444,7 @@
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 67840565;
+			PBXWorkspaceStateSaveDate = 68158679;
 		};
 		perUserProjectItems = {
 			7F11B7A703E333DF0088D5B5 = 7F11B7A703E333DF0088D5B5;
@@ -593,7 +471,6 @@
 			7F11B7D103E333DF0088D5B5 = 7F11B7D103E333DF0088D5B5;
 			7F17D683040AD4E600AB2055 = 7F17D683040AD4E600AB2055;
 			7F17D684040AD4E600AB2055 = 7F17D684040AD4E600AB2055;
-			7F17D685040AD4E600AB2055 = 7F17D685040AD4E600AB2055;
 			7F1B136F040921F700288A4D = 7F1B136F040921F700288A4D;
 			7F1B1370040921F700288A4D = 7F1B1370040921F700288A4D;
 			7F1B1371040921F700288A4D = 7F1B1371040921F700288A4D;
@@ -667,6 +544,13 @@
 			7F79DCDC04094CEF00288A4D = 7F79DCDC04094CEF00288A4D;
 			7F79DCDD04094CEF00288A4D = 7F79DCDD04094CEF00288A4D;
 			7F79DCDE04094CEF00288A4D = 7F79DCDE04094CEF00288A4D;
+			7F7B2C6F040B30C400AB2055 = 7F7B2C6F040B30C400AB2055;
+			7F7B2C70040B30C400AB2055 = 7F7B2C70040B30C400AB2055;
+			7F7B2C71040B30C400AB2055 = 7F7B2C71040B30C400AB2055;
+			7F7B2C72040B30C400AB2055 = 7F7B2C72040B30C400AB2055;
+			7F7B2C73040B30C400AB2055 = 7F7B2C73040B30C400AB2055;
+			7F7B2C74040B30C400AB2055 = 7F7B2C74040B30C400AB2055;
+			7F7B2C75040B30C400AB2055 = 7F7B2C75040B30C400AB2055;
 			7F846F190400B06A002884EA = 7F846F190400B06A002884EA;
 			7F846F1A0400B06A002884EA = 7F846F1A0400B06A002884EA;
 			7F846F1B0400B06A002884EA = 7F846F1B0400B06A002884EA;
@@ -711,7 +595,6 @@
 			7F8C3E9203C8C85C002884EA = 7F8C3E9203C8C85C002884EA;
 			7FA06EBD03E8476C002884EA = 7FA06EBD03E8476C002884EA;
 			7FBE068E0409B16900AB2044 = 7FBE068E0409B16900AB2044;
-			7FBE068F0409B16900AB2044 = 7FBE068F0409B16900AB2044;
 			7FBE06900409B16900AB2044 = 7FBE06900409B16900AB2044;
 			7FBE06910409B16900AB2044 = 7FBE06910409B16900AB2044;
 			7FBE06920409B16900AB2044 = 7FBE06920409B16900AB2044;
@@ -763,7 +646,6 @@
 			7FE7146603EE1C19002884EA = 7FE7146603EE1C19002884EA;
 			7FE7146703EE1C19002884EA = 7FE7146703EE1C19002884EA;
 			7FE7146803EE1C19002884EA = 7FE7146803EE1C19002884EA;
-			7FEC7A65040AD3ED00AB2055 = 7FEC7A65040AD3ED00AB2055;
 			7FEC7A66040AD3ED00AB2055 = 7FEC7A66040AD3ED00AB2055;
 			7FEC7A67040AD3ED00AB2055 = 7FEC7A67040AD3ED00AB2055;
 			7FEC7A68040AD3ED00AB2055 = 7FEC7A68040AD3ED00AB2055;
@@ -869,7 +751,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 6";
 		rLen = 0;
-		rLoc = 271;
+		rLoc = 267;
 		rType = 0;
 		vrLen = 291;
 		vrLoc = 0;
@@ -899,7 +781,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 6";
 		rLen = 0;
-		rLoc = 271;
+		rLoc = 267;
 		rType = 0;
 		vrLen = 291;
 		vrLoc = 0;
@@ -909,7 +791,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 6";
 		rLen = 0;
-		rLoc = 271;
+		rLoc = 267;
 		rType = 0;
 		vrLen = 291;
 		vrLoc = 0;
@@ -959,7 +841,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 6";
 		rLen = 0;
-		rLoc = 271;
+		rLoc = 267;
 		rType = 0;
 		vrLen = 291;
 		vrLoc = 0;
@@ -1073,10 +955,6 @@
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2302;
-	};
-	7F17D685040AD4E600AB2055 = {
-		isa = PBXTargetBookmark;
-		trg = 2A37F4C6FDCFA73011CA2CEA;
 	};
 	7F1B136F040921F700288A4D = {
 		fRef = 2A37F4ACFDCFA73011CA2CEA;
@@ -1838,6 +1716,74 @@
 		path = /Developer/Documentation/Cocoa/ObjectiveC/3objc_language_overview/index.html;
 		refType = 0;
 	};
+	7F7B2C6F040B30C400AB2055 = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7F7B2C70040B30C400AB2055 = {
+		fRef = 7F7B2C76040B30C500AB2055;
+		glyphRangeLength = 2;
+		glyphRangeLocation = 4;
+		isa = PBXDocBookmark;
+		name = "CocoaTopics.html: ...";
+	};
+	7F7B2C71040B30C400AB2055 = {
+		fRef = 7F7B2C77040B30C500AB2055;
+		glyphRangeLength = 0;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+	};
+	7F7B2C72040B30C400AB2055 = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7F7B2C73040B30C400AB2055 = {
+		fRef = 7F7B2C78040B30C500AB2055;
+		glyphRangeLength = 2;
+		glyphRangeLocation = 4;
+		isa = PBXDocBookmark;
+		name = "CocoaTopics.html: ...";
+	};
+	7F7B2C74040B30C400AB2055 = {
+		fRef = 7F7B2C79040B30C500AB2055;
+		glyphRangeLength = 0;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+	};
+	7F7B2C75040B30C400AB2055 = {
+		fRef = F5A9BC1702B6A2620128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	7F7B2C76040B30C500AB2055 = {
+		isa = PBXFileReference;
+		name = CocoaTopics.html;
+		path = /Developer/Documentation/Cocoa/CocoaTopics.html;
+		refType = 0;
+	};
+	7F7B2C77040B30C500AB2055 = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/AttributedStrings/index.html;
+		refType = 0;
+	};
+	7F7B2C78040B30C500AB2055 = {
+		isa = PBXFileReference;
+		name = CocoaTopics.html;
+		path = /Developer/Documentation/Cocoa/CocoaTopics.html;
+		refType = 0;
+	};
+	7F7B2C79040B30C500AB2055 = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/AttributedStrings/index.html;
+		refType = 0;
+	};
 	7F846F190400B06A002884EA = {
 		fRef = 2A37F4ACFDCFA73011CA2CEA;
 		isa = PBXTextBookmark;
@@ -2259,10 +2205,6 @@
 	7FBE068E0409B16900AB2044 = {
 		fRef = F527163103B3AE030100011D;
 		isa = PBXBookmark;
-	};
-	7FBE068F0409B16900AB2044 = {
-		isa = PBXTargetBookmark;
-		trg = 2A37F4C6FDCFA73011CA2CEA;
 	};
 	7FBE06900409B16900AB2044 = {
 		fRef = F555C86E02B4DE810128824A;
@@ -2772,13 +2714,6 @@
 		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/English.lproj/Documentation/Reference/ObjC_classic/AppKitTOC.html;
 		refType = 0;
 	};
-	7FEC7A65040AD3ED00AB2055 = {
-		fRef = 7FEC7A74040AD3ED00AB2055;
-		glyphRangeLength = 2;
-		glyphRangeLocation = 4;
-		isa = PBXDocBookmark;
-		name = "CocoaTopics.html: ...";
-	};
 	7FEC7A66040AD3ED00AB2055 = {
 		fRef = 7FEC7A75040AD3ED00AB2055;
 		isa = PBXTextBookmark;
@@ -2892,12 +2827,6 @@
 		isa = PBXFileReference;
 		name = NSSavePanel.h;
 		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSSavePanel.h;
-		refType = 0;
-	};
-	7FEC7A74040AD3ED00AB2055 = {
-		isa = PBXFileReference;
-		name = CocoaTopics.html;
-		path = /Developer/Documentation/Cocoa/CocoaTopics.html;
 		refType = 0;
 	};
 	7FEC7A75040AD3ED00AB2055 = {

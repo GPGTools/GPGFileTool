@@ -55,10 +55,10 @@
 		BAt0eXBlZHN0cmVhbYED6IQBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVj
 		dACFkoSEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCU
 		hAFpCJKEhIQITlNTdHJpbmcBlIQBKw5OU0JvdHRvbU1hcmdpboaShISECE5T
-		TnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWadJIaShJmZFk5TSG9yaXpvbnRh
-		bGx5Q2VudGVyZWSGkoSbnISEAXOeAIaShJmZDE5TTGVmdE1hcmdpboaShJuc
-		nZ0khpKEmZkNTlNSaWdodE1hcmdpboaShJucnZ0khpKEmZkUTlNWZXJ0aWNh
-		bFBhZ2luYXRpb26GkoSbnKCeAIaShJmZFE5TVmVydGljYWxseUNlbnRlcmVk
+		TnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWadJIaShJmZFE5TVmVydGljYWxs
+		eUNlbnRlcmVkhpKEm5yEhAFzngCGkoSZmQxOU0xlZnRNYXJnaW6GkoSbnJ2d
+		JIaShJmZDU5TUmlnaHRNYXJnaW6GkoSbnJ2dJIaShJmZFE5TVmVydGljYWxQ
+		YWdpbmF0aW9uhpKEm5ygngCGkoSZmRZOU0hvcml6b250YWxseUNlbnRlcmVk
 		hpKfkoSZmQtOU1RvcE1hcmdpboaShJucnZ0khpKEmZkVTlNIb3Jpem9uYWxQ
 		YWdpbmF0aW9uhpKEm5ygngCGhoY=
 		</data>
@@ -382,8 +382,6 @@ uid and/or the short key ID.}</string>
 
 \f0\fs24 \cf0 For 1.0}</string>
 						</array>
-						<key>Expanded</key>
-						<true/>
 						<key>State</key>
 						<integer>1</integer>
 					</dict>
@@ -474,10 +472,25 @@ uid and/or the short key ID.}</string>
 }</string>
 									<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs24 \cf0 colored verification methods}</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Cols</key>
+								<array>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
 
-\f0\fs24 \cf2 colored verification methods}</string>
+\f0\fs24 \cf2 recipients uids grouped (GPGAppKit)}</string>
 								</array>
 							</dict>
 						</array>
