@@ -9,6 +9,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <GPGME/GPGME.h>
+#import <GPGAppKit/GPGAppKit.h>
 
 @interface GPGDocument : NSDocument
 {
@@ -22,7 +23,8 @@
     IBOutlet NSWindow *window;
 }
 
-- (void)write_file_with_data: (GPGData *)data of_type: (NSString *)type;
+- (void)write_file_with_data: (NSData *)data of_type: (NSString *)type;
+- (NSData *)data_for_detached_signature;
 
 @end
 
@@ -36,15 +38,25 @@
 
 @interface GPGDocument (GnuPGActions)
 
-- (GPGData *)encrypt_and_sign;
-- (GPGData *)encrypt;
-- (GPGData *)sign;
-- (GPGData *)sign_detached;
-- (GPGData *)clearsign;
+- (GPGRecipients *) get_recipients;
+- (GPGKey *) get_signer;
+//- (void)show_verification_status: (GPGSignatureStatus)status with_keys: (NSArray *) signees;
 
-- (GPGData *)decrypt_and_verify;
-- (GPGData *)decrypt;
-- (GPGData *)verify;
-- (GPGData *)verify_detached;
+- (NSData *)encrypt_and_sign;
+- (NSData *)encrypt;
+- (NSData *)sign;
+- (NSData *)sign_detached;
+- (NSData *)clearsign;
+
+- (NSData *)decrypt_and_verify;
+- (NSData *)decrypt;
+- (NSData *)verify;
+- (NSData *)verify_detached;
+
+@end
+
+@interface GPGDocument (Utility)
+
+- (void)handle_exception: (NSException *) exception;
 
 @end

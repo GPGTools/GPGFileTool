@@ -5,12 +5,6 @@
 	};
 	objectVersion = 34;
 	objects = {
-		080E96D9FE201CDB7F000001 = {
-			fileRef = 2A37F4B9FDCFA73011CA2CEA;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		080E96DAFE201CDB7F000001 = {
 			fileRef = 2A37F4B6FDCFA73011CA2CEA;
 			isa = PBXBuildFile;
@@ -58,6 +52,7 @@
 			children = (
 				F54CC4140252401F0128824A,
 				1058C7A7FEA54F5311CA2CBB,
+				F5D7EA360285C1C70128824A,
 			);
 			isa = PBXGroup;
 			name = "Linked Frameworks";
@@ -143,6 +138,7 @@
 			children = (
 				2A37F4ABFDCFA73011CA2CEA,
 				2A37F4AFFDCFA73011CA2CEA,
+				F555C86D02B4DE810128824A,
 				2A37F4B8FDCFA73011CA2CEA,
 				2A37F4C3FDCFA73011CA2CEA,
 				19C28FB0FE9D524F11CA2CBB,
@@ -179,6 +175,8 @@
 		2A37F4AFFDCFA73011CA2CEA = {
 			children = (
 				2A37F4B0FDCFA73011CA2CEA,
+				F571FE8802B61E510128824A,
+				F571FE8902B61E510128824A,
 			);
 			isa = PBXGroup;
 			name = "Other Sources";
@@ -222,30 +220,16 @@
 		};
 		2A37F4B8FDCFA73011CA2CEA = {
 			children = (
-				2A37F4B9FDCFA73011CA2CEA,
+				F5A9BC1602B6A2620128824A,
 				2A37F4B6FDCFA73011CA2CEA,
 				2A37F4B4FDCFA73011CA2CEA,
 				F511FDFE02629B770128824A,
 				089C165FFE840EACC02AAC07,
+				F571FE8C02B61F450128824A,
 			);
 			isa = PBXGroup;
 			name = Resources;
 			path = "";
-			refType = 4;
-		};
-		2A37F4B9FDCFA73011CA2CEA = {
-			children = (
-				2A37F4BAFDCFA73011CA2CEA,
-			);
-			isa = PBXVariantGroup;
-			name = Credits.rtf;
-			path = "";
-			refType = 4;
-		};
-		2A37F4BAFDCFA73011CA2CEA = {
-			isa = PBXFileReference;
-			name = English;
-			path = English.lproj/Credits.rtf;
 			refType = 4;
 		};
 		2A37F4C3FDCFA73011CA2CEA = {
@@ -279,7 +263,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = /Users/redbird/Development/macgpgcvs/GPGME/build;
+				FRAMEWORK_SEARCH_PATHS = "/Users/redbird/Development/macgpgcvs/GPGME/build /Users/redbird/Development/macgpgcvs/GPGAppKit/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -391,18 +375,24 @@
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>GPGFileTool</string>
+	<key>CFBundleGetInfoString</key>
+	<string>GPGFileTool Copyright Mac GPG Project</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>net.sourceforge.macgpg.GPGFileTool</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GPGFileTool</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.8</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>10</string>
+	<string>12</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -431,11 +421,13 @@
 		2A37F4C9FDCFA73011CA2CEA = {
 			buildActionMask = 2147483647;
 			files = (
-				080E96D9FE201CDB7F000001,
 				080E96DAFE201CDB7F000001,
 				080E96DBFE201CDB7F000001,
 				089C1661FE840EACC02AAC07,
 				F511FE0102629B770128824A,
+				F555C87002B4DE810128824A,
+				F555C87102B4DE810128824A,
+				F5A9BC1802B6A2620128824A,
 			);
 			isa = PBXResourcesBuildPhase;
 			name = "Bundle Resources";
@@ -472,6 +464,7 @@
 			files = (
 				1058C7A9FEA54F5311CA2CBB,
 				F5933614025A0F1B0128824A,
+				F5D7EA370285C1C70128824A,
 			);
 			isa = PBXFrameworksBuildPhase;
 			name = "Frameworks & Libraries";
@@ -583,8 +576,64 @@
 		F54CC4140252401F0128824A = {
 			isa = PBXFrameworkReference;
 			name = GPGME.framework;
-			path = /Users/redbird/Development/macgpgcvs/GPGME/build/GPGME.framework;
-			refType = 0;
+			path = ../GPGME/build/GPGME.framework;
+			refType = 2;
+		};
+		F555C86D02B4DE810128824A = {
+			children = (
+				F555C86E02B4DE810128824A,
+				F555C86F02B4DE810128824A,
+			);
+			isa = PBXGroup;
+			name = Documentation;
+			refType = 4;
+		};
+		F555C86E02B4DE810128824A = {
+			isa = PBXFileReference;
+			path = "Change Log.rtf";
+			refType = 4;
+		};
+		F555C86F02B4DE810128824A = {
+			isa = PBXFileReference;
+			path = "Read Me.rtf";
+			refType = 4;
+		};
+		F555C87002B4DE810128824A = {
+			fileRef = F555C86E02B4DE810128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F555C87102B4DE810128824A = {
+			fileRef = F555C86F02B4DE810128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F571FE8802B61E510128824A = {
+			isa = PBXFileReference;
+			path = LocalizableStrings.h;
+			refType = 4;
+		};
+		F571FE8902B61E510128824A = {
+			isa = PBXFileReference;
+			path = LocalizableStrings.m;
+			refType = 4;
+		};
+		F571FE8C02B61F450128824A = {
+			children = (
+				F571FE8D02B61F450128824A,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 4;
+		};
+		F571FE8D02B61F450128824A = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
 		};
 		F5933614025A0F1B0128824A = {
 			fileRef = F54CC4140252401F0128824A;
@@ -598,12 +647,52 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F5933616025A0F1B0128824A,
+				F5D7EA380285C1C70128824A,
 			);
 			isa = PBXCopyFilesBuildPhase;
 			name = "Copy Files";
 		};
 		F5933616025A0F1B0128824A = {
 			fileRef = F54CC4140252401F0128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A9BC1602B6A2620128824A = {
+			children = (
+				F5A9BC1702B6A2620128824A,
+			);
+			isa = PBXVariantGroup;
+			name = Credits.html;
+			path = "";
+			refType = 4;
+		};
+		F5A9BC1702B6A2620128824A = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Credits.html;
+			refType = 4;
+		};
+		F5A9BC1802B6A2620128824A = {
+			fileRef = F5A9BC1602B6A2620128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D7EA360285C1C70128824A = {
+			isa = PBXFrameworkReference;
+			name = GPGAppKit.framework;
+			path = ../GPGAppKit/build/GPGAppKit.framework;
+			refType = 2;
+		};
+		F5D7EA370285C1C70128824A = {
+			fileRef = F5D7EA360285C1C70128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D7EA380285C1C70128824A = {
+			fileRef = F5D7EA360285C1C70128824A;
 			isa = PBXBuildFile;
 			settings = {
 			};

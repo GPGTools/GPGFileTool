@@ -7,8 +7,6 @@
 {
     [super init];
 
-    //defaults = [NSUserDefaults standardUserDefaults];
-
     return self;
 }
 
