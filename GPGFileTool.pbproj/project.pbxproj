@@ -316,6 +316,7 @@
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>GPGe</string>
+				<string>pgEF</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
@@ -364,6 +365,7 @@
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>GPGb</string>
+				<string>pgDS</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
@@ -400,7 +402,7 @@
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>10</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
