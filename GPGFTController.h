@@ -40,11 +40,11 @@
 {
     //NSUserDefaults *defaults;
 
-    GPGPrefController *pref_controller;
+    GPGPrefController *prefController;
 
-    IBOutlet NSMenuItem *open_menu;
+    IBOutlet NSMenuItem *openMenu;
 }
 
-- (IBAction)show_prefs: (id)sender;
+- (IBAction)showPrefs: (id)sender;
 
 @end

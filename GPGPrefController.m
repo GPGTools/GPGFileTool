@@ -37,12 +37,12 @@
 - (void)awakeFromNib
 {
     [ckbox_armored setState: [defaults boolForKey: @"default_armored"] ? NSOnState : NSOffState];
-    [ckbox_decrypt_and_verify setState: [defaults boolForKey: @"default_decrypt_and_verify"] ? NSOnState : NSOffState];
-    [ckbox_open_after setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
-    [ckbox_open_unless_cipher setState: [defaults boolForKey: @"default_open_unless_ciphered"] ? NSOnState : NSOffState];
-    [ckbox_show_after setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
+    [ckbox_decryptAndVerify setState: [defaults boolForKey: @"default_decrypt_and_verify"] ? NSOnState : NSOffState];
+    [ckbox_openAfter setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
+    [ckbox_openUnlessCipher setState: [defaults boolForKey: @"default_open_unless_ciphered"] ? NSOnState : NSOffState];
+    [ckbox_showAfter setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
 
-    [action_list selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
+    [actionList selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
 }
 
 - (BOOL)windowShouldClose: (id)sender
@@ -55,12 +55,12 @@
 - (IBAction)apply: (id)sender
 {
     [defaults setBool: ([ckbox_armored state] == NSOnState) ? YES : NO forKey: @"default_armored"];
-    [defaults setBool: ([ckbox_decrypt_and_verify state] == NSOnState) ? YES : NO forKey: @"default_decrypt_and_verify"];
-    [defaults setBool: ([ckbox_open_after state] == NSOnState) ? YES : NO forKey: @"default_open_after"];
-    [defaults setBool: ([ckbox_open_unless_cipher state] == NSOnState) ? YES : NO forKey: @"default_open_unless_ciphered"];
-    [defaults setBool: ([ckbox_show_after state] == NSOnState) ? YES : NO forKey: @"default_show_after"];
+    [defaults setBool: ([ckbox_decryptAndVerify state] == NSOnState) ? YES : NO forKey: @"default_decrypt_and_verify"];
+    [defaults setBool: ([ckbox_openAfter state] == NSOnState) ? YES : NO forKey: @"default_open_after"];
+    [defaults setBool: ([ckbox_openUnlessCipher state] == NSOnState) ? YES : NO forKey: @"default_open_unless_ciphered"];
+    [defaults setBool: ([ckbox_showAfter state] == NSOnState) ? YES : NO forKey: @"default_show_after"];
 
-    [defaults setInteger: [action_list indexOfSelectedItem] forKey: @"user_default_action"];
+    [defaults setInteger: [actionList indexOfSelectedItem] forKey: @"user_default_action"];
 
     [defaults synchronize];    
 }

@@ -38,12 +38,12 @@
     [super dealloc];
 }
 
-- (IBAction) show_prefs: (id)sender
+- (IBAction) showPrefs: (id)sender
 {
-    if (pref_controller == nil)
+    if (prefController == nil)
     {
-        pref_controller = [[GPGPrefController alloc] initWithWindowNibName:@"Preferences"];
-        if (pref_controller == nil)
+        prefController = [[GPGPrefController alloc] initWithWindowNibName:@"Preferences"];
+        if (prefController == nil)
         {
             NSLog(@"Failed to load Preferences.nib");
             NSBeep();
@@ -51,7 +51,7 @@
         }
     }
 
-    [[pref_controller window] makeKeyAndOrderFront:nil];
+    [[prefController window] makeKeyAndOrderFront:nil];
 }
 
 /*====================

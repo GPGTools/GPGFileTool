@@ -28,9 +28,9 @@
 {
     NSUserDefaults *defaults;
     
-    IBOutlet NSButton *ckbox_armored, *ckbox_decrypt_and_verify, *ckbox_open_after, *ckbox_open_unless_cipher,
-    *ckbox_show_after;
-    IBOutlet NSPopUpButton *action_list;
+    IBOutlet NSButton *ckbox_armored, *ckbox_decryptAndVerify, *ckbox_openAfter, *ckbox_openUnlessCipher,
+    *ckbox_showAfter;
+    IBOutlet NSPopUpButton *actionList;
 }
 
 - (IBAction)apply: (id)sender;

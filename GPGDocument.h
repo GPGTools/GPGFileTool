@@ -28,49 +28,49 @@
 @interface GPGDocument : NSDocument
 {
     NSUserDefaults *defaults;
-    GPGData *gpg_data;
+    GPGData *gpgData;
     NSDictionary *types;
     
-    IBOutlet NSTextField *path_to_file;
-    IBOutlet NSButton *ckbox_armored, *ckbox_open_after, *ckbox_show_after;
-    IBOutlet NSPopUpButton *action_list;
+    IBOutlet NSTextField *pathToFile;
+    IBOutlet NSButton *ckbox_armored, *ckbox_openAfter, *ckbox_showAfter;
+    IBOutlet NSPopUpButton *actionList;
     IBOutlet NSWindow *window;
 }
 
-- (BOOL)write_file_with_data: (NSData *)data of_type: (NSString *)type;
-- (NSData *)data_for_detached_signature;
+- (BOOL)writeFileWithData: (NSData *)data ofType: (NSString *)type;
+- (NSData *)dataForDetachedSignature;
 
 @end
 
 @interface GPGDocument (IBActions)
 
-- (IBAction)do_it:(id)sender;
-- (IBAction)open_file:(id)sender;
-- (IBAction)show_file_in_finder:(id)sender;
+- (IBAction)doIt:(id)sender;
+- (IBAction)openFile:(id)sender;
+- (IBAction)showFileInFinder:(id)sender;
 
 @end
 
 @interface GPGDocument (GnuPGActions)
 
-- (GPGRecipients *) get_recipients;
-- (GPGKey *) get_signer;
-- (void)show_verification_status: (NSArray *) signatures;
+- (GPGRecipients *) getRecipients;
+- (GPGKey *) getSigner;
+- (void)showVerificationStatus: (NSArray *) signatures;
 
-- (NSData *)encrypt_and_sign;
+- (NSData *)encryptAndSign;
 - (NSData *)encrypt;
 - (NSData *)sign;
-- (NSData *)sign_detached;
+- (NSData *)signDetached;
 - (NSData *)clearsign;
 
-- (NSData *)decrypt_and_verify;
+- (NSData *)decryptAndVerify;
 - (NSData *)decrypt;
 - (NSData *)verify;
-- (NSData *)verify_detached;
+- (NSData *)verifyDetached;
 
 @end
 
 @interface GPGDocument (Utility)
 
-- (void)handle_exception: (NSException *) exception;
+- (void)handleException: (NSException *) exception;
 
 @end

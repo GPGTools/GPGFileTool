@@ -44,7 +44,7 @@
     return [ppanel passphrase];
 }
 
-- (GPGRecipients *) get_recipients
+- (GPGRecipients *) getRecipients
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGRecipients * recipients = [[[GPGRecipients alloc] init] autorelease];
@@ -73,7 +73,7 @@
     return recipients;
 }
 
-- (GPGKey *) get_signer
+- (GPGKey *) getSigner
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGSingleKeySelectionPanel * panel = [GPGSingleKeySelectionPanel panel];
@@ -87,7 +87,7 @@
     return [panel selectedKey];
 }
 
-- (void)show_verification_status: (NSArray *) signatures
+- (void)showVerificationStatus: (NSArray *) signatures
 {
     if ([signatures count] == 0)	{
         NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil);
@@ -163,16 +163,16 @@
     }
 }
 
-- (NSData *)encrypt_and_sign
+- (NSData *)encryptAndSign
 {
     GPGRecipients *recipients = nil;
     GPGKey *signer = nil;
     NSData *returned_data = nil;
 
-    recipients = [self get_recipients];
+    recipients = [self getRecipients];
 
     if ([recipients count])	{
-        signer = [self get_signer];
+        signer = [self getSigner];
 
         if (signer)	{
             NS_DURING
@@ -182,13 +182,13 @@
                 [context addSignerKey: signer];
                 [context setPassphraseDelegate: self];
 
-                returned_data = [[context encryptedSignedData:gpg_data
+                returned_data = [[context encryptedSignedData:gpgData
                                                 forRecipients:recipients
                                         allRecipientsAreValid:nil]
                     data];
 
             NS_HANDLER
-                [self handle_exception: localException];
+                [self handleException: localException];
             NS_ENDHANDLER
         }
     }
@@ -201,7 +201,7 @@
     GPGRecipients *recipients = nil;
     NSData *returned_data = nil;
 
-    recipients = [self get_recipients];
+    recipients = [self getRecipients];
 
     if ([recipients count])	{
         NS_DURING
@@ -209,11 +209,11 @@
 
             [context setUsesArmor: [ckbox_armored state] ? YES : NO];
 
-            returned_data = [[context encryptedData:gpg_data forRecipients:recipients allRecipientsAreValid:nil]
+            returned_data = [[context encryptedData:gpgData forRecipients:recipients allRecipientsAreValid:nil]
                 data];
 
         NS_HANDLER
-            [self handle_exception: localException];
+            [self handleException: localException];
         NS_ENDHANDLER
     }
 
@@ -225,7 +225,7 @@
     GPGKey *signer = nil;
     NSData *returned_data = nil;
 
-    signer = [self get_signer];
+    signer = [self getSigner];
 
     if (signer)	{
         NS_DURING
@@ -235,24 +235,24 @@
             [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
 
-            returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeNormal]
+            returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeNormal]
                 data];
             //[context wait: YES];
 
         NS_HANDLER
-            [self handle_exception: localException];
+            [self handleException: localException];
         NS_ENDHANDLER
     }
 
     return returned_data;
 }
 
-- (NSData *)sign_detached
+- (NSData *)signDetached
 {
     GPGKey *signer = nil;
     NSData *returned_data = nil;
 
-    signer = [self get_signer];
+    signer = [self getSigner];
 
     if (signer)	{
         NS_DURING
@@ -262,12 +262,12 @@
             [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
 
-            returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeDetach]
+            returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeDetach]
                 data];
             //[context wait: YES];
 
         NS_HANDLER
-            [self handle_exception: localException];
+            [self handleException: localException];
         NS_ENDHANDLER
     }
 
@@ -279,7 +279,7 @@
     GPGKey *signer = nil;
     NSData *returned_data = nil;
 
-    signer = [self get_signer];
+    signer = [self getSigner];
 
     if (signer)	{
         NS_DURING
@@ -289,12 +289,12 @@
             [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
 
-            returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeClear]
+            returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeClear]
                 data];
             //[context wait: YES];
 
         NS_HANDLER
-            [self handle_exception: localException];
+            [self handleException: localException];
         NS_ENDHANDLER
     }
 
@@ -302,7 +302,7 @@
 }
 
 
-- (NSData *)decrypt_and_verify
+- (NSData *)decryptAndVerify
 {
     NSData *returned_data = nil;
     GPGSignatureStatus sig_status;
@@ -313,11 +313,11 @@
 
         [context setPassphraseDelegate: self];
 
-        returned_data = [[context decryptedData: gpg_data signatureStatus: &sig_status] data];
+        returned_data = [[context decryptedData: gpgData signatureStatus: &sig_status] data];
 
-        [self show_verification_status: [context signatures]];
+        [self showVerificationStatus: [context signatures]];
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     return returned_data;
@@ -332,9 +332,9 @@
 
         [context setPassphraseDelegate: self];
 
-        returned_data = [[context decryptedData: gpg_data] data];
+        returned_data = [[context decryptedData: gpgData] data];
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     return returned_data;
@@ -347,17 +347,17 @@
 
         [context setPassphraseDelegate: self];
 
-        [context verifySignedData: gpg_data];
+        [context verifySignedData: gpgData];
 
-        [self show_verification_status: [context signatures]];
+        [self showVerificationStatus: [context signatures]];
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     return nil;
 }
 
-- (NSData *)verify_detached
+- (NSData *)verifyDetached
 {
     GPGSignatureStatus sig_status;
 
@@ -365,15 +365,15 @@
         GPGContext *context = [[[GPGContext alloc] init] autorelease];
         GPGData *orig_data;
 
-        orig_data = [[[GPGData alloc] initWithData: [self data_for_detached_signature]] autorelease];
+        orig_data = [[[GPGData alloc] initWithData: [self dataForDetachedSignature]] autorelease];
 
         [context setPassphraseDelegate: self];
 
-        sig_status = [context verifySignatureData: gpg_data againstData: orig_data];
+        sig_status = [context verifySignatureData: gpgData againstData: orig_data];
 
-        [self show_verification_status: [context signatures]];
+        [self showVerificationStatus: [context signatures]];
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     return nil;

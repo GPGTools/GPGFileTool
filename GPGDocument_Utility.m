@@ -26,7 +26,7 @@
 
 @implementation GPGDocument (Utility)
 
-- (void)handle_exception: (NSException *) exception
+- (void)handleException: (NSException *) exception
 {
     //NSLog(@"an error occured:  %@", exception);
     NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);

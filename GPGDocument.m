@@ -34,7 +34,7 @@
 
     defaults = [[NSUserDefaults standardUserDefaults] retain];
     
-    gpg_data = nil;
+    gpgData = nil;
 
     //needed later on for writing files
     objs = [NSMutableArray array];
@@ -56,15 +56,15 @@
 
 - (void)dealloc
 {
-    if (gpg_data)
-        [gpg_data release];
+    if (gpgData)
+        [gpgData release];
     [types release];
     [defaults release];    
 
     [super dealloc];
 }
 
-- (BOOL)write_file_with_data: (NSData *)data of_type: (NSString *)type
+- (BOOL)writeFileWithData: (NSData *)data ofType: (NSString *)type
 {
     NS_DURING
         NSSavePanel	*sp;
@@ -102,13 +102,13 @@
         else
             NS_VALUERETURN(NO, BOOL);
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     return NO;
 }
 
-- (NSData *)data_for_detached_signature
+- (NSData *)dataForDetachedSignature
 {
     NSData *orig_data = nil;
 
@@ -119,7 +119,7 @@
         //NSLog([[self fileName] substringToIndex: [[self fileName] length] - 4]);
         //NSLog(@"%@", orig_data);
     NS_HANDLER
-        [self handle_exception: localException];
+        [self handleException: localException];
     NS_ENDHANDLER
 
     if (orig_data == nil)	{
@@ -154,22 +154,22 @@
 - (void)windowControllerDidLoadNib:(NSWindowController *) aController
 {
     [super windowControllerDidLoadNib:aController];
-    [path_to_file setStringValue: [self fileName]];
+    [pathToFile setStringValue: [self fileName]];
     if ([[self fileType] isEqualTo: @"Encrypted file"])
-        [action_list selectItemAtIndex: [defaults boolForKey: @"default_decrypt_and_verify"] ? 6 : 7];
+        [actionList selectItemAtIndex: [defaults boolForKey: @"default_decrypt_and_verify"] ? 6 : 7];
     else if ([[self fileType] isEqualTo: @"Signed file"])
-        [action_list selectItemAtIndex: 8];
+        [actionList selectItemAtIndex: 8];
     else if ([[self fileType] isEqualTo: @"Detached signature"])
-        [action_list selectItemAtIndex: 9];
+        [actionList selectItemAtIndex: 9];
     else if ([[self fileType] isEqualTo: @"Clearsigned file"])
-        [action_list selectItemAtIndex: 8];
+        [actionList selectItemAtIndex: 8];
     else
-        [action_list selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
+        [actionList selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
     
     [ckbox_armored setState: [defaults boolForKey: @"default_armored"] ? NSOnState : NSOffState];
-    [ckbox_show_after setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
+    [ckbox_showAfter setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
     if (!([defaults boolForKey: @"default_open_unless_ciphered"] && [[self fileType] isNotEqualTo: @"Data"]))
-        [ckbox_open_after setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
+        [ckbox_openAfter setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
 }
 
 - (NSData *)dataRepresentationOfType:(NSString *)aType
@@ -185,7 +185,7 @@
 {
     
     NS_DURING
-        gpg_data = [[GPGData alloc] initWithData: data];
+        gpgData = [[GPGData alloc] initWithData: data];
         NS_VALUERETURN(YES, BOOL);
     NS_HANDLER
         return NO;

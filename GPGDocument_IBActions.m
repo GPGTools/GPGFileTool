@@ -26,17 +26,17 @@
 
 @implementation GPGDocument (IBActions)
 
-- (IBAction)do_it:(id)sender
+- (IBAction)doIt:(id)sender
 {
     NSData *returned_data;
     NSString *returned_type;
-    //NSLog(@"%d", [action_list indexOfSelectedItem]);
+    //NSLog(@"%d", [actionList indexOfSelectedItem]);
 
-    [gpg_data rewind];  //make sure it's at the begining so that we don't get No Data errors
+    [gpgData rewind];  //make sure it's at the begining so that we don't get No Data errors
 
-    switch ([action_list indexOfSelectedItem])	{
+    switch ([actionList indexOfSelectedItem])	{
         case 0:
-            returned_data = [self encrypt_and_sign];
+            returned_data = [self encryptAndSign];
             returned_type = @"Encrypted file";
             break;
         case 1:
@@ -48,7 +48,7 @@
             returned_type = @"Signed file";
             break;
         case 3:
-            returned_data = [self sign_detached];
+            returned_data = [self signDetached];
             returned_type = @"Detached signature";
             break;
         case 4:
@@ -57,7 +57,7 @@
             break;
             //case 5 is the separator
         case 6:
-            returned_data = [self decrypt_and_verify];
+            returned_data = [self decryptAndVerify];
             returned_type = @"Data";
             break;
         case 7:
@@ -69,7 +69,7 @@
             returned_type = @"Data";
             break;
         case 9:
-            returned_data = [self verify_detached];
+            returned_data = [self verifyDetached];
             returned_type = @"Data";
             break;
         default:
@@ -79,17 +79,17 @@
     }
     if (returned_data)	{
         BOOL wrote_file = NO;
-        wrote_file = [self write_file_with_data: returned_data of_type: returned_type];
+        wrote_file = [self writeFileWithData: returned_data ofType: returned_type];
         if (wrote_file)	{
-            if ([ckbox_open_after state])
-                [self open_file: self];
-            if ([ckbox_show_after state])
-                [self show_file_in_finder: self];
+            if ([ckbox_openAfter state])
+                [self openFile: self];
+            if ([ckbox_showAfter state])
+                [self showFileInFinder: self];
         }
     }
 }
 
-- (IBAction)open_file:(id)sender
+- (IBAction)openFile:(id)sender
 {
     NSTask *open_file_task = [[NSTask alloc] init];
     NSMutableArray *args = [NSMutableArray array];
@@ -111,7 +111,7 @@
     [open_file_task release];
 }
 
-- (IBAction)show_file_in_finder:(id)sender
+- (IBAction)showFileInFinder:(id)sender
 {
     NSTask *open_file_task = [[NSTask alloc] init];
     NSMutableArray *args = [NSMutableArray array];

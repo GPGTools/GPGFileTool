@@ -400,7 +400,7 @@
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>22</string>
+	<string>26</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
