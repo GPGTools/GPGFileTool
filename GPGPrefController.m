@@ -47,7 +47,7 @@
 
     //interface
     [ckbox_singleRecipient setState: [defaults boolForKey: @"select_single_recipient"] ? NSOnState : NSOffState];
-    [ckbox_singleSigner setState: [defaults boolForKey: @"select_single_recipient"] ? NSOnState : NSOffState];
+    [ckbox_singleSigner setState: [defaults boolForKey: @"select_single_signer"] ? NSOnState : NSOffState];
 
     [self openAfterChanged: self];
 }
