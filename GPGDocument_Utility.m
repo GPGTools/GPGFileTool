@@ -35,9 +35,14 @@
 
 - (void)handleException: (NSException *) exception
 {
-    //NSLog(@"an error occured:  %@", exception);
-    //NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
-    NSBeginAlertSheet(NSLocalizedString(FTErrorTitle, nil), nil, nil, nil, [self window], nil, nil, nil, nil, NSLocalizedString(FTErrorMessage, nil), exception);
+    if ([exception isEqualTo: [NSException exceptionWithGPGError: GPGErrorCanceled userInfo: nil]])
+        return;
+    else
+    {
+        //NSLog(@"an error occured:  %@", exception);
+        //NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
+        NSBeginAlertSheet(NSLocalizedString(FTErrorTitle, nil), nil, nil, nil, [self window], nil, nil, nil, nil, NSLocalizedString(FTErrorMessage, nil), exception);
+    }
 }
 
 - (void)openFileWithFilename: (NSString *)filename

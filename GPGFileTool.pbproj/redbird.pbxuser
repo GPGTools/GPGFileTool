@@ -19,142 +19,15 @@
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 78505285;
-			"PBXTemplateGeometry-F5CA7ECB015C094F0DCA290F" = {
-				ContentSize = "{668, 621}";
-				LeftSlideOut = {
-					Collapsed = NO;
-					Frame = "{{0, 0}, {668, 621}}";
-					Split0 = {
-						Collapsed = NO;
-						Frame = "{{0, 0}, {668, 621}}";
-						Split0 = {
-							Frame = "{{0, 0}, {668, 621}}";
-						};
-						SplitCount = 1;
-						Tab0 = {
-							Frame = "{{0, 0}, {484, 208}}";
-						};
-						Tab1 = {
-							Debugger = {
-								Collapsed = NO;
-								Frame = "{{0, 0}, {664, 208}}";
-								Split0 = {
-									Frame = "{{0, 24}, {664, 184}}";
-									Split0 = {
-										Frame = "{{0, 0}, {325, 184}}";
-									};
-									Split1 = {
-										DebugVariablesTableConfiguration = (
-											Name,
-											123,
-											Value,
-											85,
-											Summary,
-											96.123,
-										);
-										Frame = "{{334, 0}, {330, 184}}";
-									};
-									SplitCount = 2;
-								};
-								SplitCount = 1;
-								Tab0 = {
-									Frame = "{{0, 0}, {100, 50}}";
-								};
-								Tab1 = {
-									Frame = "{{0, 0}, {100, 50}}";
-								};
-								TabCount = 2;
-								TabsVisible = YES;
-							};
-							Frame = "{{0, 0}, {664, 208}}";
-							LauncherConfigVersion = 7;
-						};
-						Tab2 = {
-							Frame = "{{0, 0}, {664, 50}}";
-							LauncherConfigVersion = 3;
-							Runner = {
-								Frame = "{{0, 0}, {664, 50}}";
-							};
-						};
-						Tab3 = {
-							BuildMessageFrame = "{{0, 0}, {614, 262}}";
-							BuildTranscriptFrame = "{{0, 271}, {614, 2}}";
-							BuildTranscriptFrameExpanded = YES;
-							Frame = "{{0, 0}, {612, 295}}";
-						};
-						Tab4 = {
-							Frame = "{{0, 0}, {612, 295}}";
-						};
-						TabCount = 5;
-						TabsVisible = NO;
-					};
-					SplitCount = 1;
-					Tab0 = {
-						Frame = "{{0, 0}, {313, 531}}";
-						GroupTreeTableConfiguration = (
-							TargetStatusColumn,
-							18,
-							MainColumn,
-							280,
-						);
-					};
-					Tab1 = {
-						ClassesFrame = "{{0, 0}, {280, 398}}";
-						ClassesTreeTableConfiguration = (
-							PBXBookColumnIdentifier,
-							20,
-							PBXClassColumnIdentifier,
-							237,
-						);
-						Frame = "{{0, 0}, {278, 659}}";
-						MembersFrame = "{{0, 407}, {280, 252}}";
-						MembersTreeTableConfiguration = (
-							PBXBookColumnIdentifier,
-							20,
-							PBXMethodColumnIdentifier,
-							236,
-						);
-					};
-					Tab2 = {
-						Frame = "{{0, 0}, {200, 100}}";
-					};
-					Tab3 = {
-						Frame = "{{0, 0}, {200, 557}}";
-						TargetTableConfiguration = (
-							ActiveObject,
-							16,
-							ObjectNames,
-							202.296,
-						);
-					};
-					Tab4 = {
-						BreakpointsTreeTableConfiguration = (
-							breakpointColumn,
-							197,
-							enabledColumn,
-							31,
-						);
-						Frame = "{{0, 0}, {250, 100}}";
-					};
-					TabCount = 5;
-					TabsVisible = NO;
-				};
-				NavBarShownByDefault = YES;
-				StatusViewVisible = NO;
-				Template = F5CA7ECB015C094F0DCA290F;
-				ToolbarVisible = NO;
-				WindowLocation = "{48, 103}";
-			};
+			PBXPerProjectTemplateStateSaveDate = 78605227;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
 						Split0 = {
 							Split0 = {
 								NavContent0 = {
-									bookmark = 7FAD531F04AE327B009B1A60;
+									bookmark = 7FB7EF8F04AE7B77007939BB;
 									history = (
-										7FE1AD8B04ADE1FE00000123,
 										7FE1AD8D04ADE1FE00000123,
 										7FAD52F604AE327B009B1A60,
 										7FAD52F704AE327B009B1A60,
@@ -166,12 +39,13 @@
 										7FAD52FD04AE327B009B1A60,
 										7FAD52FE04AE327B009B1A60,
 										7FAD52FF04AE327B009B1A60,
-										7FAD530004AE327B009B1A60,
 										7FAD530104AE327B009B1A60,
 										7FAD530204AE327B009B1A60,
 										7FAD530304AE327B009B1A60,
 										7FAD530404AE327B009B1A60,
-										7FAD530504AE327B009B1A60,
+										7F8DCE6104AE417E00B7E7B5,
+										7FB7EF8D04AE7B77007939BB,
+										7FAD530004AE327B009B1A60,
 									);
 									prevStack = (
 										7FE1AD9804ADE1FE00000123,
@@ -226,6 +100,8 @@
 										7FAD531C04AE327B009B1A60,
 										7FAD531D04AE327B009B1A60,
 										7FAD531E04AE327B009B1A60,
+										7F8DCE6204AE417E00B7E7B5,
+										7FB7EF8E04AE7B77007939BB,
 									);
 								};
 								NavCount = 1;
@@ -325,7 +201,7 @@
 							};
 							Tab3 = {
 								BuildMessageFrame = "{{0, 0}, {742, 167}}";
-								BuildTranscriptFrame = "{{0, 176}, {742, 0}}";
+								BuildTranscriptFrame = "{{0, 0}, {742, 0}}";
 								BuildTranscriptFrameExpanded = NO;
 								Frame = "{{0, 0}, {740, 198}}";
 							};
@@ -393,9 +269,11 @@
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 78505285;
+			PBXWorkspaceStateSaveDate = 78605227;
 		};
 		perUserProjectItems = {
+			7F8DCE6104AE417E00B7E7B5 = 7F8DCE6104AE417E00B7E7B5;
+			7F8DCE6204AE417E00B7E7B5 = 7F8DCE6204AE417E00B7E7B5;
 			7FAD52F604AE327B009B1A60 = 7FAD52F604AE327B009B1A60;
 			7FAD52F704AE327B009B1A60 = 7FAD52F704AE327B009B1A60;
 			7FAD52F804AE327B009B1A60 = 7FAD52F804AE327B009B1A60;
@@ -411,7 +289,6 @@
 			7FAD530204AE327B009B1A60 = 7FAD530204AE327B009B1A60;
 			7FAD530304AE327B009B1A60 = 7FAD530304AE327B009B1A60;
 			7FAD530404AE327B009B1A60 = 7FAD530404AE327B009B1A60;
-			7FAD530504AE327B009B1A60 = 7FAD530504AE327B009B1A60;
 			7FAD530604AE327B009B1A60 = 7FAD530604AE327B009B1A60;
 			7FAD530704AE327B009B1A60 = 7FAD530704AE327B009B1A60;
 			7FAD530804AE327B009B1A60 = 7FAD530804AE327B009B1A60;
@@ -437,8 +314,9 @@
 			7FAD531C04AE327B009B1A60 = 7FAD531C04AE327B009B1A60;
 			7FAD531D04AE327B009B1A60 = 7FAD531D04AE327B009B1A60;
 			7FAD531E04AE327B009B1A60 = 7FAD531E04AE327B009B1A60;
-			7FAD531F04AE327B009B1A60 = 7FAD531F04AE327B009B1A60;
-			7FE1AD8B04ADE1FE00000123 = 7FE1AD8B04ADE1FE00000123;
+			7FB7EF8D04AE7B77007939BB = 7FB7EF8D04AE7B77007939BB;
+			7FB7EF8E04AE7B77007939BB = 7FB7EF8E04AE7B77007939BB;
+			7FB7EF8F04AE7B77007939BB = 7FB7EF8F04AE7B77007939BB;
 			7FE1AD8D04ADE1FE00000123 = 7FE1AD8D04ADE1FE00000123;
 			7FE1AD9804ADE1FE00000123 = 7FE1AD9804ADE1FE00000123;
 			7FE1AD9904ADE1FE00000123 = 7FE1AD9904ADE1FE00000123;
@@ -507,6 +385,26 @@
 		isa = PBXFileBreakpoint;
 		lineNumber = 123;
 		state = 1;
+	};
+	7F8DCE6104AE417E00B7E7B5 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: actionSelectionChanged:";
+		rLen = 0;
+		rLoc = 3580;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 3407;
+	};
+	7F8DCE6204AE417E00B7E7B5 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: actionSelectionChanged:";
+		rLen = 0;
+		rLoc = 3580;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 3407;
 	};
 	7FAD52F604AE327B009B1A60 = {
 		fRef = F55C3B5903A3E2640100011D;
@@ -633,7 +531,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 2101;
+		rLoc = 2118;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 1232;
@@ -643,7 +541,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: handleException:";
 		rLen = 0;
-		rLoc = 1177;
+		rLoc = 1312;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1169;
@@ -658,22 +556,12 @@
 		vrLen = 1164;
 		vrLoc = 699;
 	};
-	7FAD530504AE327B009B1A60 = {
-		fRef = F55C3AE103A3C1AF0100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_IBActions.m: actionSelectionChanged:";
-		rLen = 0;
-		rLoc = 3756;
-		rType = 0;
-		vrLen = 1143;
-		vrLoc = 3354;
-	};
 	7FAD530604AE327B009B1A60 = {
 		fRef = F55C3AE303A3C2220100011D;
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 3420;
+		rLoc = 3437;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 2621;
@@ -723,7 +611,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigners";
 		rLen = 0;
-		rLoc = 4735;
+		rLoc = 4752;
 		rType = 0;
 		vrLen = 1266;
 		vrLoc = 3902;
@@ -863,7 +751,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 2101;
+		rLoc = 2118;
 		rType = 0;
 		vrLen = 1360;
 		vrLoc = 1232;
@@ -893,7 +781,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 2101;
+		rLoc = 2118;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 1232;
@@ -903,7 +791,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: handleException:";
 		rLen = 0;
-		rLoc = 1177;
+		rLoc = 1312;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1169;
@@ -918,16 +806,6 @@
 		vrLen = 1164;
 		vrLoc = 699;
 	};
-	7FAD531F04AE327B009B1A60 = {
-		fRef = F55C3AE103A3C1AF0100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_IBActions.m: actionSelectionChanged:";
-		rLen = 0;
-		rLoc = 3580;
-		rType = 0;
-		vrLen = 1248;
-		vrLoc = 3407;
-	};
 	7FAD532004AE327B009B1A60 = {
 		isa = PBXFileReference;
 		name = NSTableColumn.h;
@@ -940,15 +818,29 @@
 		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSTableColumn.h;
 		refType = 0;
 	};
+	7FB7EF8D04AE7B77007939BB = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7FB7EF8E04AE7B77007939BB = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7FB7EF8F04AE7B77007939BB = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: windowControllerDidLoadNib:";
+		rLen = 0;
+		rLoc = 5163;
+		rType = 0;
+		vrLen = 1741;
+		vrLoc = 4865;
+	};
 	7FBE05E204099EF300AB2044 = {
 		fileReference = F55C3AE603A3C2800100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 40;
+		lineNumber = 44;
 		state = 1;
-	};
-	7FE1AD8B04ADE1FE00000123 = {
-		isa = PBXTargetBookmark;
-		trg = 2A37F4C6FDCFA73011CA2CEA;
 	};
 	7FE1AD8D04ADE1FE00000123 = {
 		fRef = F530C424025276AC0128824A;
@@ -975,7 +867,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigners";
 		rLen = 0;
-		rLoc = 4952;
+		rLoc = 4969;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 3721;
@@ -1009,7 +901,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGPrefController.m: openAfterChanged:";
 		rLen = 0;
-		rLoc = 3182;
+		rLoc = 3179;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 2133;
@@ -1069,7 +961,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 107";
 		rLen = 0;
-		rLoc = 3860;
+		rLoc = 3877;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 3433;
@@ -1089,7 +981,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 10661;
+		rLoc = 10678;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 9741;
@@ -1129,7 +1021,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 10645;
+		rLoc = 10662;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 9741;
@@ -1169,7 +1061,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 11150;
+		rLoc = 11167;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 10080;
@@ -1189,7 +1081,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipient";
 		rLen = 14;
-		rLoc = 2568;
+		rLoc = 2585;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 1904;

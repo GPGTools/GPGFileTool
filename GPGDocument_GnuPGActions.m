@@ -52,7 +52,7 @@
                               relativeToWindow: [self window]];
     }
 
-    if (!pressedOK)
+    if (pressedOK == NSCancelButton)
         [[NSException exceptionWithGPGError: GPGErrorCanceled userInfo: nil] raise];
 
     return [ppanel passphrase];
