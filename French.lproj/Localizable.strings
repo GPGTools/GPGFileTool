@@ -1,0 +1,16 @@
+FTVerifyFileFindTitle = "Selectionner fichier pour vérification";
+FTVerifyFileFindPrompt = "Selectionner";
+
+FTSignatureStatus = "État de signature";
+FTMultipleSignatureStatuses = "États multiples de signature";
+FTGoodSigStatus = "Bonne signature faite %@ avec %@ validité du:\n\n%@\n%@";
+FTBadSigStatus = "Mauvaise signature faite %@ avec %@ validité du:\n\n%@\n%@";
+FTGoodButExpiredSigStatus = "Signature bonne, mais EXPIRÉE, faite %@ avec %@ validité du:\n\n%@\n%@";
+FTGoodButKeyExpiredSigStatus = "Bonne signature faite %@ avec %@ validité clef EXPIRÉE du:\n\n%@\n%@";
+FTNoKeySigStatus = "Cette clef n'est pas dans votre trousseau:\n\n%@.";
+FTNoSignatureSigStatus = "Pas de signature aux données.";
+FTErrorSigStatus = "Erreur en essayant de vérifier les données.";
+FTSigSeparator = "\n------------------------\n";
+
+FTErrorTitle = "Erreur";
+FTErrorMessage = "Une erreur s'est produite:  %@";
