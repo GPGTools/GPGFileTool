@@ -397,28 +397,28 @@
     }
     else	{
         int i;
-        NSMutableArray *keys = [NSMutableArray array];
-        NSMutableString *statuses = [NSMutableString string];        
-
+        //NSMutableArray *keys = [NSMutableArray array];
+        NSMutableString *statuses = [NSMutableString string];
+        /*
         for (i = 0; i < [signatures count]; i++)	{
             [keys addObject: [(GPGSignature *)[signatures objectAtIndex: i] key]];
         }
-            
+        */          
         for (i = 0; i < [signatures count]; i++)	{
             if (i > 0)
                 [statuses appendString: NSLocalizedString(FTSigSeparator, nil)];
             switch ([[signatures objectAtIndex: i] status])	{
                 case GPGSignatureStatusGood:
-                    [statuses appendFormat: NSLocalizedString(FTGoodSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    [statuses appendFormat: NSLocalizedString(FTGoodSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[(GPGSignature *)[signatures objectAtIndex: i] key] userID], [(GPGSignature *)[signatures objectAtIndex: i] fingerprint]];
                     break;
                 case GPGSignatureStatusBad:
-                    [statuses appendFormat: NSLocalizedString(FTBadSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    [statuses appendFormat: NSLocalizedString(FTBadSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[(GPGSignature *)[signatures objectAtIndex: i] key] userID], [(GPGSignature *)[signatures objectAtIndex: i] fingerprint]];
                     break;
                 case GPGSignatureStatusGoodButExpired:
-                    [statuses appendFormat: NSLocalizedString(FTGoodButExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    [statuses appendFormat: NSLocalizedString(FTGoodButExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[(GPGSignature *)[signatures objectAtIndex: i] key] userID], [(GPGSignature *)[signatures objectAtIndex: i] fingerprint]];
                     break;
                 case GPGSignatureStatusGoodButKeyExpired:
-                    [statuses appendFormat: NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    [statuses appendFormat: NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[(GPGSignature *)[signatures objectAtIndex: i] key] userID], [(GPGSignature *)[signatures objectAtIndex: i] fingerprint]];
                     break;
                 case GPGSignatureStatusNoKey:
                     [statuses appendFormat: NSLocalizedString(FTNoKeySigStatus, nil), [[signatures objectAtIndex: i] fingerprint]];
