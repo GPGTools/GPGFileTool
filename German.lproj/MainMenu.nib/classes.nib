@@ -2,10 +2,10 @@
     IBClasses = (
         {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
         {
-            ACTIONS = {show_prefs = id; }; 
+            ACTIONS = {showPrefs = id; }; 
             CLASS = GPGFTController; 
             LANGUAGE = ObjC; 
-            OUTLETS = {open_menu = NSMenuItem; }; 
+            OUTLETS = {openMenu = NSMenuItem; }; 
             SUPERCLASS = NSObject; 
         }
     ); 
