@@ -25,6 +25,21 @@
 #import <GPGME/GPGME.h>
 #import <GPGAppKit/GPGAppKit.h>
 
+typedef enum
+{
+    GPGFTEncryptAndSign			= 0,
+    GPGFTEncrypt				= 1,
+    GPGFTSign					= 2,
+    GPGFTSignDetached			= 3,
+    GPGFTClearsign				= 4,
+    GPGFTSymmetricallyEncrypt	= 5,
+    GPGFTSeparator				= 6,
+    GPGFTDecryptAndVerify		= 7,
+    GPGFTDecrypt				= 8,
+    GPGFTVerify					= 9,
+    GPGFTVerifyDetached			= 10
+} GPGFTActionType;
+
 @interface GPGDocument : NSDocument
 {
     NSUserDefaults *defaults;
@@ -61,6 +76,7 @@
 - (NSData *)sign;
 - (NSData *)signDetached;
 - (NSData *)clearsign;
+- (NSData *)symmetricallyEncrypt;
 
 - (NSData *)decryptAndVerify;
 - (NSData *)decrypt;

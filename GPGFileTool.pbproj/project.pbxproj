@@ -428,6 +428,24 @@
 			<key>NSDocumentClass</key>
 			<string>GPGDocument</string>
 		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>gpgc</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentEncrypted.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Symmetrically Encrypted file</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>GPGy</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>GPGDocument</string>
+		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>GPGFileTool</string>
@@ -444,7 +462,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>2.0</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>

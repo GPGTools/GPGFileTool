@@ -28,18 +28,25 @@
 
 - (NSString *) context:(GPGContext *)context passphraseForKey:(GPGKey *)key again:(BOOL)again {
     GPGPassphrasePanel *ppanel = [GPGPassphrasePanel panel];
-    
-    if (again)
+
+    if (key)  //Asymmetric encryption
     {
-        [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
-                  relativeToWindow: [self window]];
+        if (again)
+        {
+            [ppanel runModalWithPrompt: [NSString stringWithFormat:
+                NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
+                    relativeToWindow: [self window]];
+        }
+        else
+        {
+            [ppanel runModalWithPrompt: [NSString stringWithFormat:
+                NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
+                    relativeToWindow: [self window]];
+        }
     }
-    else
+    else  //Symmetric encryption
     {
-        [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
-                  relativeToWindow: [self window]];
+        [ppanel runModalWithPrompt: @"Enter passphrase for symmetric encryption:" relativeToWindow: [self window]];
     }
 
     return [ppanel passphrase];
@@ -298,6 +305,27 @@
             [self handleException: localException];
         NS_ENDHANDLER
     }
+
+    return returned_data;
+}
+
+- (NSData *)symmetricallyEncrypt
+{
+    NSData *returned_data = nil;
+    GPGContext *context = nil;
+
+    NS_DURING
+        context = [[GPGContext alloc] init];
+
+        [context setUsesArmor: [ckbox_armored state] ? YES : NO];
+        [context setPassphraseDelegate: self];
+
+        returned_data = [[context encryptedData: gpgData] data];
+    NS_HANDLER
+        [self handleException: localException];
+    NS_ENDHANDLER
+
+    [context release];
 
     return returned_data;
 }

@@ -28,47 +28,51 @@
 
 - (IBAction)doIt:(id)sender
 {
-    NSData *returned_data;
-    NSString *returned_type;
+    NSData *returned_data = nil;
+    NSString *returned_type = nil;
     //NSLog(@"%d", [actionList indexOfSelectedItem]);
 
     [gpgData rewind];  //make sure it's at the begining so that we don't get No Data errors
 
     switch ([actionList indexOfSelectedItem])	{
-        case 0:
+        case GPGFTEncryptAndSign:
             returned_data = [self encryptAndSign];
             returned_type = @"Encrypted & Signed file";
             break;
-        case 1:
+        case GPGFTEncrypt:
             returned_data = [self encrypt];
             returned_type = @"Encrypted file";
             break;
-        case 2:
+        case GPGFTSign:
             returned_data = [self sign];
             returned_type = @"Signed file";
             break;
-        case 3:
+        case GPGFTSignDetached:
             returned_data = [self signDetached];
             returned_type = @"Detached signature";
             break;
-        case 4:
+        case GPGFTClearsign:
             returned_data = [self clearsign];
             returned_type = @"Clearsigned file";
             break;
+        case GPGFTSymmetricallyEncrypt:
+            returned_data = [self symmetricallyEncrypt];
+            returned_type = @"Symmetrically Encrypted file";
+            break;
             //case 5 is the separator
-        case 6:
+        case GPGFTDecryptAndVerify:
             returned_data = [self decryptAndVerify];
             returned_type = @"Data";
             break;
-        case 7:
+        case GPGFTDecrypt:
             returned_data = [self decrypt];
             returned_type = @"Data";
             break;
-        case 8:
+        case GPGFTVerify:
             returned_data = [self verify];
             returned_type = @"Data";
             break;
-        case 9:
+        case GPGFTVerifyDetached:
             returned_data = [self verifyDetached];
             returned_type = @"Data";
             break;

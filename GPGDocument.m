@@ -49,6 +49,8 @@
     [objs addObject: @"sig"];
     [keys addObject: @"Clearsigned file"];
     [objs addObject: @"asc"];
+    [keys addObject: @"Symmetrically Encrypted file"];
+    [objs addObject: @"gpgc"];
     [keys addObject: @"Data"];
     [objs addObject: @""];
     types = [[NSDictionary alloc] initWithObjects: objs forKeys: keys];
@@ -161,15 +163,18 @@
     [pathToFile setStringValue: [self fileName]];
     //NSLog([self fileType]);
     if ([[self fileType] isEqualTo: @"Encrypted & Signed file"])
-        [actionList selectItemAtIndex: [defaults boolForKey: @"default_decrypt_and_verify"] ? 6 : 7];
+        [actionList selectItemAtIndex: [defaults boolForKey:
+            @"default_decrypt_and_verify"] ? GPGFTDecryptAndVerify : GPGFTDecrypt ];
     else if ([[self fileType] isEqualTo: @"Encrypted file"])
-        [actionList selectItemAtIndex: 7];
+        [actionList selectItemAtIndex: GPGFTDecrypt];
     else if ([[self fileType] isEqualTo: @"Signed file"])
-        [actionList selectItemAtIndex: 8];
+        [actionList selectItemAtIndex: GPGFTVerify];
     else if ([[self fileType] isEqualTo: @"Detached signature"])
-        [actionList selectItemAtIndex: 9];
+        [actionList selectItemAtIndex: GPGFTVerifyDetached];
     else if ([[self fileType] isEqualTo: @"Clearsigned file"])
-        [actionList selectItemAtIndex: 8];
+        [actionList selectItemAtIndex: GPGFTVerify];
+    else if ([[self fileType] isEqualTo: @"Symmetrically Encrypted file"])
+        [actionList selectItemAtIndex: GPGFTDecrypt];
     else
         [actionList selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
     

@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	2A37F4A9FDCFA73011CA2CEA = {
-		activeBuildStyle = 4A9504D0FFE6A4CB11CA0CBA;
+		activeBuildStyle = 4A9504D1FFE6A4CB11CA0CBA;
 		activeExecutable = F5F548D3025219C30128824A;
 		activeTarget = 2A37F4C6FDCFA73011CA2CEA;
 		addToTargets = (
@@ -12,29 +12,27 @@
 			7FBE05E204099EF300AB2044,
 			7F58BD9C041271A700AB20F3,
 			7F58BD9F041272BE00AB20F3,
+			7F2748C104ACF30900000123,
+			7F2748C304ACF3B000000123,
 		);
 		executables = (
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 76347910;
+			PBXPerProjectTemplateStateSaveDate = 78438272;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
 						Split0 = {
 							Split0 = {
 								NavContent0 = {
-									bookmark = 7F82BAE5048C3B20005ADBDF;
+									bookmark = 7F0C4039049406BF007E0B24;
 									history = (
 										F527163803B3B7330100011D,
 										F527163903B3B7330100011D,
 										F527163A03B3B7330100011D,
 										7FDE5FE603B767000000011D,
-										7F11B7A703E333DF0088D5B5,
-										7F11B7A803E333DF0088D5B5,
-										7F11B7A903E333DF0088D5B5,
 										7F11B7AB03E333DF0088D5B5,
-										7FE7146003EE1C19002884EA,
 										7FE7146203EE1C19002884EA,
 										7F1ECCA903F4D804002884EA,
 										7F79DCAA04094CEF00288A4D,
@@ -42,24 +40,33 @@
 										7F79DCAD04094CEF00288A4D,
 										7F79DCAE04094CEF00288A4D,
 										7F79DCAF04094CEF00288A4D,
-										7F79DCB204094CEF00288A4D,
-										7F79DCB304094CEF00288A4D,
 										7FBE068E0409B16900AB2044,
 										7FEC7A66040AD3ED00AB2055,
 										7FEC7A67040AD3ED00AB2055,
 										7FEC7A68040AD3ED00AB2055,
 										7F7B2C70040B30C400AB2055,
 										7F7B2C71040B30C400AB2055,
-										7FC371200410062700AB20F3,
-										7F83052D0412A90A00AB20F3,
-										7F83052E0412A90A00AB20F3,
 										7F5554950485CE730032C558,
-										7F5554960485CE730032C558,
-										7F5554970485CE730032C558,
-										7F5554980485CE730032C558,
-										7F5554990485CE730032C558,
-										7F55549A0485CE730032C558,
-										7F5554AB0485CE730032C558,
+										7F58F47F048D009200ED6545,
+										7F58F480048D009200ED6545,
+										7F58F481048D009200ED6545,
+										7F58F482048D009200ED6545,
+										7F58F483048D009200ED6545,
+										7F58F484048D009200ED6545,
+										7F58F485048D009200ED6545,
+										7F58F486048D009200ED6545,
+										7F58F487048D009200ED6545,
+										7F58F488048D009200ED6545,
+										7F58F489048D009200ED6545,
+										7F58F48A048D009200ED6545,
+										7F58F48B048D009200ED6545,
+										7F58F48C048D009200ED6545,
+										7F58F48D048D009200ED6545,
+										7F58F48E048D009200ED6545,
+										7F58F48F048D009200ED6545,
+										7F58F490048D009200ED6545,
+										7F58F491048D009200ED6545,
+										7F58F4B0048D009200ED6545,
 									);
 									prevStack = (
 										F573038203ACDF390100011D,
@@ -312,11 +319,40 @@
 										7F5554A80485CE730032C558,
 										7F5554A90485CE730032C558,
 										7F5554AA0485CE730032C558,
+										7F58F493048D009200ED6545,
+										7F58F494048D009200ED6545,
+										7F58F495048D009200ED6545,
+										7F58F496048D009200ED6545,
+										7F58F497048D009200ED6545,
+										7F58F498048D009200ED6545,
+										7F58F499048D009200ED6545,
+										7F58F49A048D009200ED6545,
+										7F58F49B048D009200ED6545,
+										7F58F49C048D009200ED6545,
+										7F58F49D048D009200ED6545,
+										7F58F49E048D009200ED6545,
+										7F58F49F048D009200ED6545,
+										7F58F4A0048D009200ED6545,
+										7F58F4A1048D009200ED6545,
+										7F58F4A2048D009200ED6545,
+										7F58F4A3048D009200ED6545,
+										7F58F4A4048D009200ED6545,
+										7F58F4A5048D009200ED6545,
+										7F58F4A6048D009200ED6545,
+										7F58F4A7048D009200ED6545,
+										7F58F4A8048D009200ED6545,
+										7F58F4A9048D009200ED6545,
+										7F58F4AA048D009200ED6545,
+										7F58F4AB048D009200ED6545,
+										7F58F4AC048D009200ED6545,
+										7F58F4AD048D009200ED6545,
+										7F58F4AE048D009200ED6545,
+										7F58F4AF048D009200ED6545,
 									);
 								};
 								NavCount = 1;
 								NavGeometry0 = {
-									Frame = "{{0, 0}, {740, 510}}";
+									Frame = "{{0, 0}, {740, 439}}";
 									NavBarVisible = YES;
 								};
 								NavSplitVertical = NO;
@@ -356,12 +392,12 @@
 						Collapsed = NO;
 						Frame = "{{0, 23}, {1024, 661}}";
 						Split0 = {
-							ActiveTab = 1;
-							ActiveTabName = PBXRunSessionModule;
+							ActiveTab = 2;
+							ActiveTabName = PBXBuildResultsModule;
 							Collapsed = NO;
 							Frame = "{{284, 0}, {740, 661}}";
 							Split0 = {
-								Frame = "{{0, 151}, {740, 510}}";
+								Frame = "{{0, 222}, {740, 439}}";
 							};
 							SplitCount = 1;
 							Tab0 = {
@@ -411,7 +447,7 @@
 							};
 							Tab3 = {
 								BuildMessageFrame = "{{0, 0}, {742, 167}}";
-								BuildTranscriptFrame = "{{0, 0}, {742, 0}}";
+								BuildTranscriptFrame = "{{0, 176}, {742, 0}}";
 								BuildTranscriptFrameExpanded = NO;
 								Frame = "{{0, 0}, {740, 198}}";
 							};
@@ -479,12 +515,10 @@
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 76347910;
+			PBXWorkspaceStateSaveDate = 78438272;
 		};
 		perUserProjectItems = {
-			7F11B7A703E333DF0088D5B5 = 7F11B7A703E333DF0088D5B5;
-			7F11B7A803E333DF0088D5B5 = 7F11B7A803E333DF0088D5B5;
-			7F11B7A903E333DF0088D5B5 = 7F11B7A903E333DF0088D5B5;
+			7F0C4039049406BF007E0B24 = 7F0C4039049406BF007E0B24;
 			7F11B7AB03E333DF0088D5B5 = 7F11B7AB03E333DF0088D5B5;
 			7F11B7B203E333DF0088D5B5 = 7F11B7B203E333DF0088D5B5;
 			7F11B7C303E333DF0088D5B5 = 7F11B7C303E333DF0088D5B5;
@@ -528,11 +562,6 @@
 			7F1ECCBD03F4D804002884EA = 7F1ECCBD03F4D804002884EA;
 			7F1ECCBE03F4D804002884EA = 7F1ECCBE03F4D804002884EA;
 			7F5554950485CE730032C558 = 7F5554950485CE730032C558;
-			7F5554960485CE730032C558 = 7F5554960485CE730032C558;
-			7F5554970485CE730032C558 = 7F5554970485CE730032C558;
-			7F5554980485CE730032C558 = 7F5554980485CE730032C558;
-			7F5554990485CE730032C558 = 7F5554990485CE730032C558;
-			7F55549A0485CE730032C558 = 7F55549A0485CE730032C558;
 			7F55549C0485CE730032C558 = 7F55549C0485CE730032C558;
 			7F55549D0485CE730032C558 = 7F55549D0485CE730032C558;
 			7F55549E0485CE730032C558 = 7F55549E0485CE730032C558;
@@ -548,12 +577,60 @@
 			7F5554A80485CE730032C558 = 7F5554A80485CE730032C558;
 			7F5554A90485CE730032C558 = 7F5554A90485CE730032C558;
 			7F5554AA0485CE730032C558 = 7F5554AA0485CE730032C558;
-			7F5554AB0485CE730032C558 = 7F5554AB0485CE730032C558;
 			7F58BEB40412758E00AB20F3 = 7F58BEB40412758E00AB20F3;
 			7F58BEB50412758E00AB20F3 = 7F58BEB50412758E00AB20F3;
 			7F58BEB60412758E00AB20F3 = 7F58BEB60412758E00AB20F3;
 			7F58BEB70412758E00AB20F3 = 7F58BEB70412758E00AB20F3;
 			7F58BEB80412758E00AB20F3 = 7F58BEB80412758E00AB20F3;
+			7F58F47F048D009200ED6545 = 7F58F47F048D009200ED6545;
+			7F58F480048D009200ED6545 = 7F58F480048D009200ED6545;
+			7F58F481048D009200ED6545 = 7F58F481048D009200ED6545;
+			7F58F482048D009200ED6545 = 7F58F482048D009200ED6545;
+			7F58F483048D009200ED6545 = 7F58F483048D009200ED6545;
+			7F58F484048D009200ED6545 = 7F58F484048D009200ED6545;
+			7F58F485048D009200ED6545 = 7F58F485048D009200ED6545;
+			7F58F486048D009200ED6545 = 7F58F486048D009200ED6545;
+			7F58F487048D009200ED6545 = 7F58F487048D009200ED6545;
+			7F58F488048D009200ED6545 = 7F58F488048D009200ED6545;
+			7F58F489048D009200ED6545 = 7F58F489048D009200ED6545;
+			7F58F48A048D009200ED6545 = 7F58F48A048D009200ED6545;
+			7F58F48B048D009200ED6545 = 7F58F48B048D009200ED6545;
+			7F58F48C048D009200ED6545 = 7F58F48C048D009200ED6545;
+			7F58F48D048D009200ED6545 = 7F58F48D048D009200ED6545;
+			7F58F48E048D009200ED6545 = 7F58F48E048D009200ED6545;
+			7F58F48F048D009200ED6545 = 7F58F48F048D009200ED6545;
+			7F58F490048D009200ED6545 = 7F58F490048D009200ED6545;
+			7F58F491048D009200ED6545 = 7F58F491048D009200ED6545;
+			7F58F493048D009200ED6545 = 7F58F493048D009200ED6545;
+			7F58F494048D009200ED6545 = 7F58F494048D009200ED6545;
+			7F58F495048D009200ED6545 = 7F58F495048D009200ED6545;
+			7F58F496048D009200ED6545 = 7F58F496048D009200ED6545;
+			7F58F497048D009200ED6545 = 7F58F497048D009200ED6545;
+			7F58F498048D009200ED6545 = 7F58F498048D009200ED6545;
+			7F58F499048D009200ED6545 = 7F58F499048D009200ED6545;
+			7F58F49A048D009200ED6545 = 7F58F49A048D009200ED6545;
+			7F58F49B048D009200ED6545 = 7F58F49B048D009200ED6545;
+			7F58F49C048D009200ED6545 = 7F58F49C048D009200ED6545;
+			7F58F49D048D009200ED6545 = 7F58F49D048D009200ED6545;
+			7F58F49E048D009200ED6545 = 7F58F49E048D009200ED6545;
+			7F58F49F048D009200ED6545 = 7F58F49F048D009200ED6545;
+			7F58F4A0048D009200ED6545 = 7F58F4A0048D009200ED6545;
+			7F58F4A1048D009200ED6545 = 7F58F4A1048D009200ED6545;
+			7F58F4A2048D009200ED6545 = 7F58F4A2048D009200ED6545;
+			7F58F4A3048D009200ED6545 = 7F58F4A3048D009200ED6545;
+			7F58F4A4048D009200ED6545 = 7F58F4A4048D009200ED6545;
+			7F58F4A5048D009200ED6545 = 7F58F4A5048D009200ED6545;
+			7F58F4A6048D009200ED6545 = 7F58F4A6048D009200ED6545;
+			7F58F4A7048D009200ED6545 = 7F58F4A7048D009200ED6545;
+			7F58F4A8048D009200ED6545 = 7F58F4A8048D009200ED6545;
+			7F58F4A9048D009200ED6545 = 7F58F4A9048D009200ED6545;
+			7F58F4AA048D009200ED6545 = 7F58F4AA048D009200ED6545;
+			7F58F4AB048D009200ED6545 = 7F58F4AB048D009200ED6545;
+			7F58F4AC048D009200ED6545 = 7F58F4AC048D009200ED6545;
+			7F58F4AD048D009200ED6545 = 7F58F4AD048D009200ED6545;
+			7F58F4AE048D009200ED6545 = 7F58F4AE048D009200ED6545;
+			7F58F4AF048D009200ED6545 = 7F58F4AF048D009200ED6545;
+			7F58F4B0048D009200ED6545 = 7F58F4B0048D009200ED6545;
 			7F6105D10409965F00AB2044 = 7F6105D10409965F00AB2044;
 			7F6105D20409965F00AB2044 = 7F6105D20409965F00AB2044;
 			7F6105D30409965F00AB2044 = 7F6105D30409965F00AB2044;
@@ -562,8 +639,6 @@
 			7F79DCAD04094CEF00288A4D = 7F79DCAD04094CEF00288A4D;
 			7F79DCAE04094CEF00288A4D = 7F79DCAE04094CEF00288A4D;
 			7F79DCAF04094CEF00288A4D = 7F79DCAF04094CEF00288A4D;
-			7F79DCB204094CEF00288A4D = 7F79DCB204094CEF00288A4D;
-			7F79DCB304094CEF00288A4D = 7F79DCB304094CEF00288A4D;
 			7F79DCB904094CEF00288A4D = 7F79DCB904094CEF00288A4D;
 			7F79DCBA04094CEF00288A4D = 7F79DCBA04094CEF00288A4D;
 			7F79DCBB04094CEF00288A4D = 7F79DCBB04094CEF00288A4D;
@@ -607,9 +682,6 @@
 			7F7B2C72040B30C400AB2055 = 7F7B2C72040B30C400AB2055;
 			7F7B2C73040B30C400AB2055 = 7F7B2C73040B30C400AB2055;
 			7F7B2C74040B30C400AB2055 = 7F7B2C74040B30C400AB2055;
-			7F82BAE5048C3B20005ADBDF = 7F82BAE5048C3B20005ADBDF;
-			7F83052D0412A90A00AB20F3 = 7F83052D0412A90A00AB20F3;
-			7F83052E0412A90A00AB20F3 = 7F83052E0412A90A00AB20F3;
 			7F8305300412A90A00AB20F3 = 7F8305300412A90A00AB20F3;
 			7F8305310412A90A00AB20F3 = 7F8305310412A90A00AB20F3;
 			7F8305320412A90A00AB20F3 = 7F8305320412A90A00AB20F3;
@@ -692,7 +764,6 @@
 			7FBE18FA040A68E700AB2055 = 7FBE18FA040A68E700AB2055;
 			7FBE18FB040A68E700AB2055 = 7FBE18FB040A68E700AB2055;
 			7FBE18FC040A68E700AB2055 = 7FBE18FC040A68E700AB2055;
-			7FC371200410062700AB20F3 = 7FC371200410062700AB20F3;
 			7FC371240410062700AB20F3 = 7FC371240410062700AB20F3;
 			7FC371250410062700AB20F3 = 7FC371250410062700AB20F3;
 			7FC371260410062700AB20F3 = 7FC371260410062700AB20F3;
@@ -704,7 +775,6 @@
 			7FDE5FE603B767000000011D = 7FDE5FE603B767000000011D;
 			7FDE5FE903B767000000011D = 7FDE5FE903B767000000011D;
 			7FDE5FEA03B767000000011D = 7FDE5FEA03B767000000011D;
-			7FE7146003EE1C19002884EA = 7FE7146003EE1C19002884EA;
 			7FE7146203EE1C19002884EA = 7FE7146203EE1C19002884EA;
 			7FE7146403EE1C19002884EA = 7FE7146403EE1C19002884EA;
 			7FE7146503EE1C19002884EA = 7FE7146503EE1C19002884EA;
@@ -784,35 +854,15 @@
 			F5F548D3025219C30128824A,
 		);
 	};
-	7F11B7A703E333DF0088D5B5 = {
-		fRef = F5516F2502B7E16E0128824A;
+	7F0C4039049406BF007E0B24 = {
+		fRef = F55C3AE303A3C2220100011D;
 		isa = PBXTextBookmark;
-		name = "German: 1";
+		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 1936;
 		rType = 0;
-		vrLen = 296;
-		vrLoc = 0;
-	};
-	7F11B7A803E333DF0088D5B5 = {
-		fRef = 7F11B78703E32CCF0088D5B5;
-		isa = PBXTextBookmark;
-		name = "Italian: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 289;
-		vrLoc = 0;
-	};
-	7F11B7A903E333DF0088D5B5 = {
-		fRef = 7F11B78C03E32CE50088D5B5;
-		isa = PBXTextBookmark;
-		name = "Spanish: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 295;
-		vrLoc = 0;
+		vrLen = 975;
+		vrLoc = 1143;
 	};
 	7F11B7AB03E333DF0088D5B5 = {
 		fRef = F5516F2602B7E16E0128824A;
@@ -929,7 +979,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2744;
+		rLoc = 3058;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 1842;
@@ -939,7 +989,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1897;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 936;
@@ -949,7 +999,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 57;
-		rLoc = 2302;
+		rLoc = 2388;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 1965;
@@ -959,7 +1009,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -979,7 +1029,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 2108;
@@ -989,7 +1039,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3055;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2302;
@@ -999,7 +1049,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: 162";
 		rLen = 0;
-		rLoc = 4989;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 4397;
@@ -1019,7 +1069,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2015;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 1036;
@@ -1029,7 +1079,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 104";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 10207;
@@ -1039,7 +1089,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2015;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 697;
@@ -1049,7 +1099,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 4989;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 4397;
@@ -1059,7 +1109,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: 85";
 		rLen = 0;
-		rLoc = 2887;
+		rLoc = 3201;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 2189;
@@ -1113,7 +1163,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1897;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 936;
@@ -1123,7 +1173,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -1133,7 +1183,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: ppanel";
 		rLen = 0;
-		rLoc = 1142;
+		rLoc = 1181;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 936;
@@ -1143,7 +1193,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 911;
@@ -1153,7 +1203,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -1163,7 +1213,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: ppanel";
 		rLen = 0;
-		rLoc = 1142;
+		rLoc = 1181;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 936;
@@ -1173,7 +1223,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 911;
@@ -1183,7 +1233,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 2108;
@@ -1193,7 +1243,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 1614;
+		rLoc = 1865;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 936;
@@ -1203,7 +1253,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: init";
 		rLen = 0;
-		rLoc = 1739;
+		rLoc = 1825;
 		rType = 0;
 		vrLen = 553;
 		vrLoc = 1392;
@@ -1213,7 +1263,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -1223,7 +1273,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1180;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 936;
@@ -1240,6 +1290,18 @@
 		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Resources/English.lproj/Documentation/Reference/ObjC_classic/Classes/NSApplication.html;
 		refType = 0;
 	};
+	7F2748C104ACF30900000123 = {
+		fileReference = F55C3AE303A3C2220100011D;
+		isa = PBXFileBreakpoint;
+		lineNumber = 51;
+		state = 1;
+	};
+	7F2748C304ACF3B000000123 = {
+		fileReference = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXFileBreakpoint;
+		lineNumber = 73;
+		state = 1;
+	};
 	7F5554950485CE730032C558 = {
 		fRef = F530C423025276AC0128824A;
 		isa = PBXTextBookmark;
@@ -1249,50 +1311,6 @@
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 701;
-	};
-	7F5554960485CE730032C558 = {
-		fRef = 2A37F4AEFDCFA73011CA2CEA;
-		isa = PBXTextBookmark;
-		name = "GPGDocument.h: window";
-		rLen = 0;
-		rLoc = 1962;
-		rType = 0;
-		vrLen = 720;
-		vrLoc = 883;
-	};
-	7F5554970485CE730032C558 = {
-		fRef = 2A37F4ACFDCFA73011CA2CEA;
-		isa = PBXTextBookmark;
-		name = "GPGDocument.m: 190";
-		rLen = 0;
-		rLoc = 6369;
-		rType = 0;
-		vrLen = 1230;
-		vrLoc = 5385;
-	};
-	7F5554980485CE730032C558 = {
-		fRef = F55C3AE603A3C2800100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_Utility.m: 36";
-		rLen = 51;
-		rLoc = 1118;
-		rType = 0;
-		vrLen = 1041;
-		vrLoc = 763;
-	};
-	7F5554990485CE730032C558 = {
-		fRef = F55C3AE303A3C2220100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_GnuPGActions.m: getRecipients";
-		rLen = 0;
-		rLoc = 2449;
-		rType = 0;
-		vrLen = 1099;
-		vrLoc = 1684;
-	};
-	7F55549A0485CE730032C558 = {
-		isa = PBXTargetBookmark;
-		trg = 2A37F4C6FDCFA73011CA2CEA;
 	};
 	7F55549C0485CE730032C558 = {
 		fRef = F530C423025276AC0128824A;
@@ -1309,7 +1327,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3055;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2302;
@@ -1319,7 +1337,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2248;
@@ -1329,7 +1347,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 9022;
+		rLoc = 9273;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 8418;
@@ -1339,7 +1357,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 883;
@@ -1349,7 +1367,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 9022;
+		rLoc = 9273;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 8418;
@@ -1359,7 +1377,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: 190";
 		rLen = 0;
-		rLoc = 6369;
+		rLoc = 6677;
 		rType = 0;
 		vrLen = 1230;
 		vrLoc = 5385;
@@ -1369,7 +1387,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2248;
@@ -1379,7 +1397,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2450;
+		rLoc = 2701;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 1937;
@@ -1399,7 +1417,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: sign";
 		rLen = 0;
-		rLoc = 10542;
+		rLoc = 10793;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 9940;
@@ -1409,7 +1427,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2248;
@@ -1429,7 +1447,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2449;
+		rLoc = 2700;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 1684;
@@ -1438,26 +1456,16 @@
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
 	};
-	7F5554AB0485CE730032C558 = {
-		fRef = F55C3AE103A3C1AF0100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_IBActions.m: doIt:";
-		rLen = 0;
-		rLoc = 2511;
-		rType = 0;
-		vrLen = 1096;
-		vrLoc = 1910;
-	};
 	7F58BD9C041271A700AB20F3 = {
 		fileReference = F55C3AE303A3C2220100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 255;
+		lineNumber = 262;
 		state = 1;
 	};
 	7F58BD9F041272BE00AB20F3 = {
 		fileReference = F55C3AE303A3C2220100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 86;
+		lineNumber = 93;
 		state = 1;
 	};
 	7F58BEB40412758E00AB20F3 = {
@@ -1469,7 +1477,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3055;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 2302;
@@ -1479,7 +1487,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2248;
@@ -1489,7 +1497,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3255;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 2226;
@@ -1503,6 +1511,484 @@
 		rType = 0;
 		vrLen = 937;
 		vrLoc = 1840;
+	};
+	7F58F47F048D009200ED6545 = {
+		fRef = F5A9BC1702B6A2620128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	7F58F480048D009200ED6545 = {
+		fRef = 089C1660FE840EACC02AAC07;
+		isa = PBXTextBookmark;
+		name = "English: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	7F58F481048D009200ED6545 = {
+		fRef = F5516F2502B7E16E0128824A;
+		isa = PBXTextBookmark;
+		name = "German: 5";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	7F58F482048D009200ED6545 = {
+		fRef = F516EFD9030808A501000104;
+		isa = PBXTextBookmark;
+		name = "French: 5";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 289;
+		vrLoc = 0;
+	};
+	7F58F483048D009200ED6545 = {
+		fRef = 7F11B78703E32CCF0088D5B5;
+		isa = PBXTextBookmark;
+		name = "Italian: 5";
+		rLen = 0;
+		rLoc = 185;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	7F58F484048D009200ED6545 = {
+		fRef = 7F11B78C03E32CE50088D5B5;
+		isa = PBXTextBookmark;
+		name = "Spanish: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	7F58F485048D009200ED6545 = {
+		fRef = 7F7B9579042B5AAB0028F28B;
+		isa = PBXTextBookmark;
+		name = "Swedish: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	7F58F486048D009200ED6545 = {
+		fRef = F571FE8D02B61F450128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	7F58F487048D009200ED6545 = {
+		fRef = F516EFDB030808A501000104;
+		isa = PBXTextBookmark;
+		name = "Spanish: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	7F58F488048D009200ED6545 = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7F58F489048D009200ED6545 = {
+		fRef = 7F7B955E042B5A4E0028F28B;
+		isa = PBXTextBookmark;
+		name = "Read Me.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 0;
+	};
+	7F58F48A048D009200ED6545 = {
+		fRef = 7F7B955D042B5A4E0028F28B;
+		isa = PBXTextBookmark;
+		name = "Change Log.rtf: 5";
+		rLen = 0;
+		rLoc = 26;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 0;
+	};
+	7F58F48B048D009200ED6545 = {
+		fRef = F530C424025276AC0128824A;
+		isa = PBXTextBookmark;
+		name = "GPGFTController.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 1108;
+	};
+	7F58F48C048D009200ED6545 = {
+		fRef = F511FDFD02629B760128824A;
+		isa = PBXTextBookmark;
+		name = "GPGPrefController.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 1463;
+	};
+	7F58F48D048D009200ED6545 = {
+		fRef = F55C3B5A03A3E2640100011D;
+		isa = PBXTextBookmark;
+		name = "NSString_GPGFTExtensions.m: unixAsMacPath";
+		rLen = 26;
+		rLoc = 1040;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 297;
+	};
+	7F58F48E048D009200ED6545 = {
+		fRef = F55C3AE603A3C2800100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_Utility.m: 36";
+		rLen = 51;
+		rLoc = 1118;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 763;
+	};
+	7F58F48F048D009200ED6545 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 1891;
+	};
+	7F58F490048D009200ED6545 = {
+		fRef = 2A37F4AEFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.h: getRecipients";
+		rLen = 33;
+		rLoc = 1913;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 1267;
+	};
+	7F58F491048D009200ED6545 = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: 190";
+		rLen = 0;
+		rLoc = 6677;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 5385;
+	};
+	7F58F493048D009200ED6545 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 1964;
+	};
+	7F58F494048D009200ED6545 = {
+		fRef = F5A9BC1702B6A2620128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	7F58F495048D009200ED6545 = {
+		fRef = 089C1660FE840EACC02AAC07;
+		isa = PBXTextBookmark;
+		name = "English: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	7F58F496048D009200ED6545 = {
+		fRef = F571FE8D02B61F450128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	7F58F497048D009200ED6545 = {
+		fRef = 089C1660FE840EACC02AAC07;
+		isa = PBXTextBookmark;
+		name = "English: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	7F58F498048D009200ED6545 = {
+		fRef = F5516F2502B7E16E0128824A;
+		isa = PBXTextBookmark;
+		name = "German: 5";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	7F58F499048D009200ED6545 = {
+		fRef = F516EFD9030808A501000104;
+		isa = PBXTextBookmark;
+		name = "French: 5";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 289;
+		vrLoc = 0;
+	};
+	7F58F49A048D009200ED6545 = {
+		fRef = 7F11B78703E32CCF0088D5B5;
+		isa = PBXTextBookmark;
+		name = "Italian: 5";
+		rLen = 0;
+		rLoc = 185;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	7F58F49B048D009200ED6545 = {
+		fRef = 7F11B78C03E32CE50088D5B5;
+		isa = PBXTextBookmark;
+		name = "Spanish: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	7F58F49C048D009200ED6545 = {
+		fRef = 7F7B9579042B5AAB0028F28B;
+		isa = PBXTextBookmark;
+		name = "Swedish: 5";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	7F58F49D048D009200ED6545 = {
+		fRef = F571FE8D02B61F450128824A;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	7F58F49E048D009200ED6545 = {
+		fRef = F516EFDB030808A501000104;
+		isa = PBXTextBookmark;
+		name = "Spanish: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 0;
+	};
+	7F58F49F048D009200ED6545 = {
+		isa = PBXTargetBookmark;
+		trg = 2A37F4C6FDCFA73011CA2CEA;
+	};
+	7F58F4A0048D009200ED6545 = {
+		fRef = 7F7B955D042B5A4E0028F28B;
+		isa = PBXTextBookmark;
+		name = "Change Log.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 0;
+	};
+	7F58F4A1048D009200ED6545 = {
+		fRef = 7F7B955E042B5A4E0028F28B;
+		isa = PBXTextBookmark;
+		name = "Read Me.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 0;
+	};
+	7F58F4A2048D009200ED6545 = {
+		fRef = 7F7B955D042B5A4E0028F28B;
+		isa = PBXTextBookmark;
+		name = "Change Log.rtf: 5";
+		rLen = 0;
+		rLoc = 26;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 0;
+	};
+	7F58F4A3048D009200ED6545 = {
+		fRef = 2A37F4AEFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.h: window";
+		rLen = 0;
+		rLoc = 2341;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 89;
+	};
+	7F58F4A4048D009200ED6545 = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: 190";
+		rLen = 0;
+		rLoc = 6677;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 5385;
+	};
+	7F58F4A5048D009200ED6545 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 1115;
+		vrLoc = 1891;
+	};
+	7F58F4A6048D009200ED6545 = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: getRecipients";
+		rLen = 0;
+		rLoc = 2700;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 0;
+	};
+	7F58F4A7048D009200ED6545 = {
+		fRef = F530C424025276AC0128824A;
+		isa = PBXTextBookmark;
+		name = "GPGFTController.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 1108;
+	};
+	7F58F4A8048D009200ED6545 = {
+		fRef = F511FDFD02629B760128824A;
+		isa = PBXTextBookmark;
+		name = "GPGPrefController.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 1463;
+	};
+	7F58F4A9048D009200ED6545 = {
+		fRef = F55C3B5A03A3E2640100011D;
+		isa = PBXTextBookmark;
+		name = "NSString_GPGFTExtensions.m: unixAsMacPath";
+		rLen = 26;
+		rLoc = 1040;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 297;
+	};
+	7F58F4AA048D009200ED6545 = {
+		fRef = F55C3AE603A3C2800100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_Utility.m: 36";
+		rLen = 51;
+		rLoc = 1118;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 763;
+	};
+	7F58F4AB048D009200ED6545 = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: getRecipients";
+		rLen = 0;
+		rLoc = 2700;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 0;
+	};
+	7F58F4AC048D009200ED6545 = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2825;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 1891;
+	};
+	7F58F4AD048D009200ED6545 = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: 190";
+		rLen = 0;
+		rLoc = 6677;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 5385;
+	};
+	7F58F4AE048D009200ED6545 = {
+		fRef = 2A37F4AEFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.h: getRecipients";
+		rLen = 33;
+		rLoc = 1913;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 1267;
+	};
+	7F58F4AF048D009200ED6545 = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: 190";
+		rLen = 0;
+		rLoc = 6677;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 5385;
+	};
+	7F58F4B0048D009200ED6545 = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: 48";
+		rLen = 34;
+		rLoc = 1901;
+		rType = 0;
+		vrLen = 878;
+		vrLoc = 1647;
 	};
 	7F6105D10409965F00AB2044 = {
 		fRef = F55C3AE603A3C2800100011D;
@@ -1519,7 +2005,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 1338;
@@ -1529,7 +2015,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 1948;
@@ -1564,32 +2050,12 @@
 		glyphRangeLocation = 0;
 		isa = PBXDocBookmark;
 	};
-	7F79DCB204094CEF00288A4D = {
-		fRef = F55C3B5A03A3E2640100011D;
-		isa = PBXTextBookmark;
-		name = "NSString_GPGFTExtensions.m: 34";
-		rLen = 26;
-		rLoc = 1040;
-		rType = 0;
-		vrLen = 609;
-		vrLoc = 613;
-	};
-	7F79DCB304094CEF00288A4D = {
-		fRef = F511FDFD02629B760128824A;
-		isa = PBXTextBookmark;
-		name = "GPGPrefController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1001;
-		vrLoc = 0;
-	};
 	7F79DCB904094CEF00288A4D = {
 		fRef = 2A37F4AEFDCFA73011CA2CEA;
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2015;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 697;
@@ -1599,7 +2065,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 104";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 10207;
@@ -1619,7 +2085,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 28";
 		rLen = 0;
-		rLoc = 1003;
+		rLoc = 1348;
 		rType = 0;
 		vrLen = 833;
 		vrLoc = 600;
@@ -1685,7 +2151,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: 85";
 		rLen = 0;
-		rLoc = 2887;
+		rLoc = 3201;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 2189;
@@ -1695,7 +2161,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: handleException:";
 		rLen = 0;
-		rLoc = 1963;
+		rLoc = 2342;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1553;
@@ -1705,7 +2171,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 10189;
@@ -1725,7 +2191,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1963;
+		rLoc = 2342;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1512;
@@ -1735,7 +2201,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 4989;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 4397;
@@ -1755,7 +2221,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 38";
 		rLen = 0;
-		rLoc = 1267;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 806;
@@ -1765,7 +2231,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2887;
+		rLoc = 3201;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 2089;
@@ -1785,7 +2251,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 2054;
@@ -1805,7 +2271,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 38";
 		rLen = 0;
-		rLoc = 1267;
+		rLoc = 1612;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 806;
@@ -1869,7 +2335,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 74";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 1383;
@@ -1879,7 +2345,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 4989;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 4372;
@@ -1889,7 +2355,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 1382;
@@ -1899,7 +2365,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 951;
 		vrLoc = 2054;
@@ -1919,7 +2385,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 0;
@@ -2062,42 +2528,12 @@
 		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/AttributedStrings/index.html;
 		refType = 0;
 	};
-	7F82BAE5048C3B20005ADBDF = {
-		fRef = F55C3AE103A3C1AF0100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_IBActions.m: doIt:";
-		rLen = 0;
-		rLoc = 2511;
-		rType = 0;
-		vrLen = 1126;
-		vrLoc = 1964;
-	};
-	7F83052D0412A90A00AB20F3 = {
-		fRef = F571FE8D02B61F450128824A;
-		isa = PBXTextBookmark;
-		name = "English: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 944;
-		vrLoc = 0;
-	};
-	7F83052E0412A90A00AB20F3 = {
-		fRef = 089C1660FE840EACC02AAC07;
-		isa = PBXTextBookmark;
-		name = "English: 6";
-		rLen = 0;
-		rLoc = 283;
-		rType = 0;
-		vrLen = 287;
-		vrLoc = 0;
-	};
 	7F8305300412A90A00AB20F3 = {
 		fRef = F55C3AE303A3C2220100011D;
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2698;
+		rLoc = 2949;
 		rType = 0;
 		vrLen = 766;
 		vrLoc = 10572;
@@ -2141,7 +2577,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: 61";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 1861;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 985;
@@ -2161,7 +2597,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 573;
 		vrLoc = 911;
@@ -2171,7 +2607,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1222;
 		vrLoc = 358;
@@ -2181,7 +2617,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 806;
@@ -2191,7 +2627,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: 61";
 		rLen = 0;
-		rLoc = 1775;
+		rLoc = 1861;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 942;
@@ -2211,7 +2647,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 358;
@@ -2221,7 +2657,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1114;
+		rLoc = 1459;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 806;
@@ -2231,7 +2667,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: dealloc";
 		rLen = 0;
-		rLoc = 1867;
+		rLoc = 1953;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 1392;
@@ -2241,7 +2677,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2251,7 +2687,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 2390;
@@ -2261,7 +2697,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2271,7 +2707,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 13005;
@@ -2281,7 +2717,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2952;
+		rLoc = 3266;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 2189;
@@ -2291,7 +2727,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: dealloc";
 		rLen = 0;
-		rLoc = 1867;
+		rLoc = 1953;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 1320;
@@ -2301,7 +2737,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2952;
+		rLoc = 3266;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 2189;
@@ -2311,7 +2747,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: 69";
 		rLen = 0;
-		rLoc = 1958;
+		rLoc = 2044;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 1843;
@@ -2321,7 +2757,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1454;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 616;
@@ -2331,7 +2767,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3215;
+		rLoc = 3301;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 2359;
@@ -2341,7 +2777,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 33";
 		rLen = 0;
-		rLoc = 1108;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 616;
@@ -2351,7 +2787,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3215;
+		rLoc = 3301;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 2359;
@@ -2361,7 +2797,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: 92";
 		rLen = 173;
-		rLoc = 3006;
+		rLoc = 3320;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2381,7 +2817,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2401,7 +2837,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 76";
 		rLen = 0;
-		rLoc = 2075;
+		rLoc = 2454;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 1479;
@@ -2421,7 +2857,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 77";
 		rLen = 0;
-		rLoc = 2110;
+		rLoc = 2489;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1512;
@@ -2431,7 +2867,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2441,7 +2877,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 76";
 		rLen = 96;
-		rLoc = 2015;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1553;
@@ -2451,7 +2887,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3215;
+		rLoc = 3301;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 2359;
@@ -2461,7 +2897,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2887;
+		rLoc = 3201;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 2189;
@@ -2475,7 +2911,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 5234;
+		rLoc = 5364;
 		rType = 0;
 		vrLen = 1772;
 		vrLoc = 4464;
@@ -2489,7 +2925,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2015;
+		rLoc = 2394;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 0;
@@ -2499,7 +2935,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1897;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 936;
@@ -2533,7 +2969,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3177;
@@ -2553,7 +2989,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2912;
+		rLoc = 3163;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 2536;
@@ -2563,7 +2999,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1338;
@@ -2583,7 +3019,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 75";
 		rLen = 0;
-		rLoc = 2527;
+		rLoc = 2778;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 2364;
@@ -2593,7 +3029,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 4989;
+		rLoc = 5075;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 4372;
@@ -2603,7 +3039,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 1267;
@@ -2623,7 +3059,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 5012;
+		rLoc = 5098;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 613;
@@ -2633,7 +3069,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2824;
+		rLoc = 3075;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2559;
@@ -2653,7 +3089,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2824;
+		rLoc = 3075;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2559;
@@ -2673,7 +3109,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3164;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 3076;
@@ -2693,7 +3129,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 3164;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 3076;
@@ -2735,7 +3171,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 1227;
@@ -2745,7 +3181,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 5012;
+		rLoc = 5098;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 613;
@@ -2755,7 +3191,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 1948;
@@ -2765,7 +3201,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 1227;
@@ -2775,7 +3211,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: windowControllerDidLoadNib:";
 		rLen = 0;
-		rLoc = 5012;
+		rLoc = 5098;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 613;
@@ -2785,7 +3221,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 1948;
@@ -2805,7 +3241,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2511;
+		rLoc = 2825;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 2248;
@@ -2845,7 +3281,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: old_filename";
 		rLen = 0;
-		rLoc = 2066;
+		rLoc = 2152;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 4372;
@@ -2855,7 +3291,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 4460;
+		rLoc = 4711;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 3375;
@@ -2875,16 +3311,6 @@
 		name = NSPanel.h;
 		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSPanel.h;
 		refType = 0;
-	};
-	7FC371200410062700AB20F3 = {
-		fRef = F5A9BC1702B6A2620128824A;
-		isa = PBXTextBookmark;
-		name = "English: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 576;
-		vrLoc = 0;
 	};
 	7FC371240410062700AB20F3 = {
 		fRef = F5A9BC1702B6A2620128824A;
@@ -2945,7 +3371,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: ppanel";
 		rLen = 0;
-		rLoc = 1143;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 691;
@@ -2980,7 +3406,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1143;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 691;
@@ -2996,16 +3422,6 @@
 		name = index.html;
 		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/Sheets/index.html;
 		refType = 0;
-	};
-	7FE7146003EE1C19002884EA = {
-		fRef = F530C424025276AC0128824A;
-		isa = PBXTextBookmark;
-		name = "GPGFTController.m: __VERSION__";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 1393;
 	};
 	7FE7146203EE1C19002884EA = {
 		fRef = 7FE7146B03EE1C19002884EA;
@@ -3105,7 +3521,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3255;
 		rType = 0;
 		vrLen = 2435;
 		vrLoc = 3053;
@@ -3152,7 +3568,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3255;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 2226;
@@ -3204,7 +3620,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2341;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 883;
@@ -3256,7 +3672,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1608;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 2347;
@@ -3296,7 +3712,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 1365;
+		rLoc = 1395;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 933;
@@ -3310,7 +3726,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 1383;
 		rType = 0;
 		vrLen = 1045;
 		vrLoc = 797;
@@ -3320,7 +3736,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1608;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 4577;
@@ -3354,7 +3770,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 0;
@@ -3364,7 +3780,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1608;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 4577;
@@ -3374,7 +3790,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 0;
@@ -3394,7 +3810,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 768;
@@ -3408,7 +3824,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
@@ -3428,7 +3844,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: init";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1752;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 985;
@@ -3476,7 +3892,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 0;
@@ -3486,7 +3902,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
@@ -3496,7 +3912,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: showFileInFinder:";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3453;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 0;
@@ -3516,7 +3932,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2744;
+		rLoc = 3058;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 1842;
@@ -3536,7 +3952,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1605;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
@@ -3557,7 +3973,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1187;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 691;
@@ -3577,7 +3993,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.m: writeFileWithData:ofType:";
 		rLen = 0;
-		rLoc = 3115;
+		rLoc = 3201;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 3220;
@@ -3587,7 +4003,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: doIt:";
 		rLen = 0;
-		rLoc = 2744;
+		rLoc = 3058;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 1842;
