@@ -12,6 +12,8 @@
                 "ckbox_openAfter" = NSButton; 
                 "ckbox_openUnlessCipher" = NSButton; 
                 "ckbox_showAfter" = NSButton; 
+                "ckbox_singleRecipient" = NSButton; 
+                "ckbox_singleSigner" = NSButton; 
             }; 
             SUPERCLASS = NSWindowController; 
         }

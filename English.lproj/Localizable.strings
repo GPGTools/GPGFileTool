@@ -5,6 +5,11 @@ FTEnterPassphrasePrompt = "For key:  %@, %@";
 FTEnterPassphraseAgainPrompt = "Try again:  %@, %@";
 FTEnterPassphraseForSymmetricKeyPrompt = "For symmetrically encrypted data";
 
+FTGetRecipient = "Choose a recipient";
+FTGetRecipients = "Choose recipients";
+FTGetSigner = "Choose a signer";
+FTGetSigners = "Choose signers";
+
 FTSignatureStatus = "Signature Status";
 FTMultipleSignatureStatuses = "Multiple Signature Statuses";
 FTGoodSigStatus = "Good signature made %@ with %@ validity from:\n\n%@\n%@";

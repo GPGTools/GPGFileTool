@@ -29,7 +29,7 @@
     NSUserDefaults *defaults;
     
     IBOutlet NSButton *ckbox_armored, *ckbox_decryptAndVerify, *ckbox_openAfter, *ckbox_openUnlessCipher,
-    *ckbox_showAfter;
+    *ckbox_showAfter, *ckbox_singleRecipient, *ckbox_singleSigner;
     IBOutlet NSPopUpButton *actionList;
 }
 

@@ -70,7 +70,7 @@ typedef enum
 
 - (GPGRecipients *)getRecipient;
 - (GPGRecipients *)getRecipients;
-- (GPGKey *)getSigner;
+- (NSEnumerator *)getSigner;
 - (NSEnumerator *)getSigners;
 - (void)showVerificationStatus: (NSArray *)signatures;
 

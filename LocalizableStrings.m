@@ -30,6 +30,11 @@ NSString * FTEnterPassphrasePrompt = @"FTEnterPassphrasePrompt";
 NSString * FTEnterPassphraseAgainPrompt = @"FTEnterPassphraseAgainPrompt";
 NSString * FTEnterPassphraseForSymmetricKeyPrompt = @"FTEnterPassphraseForSymmetricKeyPrompt";
 
+NSString * FTGetRecipient = @"FTGetRecipient";
+NSString * FTGetRecipients = @"FTGetRecipients";
+NSString * FTGetSigner = @"FTGetSigner";
+NSString * FTGetSigners = @"FTGetSigners";
+
 NSString * FTSignatureStatus = @"FTSignatureStatus";
 NSString * FTMultipleSignatureStatuses = @"FTMultipleSignatureStatuses";
 NSString * FTGoodSigStatus = @"FTGoodSigStatus";

@@ -104,6 +104,7 @@
 }
 
 - (IBAction)actionSelectionChanged: (id)sender
+//disable/enable options as appropriate
 {
     switch ([actionList indexOfSelectedItem])	{
         case GPGFTEncryptAndSign:

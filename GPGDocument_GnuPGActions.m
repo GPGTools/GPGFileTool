@@ -29,27 +29,31 @@
 - (NSString *) context:(GPGContext *)context passphraseForKey:(GPGKey *)key again:(BOOL)again
 {
     GPGPassphrasePanel *ppanel = [GPGPassphrasePanel panel];
+    BOOL pressedOK;
 
     if (key)  //Asymmetric encryption
     {
         if (again)
         {
-            [ppanel runModalWithPrompt: [NSString stringWithFormat:
+            pressedOK = [ppanel runModalWithPrompt: [NSString stringWithFormat:
                 NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
-                      relativeToWindow: [self window]];
+                                  relativeToWindow: [self window]];
         }
         else
         {
-            [ppanel runModalWithPrompt: [NSString stringWithFormat:
+            pressedOK = [ppanel runModalWithPrompt: [NSString stringWithFormat:
                 NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
-                      relativeToWindow: [self window]];
+                                  relativeToWindow: [self window]];
         }
     }
     else  //Symmetric encryption
     {
-        [ppanel runModalWithPrompt: NSLocalizedString(FTEnterPassphraseForSymmetricKeyPrompt, nil)
-                  relativeToWindow: [self window]];
+        pressedOK = [ppanel runModalWithPrompt: NSLocalizedString(FTEnterPassphraseForSymmetricKeyPrompt, nil)
+                              relativeToWindow: [self window]];
     }
+
+    if (!pressedOK)
+        [[NSException exceptionWithGPGError: GPGErrorCanceled userInfo: nil] raise];
 
     return [ppanel passphrase];
 }
@@ -59,17 +63,18 @@
     GPGContext *context = [[[GPGContext alloc] init] autorelease];
     GPGRecipients *recipients = [[[GPGRecipients alloc] init] autorelease];
     GPGSingleKeySelectionPanel *panel = [GPGSingleKeySelectionPanel panel];
-    GPGKey *selectedRecipient = nil;
+    BOOL gotRecipient;
 
     // Init the panel
     [panel setMinimumKeyValidity:GPGValidityMarginal];
     [panel setListsSecretKeys:NO];
+    [panel setPrompt: NSLocalizedString(FTGetRecipient, nil)];
 
-    selectedRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
+    gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
 
     // Populate the recipients
-    if (selectedRecipient)
-        [recipients addName: [selectedRecipient fingerprint]];
+    if (gotRecipient)
+        [recipients addName: [[panel selectedKey] fingerprint]];
     else
         recipients = nil;
 
@@ -88,6 +93,8 @@
     // Init the panel
     [panel setMinimumKeyValidity:GPGValidityMarginal];
     [panel setListsSecretKeys:NO];
+    [panel setListsAllNames: NO];
+    [panel setPrompt: NSLocalizedString(FTGetRecipients, nil)];
 
     gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
 
@@ -104,16 +111,17 @@
     return recipients;
 }
 
-- (GPGKey *) getSigner
+- (NSEnumerator *) getSigner
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGSingleKeySelectionPanel * panel = [GPGSingleKeySelectionPanel panel];
 
     [panel setMinimumKeyValidity:GPGValidityUltimate];
     [panel setListsSecretKeys:YES];
+    [panel setPrompt: NSLocalizedString(FTGetSigner, nil)];
 
     [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
-    return [panel selectedKey];
+    return [[NSArray arrayWithObject: [panel selectedKey]] objectEnumerator];
 }
 
 - (NSEnumerator *) getSigners
@@ -125,6 +133,8 @@
     // Init the panel
     [panel setMinimumKeyValidity:GPGValidityUltimate];
     [panel setListsSecretKeys:YES];
+    [panel setListsAllNames: NO];
+    [panel setPrompt: NSLocalizedString(FTGetSigners, nil)];
 
     gotSigners = [panel runModalForKeyWildcard: nil usingContext: context relativeToWindow: [self window]];
 
@@ -213,25 +223,28 @@
 - (NSData *)encryptAndSign
 {
     GPGRecipients *recipients = nil;
-    GPGKey *signer = nil;
+    NSEnumerator *signers = nil;
     NSData *returned_data = nil;
+    GPGKey *signer = nil;
 
-    recipients = [self getRecipients];
+    recipients = [defaults boolForKey: @"select_single_recipient"] ? [self getRecipient] : [self getRecipients];
 
     if ([recipients count])	{
-        signer = [self getSigner];
+        signers = [defaults boolForKey: @"select_single_signer"] ? [self getSigner] : [self getSigners];
 
-        if (signer)	{
+        if (signers)	{
             NS_DURING
                 GPGContext *context = [[[GPGContext alloc] init] autorelease];
 
                 [context setUsesArmor: [ckbox_armored state] ? YES : NO];
-                [context addSignerKey: signer];
                 [context setPassphraseDelegate: self];
 
-                returned_data = [[context encryptedSignedData:gpgData
-                                                forRecipients:recipients
-                                        allRecipientsAreValid:nil]
+                while (signer = [signers nextObject])
+                    [context addSignerKey: signer];
+
+                returned_data = [[context encryptedSignedData: gpgData
+                                                forRecipients: recipients
+                                        allRecipientsAreValid: nil]
                     data];
 
             NS_HANDLER
@@ -248,7 +261,7 @@
     GPGRecipients *recipients = nil;
     NSData *returned_data = nil;
 
-    recipients = [self getRecipients];
+    recipients = [defaults boolForKey: @"select_single_recipient"] ? [self getRecipient] : [self getRecipients];
 
     if ([recipients count])	{
         NS_DURING
@@ -271,16 +284,19 @@
 {
     GPGKey *signer = nil;
     NSData *returned_data = nil;
+    NSEnumerator *signers = nil;
 
-    signer = [self getSigner];
+    signers = [defaults boolForKey: @"select_single_signer"] ? [self getSigner] : [self getSigners];
 
-    if (signer)	{
+    if (signers)	{
         NS_DURING
             GPGContext *context = [[[GPGContext alloc] init] autorelease];
 
             [context setUsesArmor: [ckbox_armored state] ? YES : NO];
-            [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
+
+            while (signer = [signers nextObject])
+                [context addSignerKey: signer];
 
             returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeNormal]
                 data];
@@ -298,19 +314,22 @@
 {
     GPGKey *signer = nil;
     NSData *returned_data = nil;
+    NSEnumerator *signers = nil;
 
-    signer = [self getSigner];
+    signers = [defaults boolForKey: @"select_single_signer"] ? [self getSigner] : [self getSigners];
     //NSLog("%@", signer);
 
-    if (signer)	{
+    if (signers)	{
         NS_DURING
             GPGContext *context = [[[GPGContext alloc] init] autorelease];
 
             [context setUsesArmor: [ckbox_armored state] ? YES : NO];
-            [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
 
-            returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeDetach]
+            while (signer = [signers nextObject])
+                [context addSignerKey: signer];
+
+            returned_data = [[context signedData: gpgData signatureMode: GPGSignatureModeDetach]
                 data];
             //[context wait: YES];
 
@@ -326,16 +345,19 @@
 {
     GPGKey *signer = nil;
     NSData *returned_data = nil;
+    NSEnumerator *signers = nil;
 
-    signer = [self getSigner];
+    signers = [defaults boolForKey: @"select_single_signer"] ? [self getSigner] : [self getSigners];
 
-    if (signer)	{
+    if (signers)	{
         NS_DURING
             GPGContext *context = [[[GPGContext alloc] init] autorelease];
 
             [context setUsesArmor: [ckbox_armored state] ? YES : NO];
-            [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
+
+            while (signer = [signers nextObject])
+                [context addSignerKey: signer];
 
             returned_data = [[context signedData:gpgData signatureMode: GPGSignatureModeClear]
                 data];

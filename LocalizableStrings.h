@@ -30,6 +30,11 @@ extern NSString * FTEnterPassphrasePrompt;
 extern NSString * FTEnterPassphraseAgainPrompt;
 extern NSString * FTEnterPassphraseForSymmetricKeyPrompt;
 
+extern NSString * FTGetRecipient;
+extern NSString * FTGetRecipients;
+extern NSString * FTGetSigner;
+extern NSString * FTGetSigners;
+
 extern NSString * FTSignatureStatus;
 extern NSString * FTMultipleSignatureStatuses;
 extern NSString * FTGoodSigStatus;
