@@ -11,7 +11,6 @@
                 "ckbox_openAfter" = NSButton; 
                 "ckbox_showAfter" = NSButton; 
                 pathToFile = NSTextField; 
-                window = NSWindow; 
             }; 
             SUPERCLASS = NSDocument; 
         }
