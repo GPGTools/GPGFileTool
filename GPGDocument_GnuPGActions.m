@@ -65,7 +65,7 @@
     if (gotRecipient) {
         enumerator = [[panel selectedKeys] objectEnumerator];
         while (object = [enumerator nextObject]) {
-            [recipients addName:[object email]];
+            [recipients addName:[object fingerprint]];
         }
     }
     else
