@@ -1,0 +1,19 @@
+FTVerifyFileFindTitle = "Välj fil att verifiera mot";
+FTVerifyFileFindPrompt = "Välj";
+
+FTEnterPassphrasePrompt = "For tangent:  %@, %@";
+FTEnterPassphraseAgainPrompt = "Försök igen:  %@, %@";
+
+FTSignatureStatus = "Signatur status";
+FTMultipleSignatureStatuses = "Flera signaturers status";
+FTGoodSigStatus = "Bra signatur skapad %@ med %@ giltighet från:\n\n%@\n%@";
+FTBadSigStatus = "Dålig signatur skapad %@ med %@ giltighet från:\n\n%@\n%@";
+FTGoodButExpiredSigStatus = "Bra , men UTGÅNGEN, signatur skapad %@ med %@ giltighet från:\n\n%@\n%@";
+FTGoodButKeyExpiredSigStatus = "Bra signatur skapad %@ med %@ giltighet från UTGÅNGEN nyckel:\n\n%@\n%@";
+FTNoKeySigStatus = "Nyckeln existerar inte i din nyckelring:\n\n%@.";
+FTNoSignatureSigStatus = "Ingen signatur på data.";
+FTErrorSigStatus = "Ett fel uppstod under verifieringen av data.";
+FTSigSeparator = "\n------------------------\n";
+
+FTErrorTitle = "Fel";
+FTErrorMessage = "Ett fel uppstod:  %@";

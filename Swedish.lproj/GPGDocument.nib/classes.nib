@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {doIt = id; openFile = id; showFileInFinder = id; }; 
+            CLASS = GPGDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionList = NSPopUpButton; 
+                "ckbox_armored" = NSButton; 
+                "ckbox_openAfter" = NSButton; 
+                "ckbox_showAfter" = NSButton; 
+                pathToFile = NSTextField; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}
