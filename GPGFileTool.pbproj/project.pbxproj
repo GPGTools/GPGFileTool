@@ -21,6 +21,7 @@
 			children = (
 				089C1660FE840EACC02AAC07,
 				F5516F2502B7E16E0128824A,
+				F516EFD9030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = InfoPlist.strings;
@@ -129,6 +130,13 @@
 				4A9504D1FFE6A4CB11CA0CBA,
 			);
 			isa = PBXProject;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
 			projectDirPath = "";
 			targets = (
@@ -193,6 +201,7 @@
 			children = (
 				F5C8211C02FF680901000104,
 				F5516F2302B7E16E0128824A,
+				F516EFD7030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = GPGDocument.nib;
@@ -203,6 +212,7 @@
 			children = (
 				2A37F4B7FDCFA73011CA2CEA,
 				F5516F2202B7E16E0128824A,
+				F516EFD6030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = MainMenu.nib;
@@ -260,7 +270,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -389,7 +399,7 @@
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>18</string>
+	<string>19</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -520,6 +530,7 @@
 			children = (
 				F511FDFF02629B770128824A,
 				F5516F2402B7E16E0128824A,
+				F516EFD8030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = Preferences.nib;
@@ -549,6 +560,48 @@
 			isa = PBXBuildFile;
 			settings = {
 			};
+		};
+		F516EFD5030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Credits.html;
+			refType = 4;
+		};
+		F516EFD6030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		F516EFD7030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/GPGDocument.nib;
+			refType = 4;
+		};
+		F516EFD8030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Preferences.nib;
+			refType = 4;
+		};
+		F516EFD9030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		F516EFDA030808A501000104 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F516EFDB030808A501000104 = {
+			isa = PBXFileReference;
+			name = Spanish;
+			path = Spanish.lproj/Localizable.strings;
+			refType = 4;
 		};
 		F530C423025276AC0128824A = {
 			isa = PBXFileReference;
@@ -647,6 +700,8 @@
 			children = (
 				F571FE8D02B61F450128824A,
 				F5516F2602B7E16E0128824A,
+				F516EFDA030808A501000104,
+				F516EFDB030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = Localizable.strings;
@@ -674,6 +729,7 @@
 			children = (
 				F5A9BC1702B6A2620128824A,
 				F5516F2102B7E16E0128824A,
+				F516EFD5030808A501000104,
 			);
 			isa = PBXVariantGroup;
 			name = Credits.html;

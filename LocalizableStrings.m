@@ -2,7 +2,8 @@
 //  LocalizableStrings.m
 //  Mac_GPG_Keys
 //
-//  Copyright (C) 2001 Mac GPG Project.
+//  Created by Gordon Worley on Tue June 11 2002.
+//  Copyright (C) 2002 Mac GPG Project.
 //
 //  This code is free software; you can redistribute it and/or modify it under
 //  the terms of the GNU General Public License as published by the Free
