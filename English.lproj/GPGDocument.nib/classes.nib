@@ -2,7 +2,12 @@
     IBClasses = (
         {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
         {
-            ACTIONS = {doIt = id; openFile = id; showFileInFinder = id; }; 
+            ACTIONS = {
+                actionSelectionChanged = id; 
+                doIt = id; 
+                openFile = id; 
+                showFileInFinder = id; 
+            }; 
             CLASS = GPGDocument; 
             LANGUAGE = ObjC; 
             OUTLETS = {

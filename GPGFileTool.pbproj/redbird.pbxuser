@@ -19,7 +19,7 @@
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 78438272;
+			PBXPerProjectTemplateStateSaveDate = 78498982;
 			"PBXTemplateGeometry-F5CA7ECB015C094F0DCA290F" = {
 				ContentSize = "{668, 621}";
 				LeftSlideOut = {
@@ -743,7 +743,7 @@
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 78438272;
+			PBXWorkspaceStateSaveDate = 78498982;
 		};
 		perUserProjectItems = {
 			7F11B7AB03E333DF0088D5B5 = 7F11B7AB03E333DF0088D5B5;
@@ -1389,7 +1389,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2394;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 1036;
@@ -1399,7 +1399,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 104";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 10207;
@@ -1409,7 +1409,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2394;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 697;
@@ -1625,20 +1625,6 @@
 	7F2749E704AD0B8600000123 = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 11}, {503, 375}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 375}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	7F2749E804AD0B8600000123 = {
 		fRef = F571FE8802B61E510128824A;
@@ -1890,20 +1876,6 @@
 	7F274A0204AD0B8600000123 = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 120}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDisplaySettingsModule,
-			);
-		};
 	};
 	7F274A0304AD0B8600000123 = {
 		fRef = F55C3AE303A3C2220100011D;
@@ -1930,7 +1902,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: decryptAndVerify";
 		rLen = 33;
-		rLoc = 2145;
+		rLoc = 2256;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 1722;
@@ -2058,20 +2030,6 @@
 	7F274A1204AD0B8600000123 = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 11}, {503, 375}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 375}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	7F274A1304AD0B8600000123 = {
 		fRef = F55C3AE103A3C1AF0100011D;
@@ -2118,7 +2076,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: symmetricallyEncrypt";
 		rLen = 33;
-		rLoc = 2145;
+		rLoc = 2256;
 		rType = 0;
 		vrLen = 558;
 		vrLoc = 1722;
@@ -2843,7 +2801,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 9312;
+		rLoc = 10486;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 8418;
@@ -2853,7 +2811,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 883;
@@ -2863,7 +2821,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: encryptAndSign";
 		rLen = 0;
-		rLoc = 9312;
+		rLoc = 10486;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 8418;
@@ -2893,7 +2851,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2740;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 1937;
@@ -2913,7 +2871,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: sign";
 		rLen = 0;
-		rLoc = 10832;
+		rLoc = 12006;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 9940;
@@ -2943,7 +2901,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2739;
+		rLoc = 3416;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 1684;
@@ -2955,13 +2913,13 @@
 	7F58BD9C041271A700AB20F3 = {
 		fileReference = F55C3AE303A3C2220100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 264;
+		lineNumber = 302;
 		state = 1;
 	};
 	7F58BD9F041272BE00AB20F3 = {
 		fileReference = F55C3AE303A3C2220100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 95;
+		lineNumber = 115;
 		state = 1;
 	};
 	7F58BEB40412758E00AB20F3 = {
@@ -2993,7 +2951,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3294;
+		rLoc = 4468;
 		rType = 0;
 		vrLen = 922;
 		vrLoc = 2226;
@@ -3267,7 +3225,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 89;
@@ -3297,7 +3255,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2739;
+		rLoc = 3416;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 0;
@@ -3347,7 +3305,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getRecipients";
 		rLen = 0;
-		rLoc = 2739;
+		rLoc = 3416;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 0;
@@ -3376,8 +3334,8 @@
 		fRef = 2A37F4AEFDCFA73011CA2CEA;
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: getRecipients";
-		rLen = 33;
-		rLoc = 1913;
+		rLen = 32;
+		rLoc = 1997;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 1267;
@@ -3407,7 +3365,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 1338;
@@ -3457,7 +3415,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2394;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 697;
@@ -3467,7 +3425,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 104";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 757;
 		vrLoc = 10207;
@@ -3563,7 +3521,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: handleException:";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 2453;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1553;
@@ -3573,7 +3531,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 10189;
@@ -3593,7 +3551,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 2453;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1512;
@@ -3737,7 +3695,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 74";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 1383;
@@ -3757,7 +3715,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 1382;
@@ -3787,7 +3745,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 0;
@@ -3922,7 +3880,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 2988;
+		rLoc = 3665;
 		rType = 0;
 		vrLen = 766;
 		vrLoc = 10572;
@@ -4076,7 +4034,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 2390;
@@ -4096,7 +4054,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 13005;
@@ -4185,7 +4143,7 @@
 		fRef = F55C3AE103A3C1AF0100011D;
 		isa = PBXTextBookmark;
 		name = "GPGDocument_IBActions.m: 92";
-		rLen = 173;
+		rLen = 2631;
 		rLoc = 3320;
 		rType = 0;
 		vrLen = 0;
@@ -4226,7 +4184,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 76";
 		rLen = 0;
-		rLoc = 2454;
+		rLoc = 2564;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 1479;
@@ -4246,7 +4204,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 77";
 		rLen = 0;
-		rLoc = 2489;
+		rLoc = 2599;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 1512;
@@ -4266,7 +4224,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: 76";
 		rLen = 96;
-		rLoc = 2394;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1553;
@@ -4314,7 +4272,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: openFileWithFilename:";
 		rLen = 96;
-		rLoc = 2394;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 0;
@@ -4378,7 +4336,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3202;
+		rLoc = 3850;
 		rType = 0;
 		vrLen = 994;
 		vrLoc = 2536;
@@ -4388,7 +4346,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 1338;
@@ -4408,7 +4366,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: 75";
 		rLen = 0;
-		rLoc = 2817;
+		rLoc = 3494;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 2364;
@@ -4428,7 +4386,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 640;
 		vrLoc = 1267;
@@ -4458,7 +4416,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3114;
+		rLoc = 3762;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2559;
@@ -4478,7 +4436,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3114;
+		rLoc = 3762;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 2559;
@@ -4498,7 +4456,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3203;
+		rLoc = 3851;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 3076;
@@ -4518,7 +4476,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: getSigner";
 		rLen = 0;
-		rLoc = 3203;
+		rLoc = 3851;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 3076;
@@ -4560,7 +4518,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 1227;
@@ -4590,7 +4548,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 1227;
@@ -4680,7 +4638,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 4750;
+		rLoc = 5924;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 3375;
@@ -4910,7 +4868,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3294;
+		rLoc = 4468;
 		rType = 0;
 		vrLen = 2435;
 		vrLoc = 3053;
@@ -4957,7 +4915,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: showVerificationStatus:";
 		rLen = 0;
-		rLoc = 3294;
+		rLoc = 4468;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 2226;
@@ -5009,7 +4967,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument.h: window";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2452;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 883;

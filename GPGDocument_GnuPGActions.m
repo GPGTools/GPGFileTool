@@ -54,6 +54,28 @@
     return [ppanel passphrase];
 }
 
+- (GPGRecipients *) getRecipient
+{
+    GPGContext *context = [[[GPGContext alloc] init] autorelease];
+    GPGRecipients *recipients = [[[GPGRecipients alloc] init] autorelease];
+    GPGSingleKeySelectionPanel *panel = [GPGSingleKeySelectionPanel panel];
+    GPGKey *selectedRecipient = nil;
+
+    // Init the panel
+    [panel setMinimumKeyValidity:GPGValidityMarginal];
+    [panel setListsSecretKeys:NO];
+
+    selectedRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
+
+    // Populate the recipients
+    if (selectedRecipient)
+        [recipients addName: [selectedRecipient fingerprint]];
+    else
+        recipients = nil;
+
+    return recipients;    
+}
+
 - (GPGRecipients *) getRecipients
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
@@ -64,7 +86,6 @@
     id object;
 
     // Init the panel
-    [panel resetToDefaults];
     [panel setMinimumKeyValidity:GPGValidityMarginal];
     [panel setListsSecretKeys:NO];
 
@@ -88,12 +109,29 @@
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGSingleKeySelectionPanel * panel = [GPGSingleKeySelectionPanel panel];
 
-    [panel resetToDefaults];
     [panel setMinimumKeyValidity:GPGValidityUltimate];
     [panel setListsSecretKeys:YES];
 
     [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
     return [panel selectedKey];
+}
+
+- (NSEnumerator *) getSigners
+{
+    GPGContext *context = [[[GPGContext alloc] init] autorelease];
+    GPGMultiKeySelectionPanel *panel = [GPGMultiKeySelectionPanel panel];
+    BOOL gotSigners;
+
+    // Init the panel
+    [panel setMinimumKeyValidity:GPGValidityUltimate];
+    [panel setListsSecretKeys:YES];
+
+    gotSigners = [panel runModalForKeyWildcard: nil usingContext: context relativeToWindow: [self window]];
+
+    if (gotSigners)
+        return [[panel selectedKeys] objectEnumerator];
+    else
+        return nil;
 }
 
 - (void)showVerificationStatus: (NSArray *) signatures

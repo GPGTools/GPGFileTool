@@ -59,17 +59,20 @@ typedef enum
 
 @interface GPGDocument (IBActions)
 
-- (IBAction)doIt:(id)sender;
-- (IBAction)openFile:(id)sender;
-- (IBAction)showFileInFinder:(id)sender;
+- (IBAction)doIt: (id)sender;
+- (IBAction)openFile: (id)sender;
+- (IBAction)showFileInFinder: (id)sender;
+- (IBAction)actionSelectionChanged: (id)sender;
 
 @end
 
 @interface GPGDocument (GnuPGActions)
 
-- (GPGRecipients *) getRecipients;
-- (GPGKey *) getSigner;
-- (void)showVerificationStatus: (NSArray *) signatures;
+- (GPGRecipients *)getRecipient;
+- (GPGRecipients *)getRecipients;
+- (GPGKey *)getSigner;
+- (NSEnumerator *)getSigners;
+- (void)showVerificationStatus: (NSArray *)signatures;
 
 - (NSData *)encryptAndSign;
 - (NSData *)encrypt;
@@ -88,7 +91,7 @@ typedef enum
 @interface GPGDocument (Utility)
 
 - (NSWindow *)window;
-- (void)handleException: (NSException *) exception;
+- (void)handleException: (NSException *)exception;
 - (void)openFileWithFilename: (NSString *)filename;
 - (void)showInFinder: (NSString *)filename;
 

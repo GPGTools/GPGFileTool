@@ -103,4 +103,69 @@
     [self showInFinder: [self fileName]];
 }
 
+- (IBAction)actionSelectionChanged: (id)sender
+{
+    switch ([actionList indexOfSelectedItem])	{
+        case GPGFTEncryptAndSign:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];
+            break;
+        case GPGFTEncrypt:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTSign:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTSignDetached:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTClearsign:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTSymmetricallyEncrypt:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        //Separator
+        case GPGFTDecryptAndVerify:
+            [ckbox_armored setEnabled: NO];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTDecrypt:
+            [ckbox_armored setEnabled: NO];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];            
+            break;
+        case GPGFTVerify:
+            [ckbox_armored setEnabled: NO];
+            [ckbox_openAfter setEnabled: NO];
+            [ckbox_showAfter setEnabled: NO];            
+            break;
+        case GPGFTVerifyDetached:
+            [ckbox_armored setEnabled: NO];
+            [ckbox_openAfter setEnabled: NO];
+            [ckbox_showAfter setEnabled: NO];
+            break;
+        default:
+            [ckbox_armored setEnabled: YES];
+            [ckbox_openAfter setEnabled: YES];
+            [ckbox_showAfter setEnabled: YES];
+            
+            NSBeginAlertSheet(@"D'oh", nil, nil, nil, [self window], nil, nil, nil, nil,
+                              @"Hey, you can't do that on GPGFileTool.");
+            break;
+    }    
+}
+
 @end
