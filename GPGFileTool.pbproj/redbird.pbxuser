@@ -15,7 +15,7 @@
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 68158679;
+			PBXPerProjectTemplateStateSaveDate = 68271939;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
@@ -450,7 +450,7 @@
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 68158679;
+			PBXWorkspaceStateSaveDate = 68271939;
 		};
 		perUserProjectItems = {
 			7F11B7A703E333DF0088D5B5 = 7F11B7A703E333DF0088D5B5;
@@ -2575,20 +2575,6 @@
 	7FC371220410062700AB20F3 = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 120}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDisplaySettingsModule,
-			);
-		};
 	};
 	7FC371230410062700AB20F3 = {
 		fRef = 089C1660FE840EACC02AAC07;
@@ -2643,20 +2629,6 @@
 	7FC371280410062700AB20F3 = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 120}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDisplaySettingsModule,
-			);
-		};
 	};
 	7FC371290410062700AB20F3 = {
 		fRef = 089C1660FE840EACC02AAC07;
