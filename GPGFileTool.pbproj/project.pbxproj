@@ -52,7 +52,7 @@
 //104
 		1058C7A6FEA54F5311CA2CBB = {
 			children = (
-				F5C180B502FD923701000104,
+				F52FB274037F73FB012884B0,
 				1058C7A7FEA54F5311CA2CBB,
 				F5D7EA360285C1C70128824A,
 			);
@@ -270,7 +270,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -472,7 +472,7 @@
 			files = (
 				1058C7A9FEA54F5311CA2CBB,
 				F5D7EA370285C1C70128824A,
-				F5C180B602FD923701000104,
+				F52FB27A037F73FB012884B0,
 			);
 			isa = PBXFrameworksBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,6 +603,23 @@
 			path = Spanish.lproj/Localizable.strings;
 			refType = 4;
 		};
+		F522F306036F887C012884B0 = {
+			isa = PBXFileReference;
+			path = Aenderungslog.rtf;
+			refType = 4;
+		};
+		F52FB274037F73FB012884B0 = {
+			isa = PBXFrameworkReference;
+			name = GPGME.framework;
+			path = ../GPGME/build/GPGME.framework;
+			refType = 2;
+		};
+		F52FB27A037F73FB012884B0 = {
+			fileRef = F52FB274037F73FB012884B0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
 		F530C423025276AC0128824A = {
 			isa = PBXFileReference;
 			path = GPGFTController.h;
@@ -674,8 +691,10 @@
 		};
 		F555C86D02B4DE810128824A = {
 			children = (
+				F5D07E980392CF8F012884B0,
 				F555C86E02B4DE810128824A,
 				F555C86F02B4DE810128824A,
+				F522F306036F887C012884B0,
 				F5516F2002B7E1140128824A,
 			);
 			isa = PBXGroup;
@@ -725,7 +744,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5C180B702FD924601000104,
 				F5D7EA380285C1C70128824A,
 			);
 			isa = PBXCopyFilesBuildPhase;
@@ -755,24 +773,6 @@
 			settings = {
 			};
 		};
-		F5C180B502FD923701000104 = {
-			isa = PBXFrameworkReference;
-			name = GPGME.framework;
-			path = ../GPGME/build/GPGME.framework;
-			refType = 2;
-		};
-		F5C180B602FD923701000104 = {
-			fileRef = F5C180B502FD923701000104;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F5C180B702FD924601000104 = {
-			fileRef = F5C180B502FD923701000104;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F5C8211902FF5BDF01000104 = {
 			fileRef = F571FE8C02B61F450128824A;
 			isa = PBXBuildFile;
@@ -795,6 +795,11 @@
 			isa = PBXFileReference;
 			name = English;
 			path = English.lproj/GPGDocument.nib;
+			refType = 4;
+		};
+		F5D07E980392CF8F012884B0 = {
+			isa = PBXFileReference;
+			path = TODO.ooutline;
 			refType = 4;
 		};
 		F5D7EA360285C1C70128824A = {
