@@ -32,12 +32,14 @@
     if (again)
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]];
+            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
+                  /*relativeToWindow: window*/];
     }
     else
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]];
+            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
+                  /*relativeToWindow: window*/];
         //[ppanel runModalWithPrompt: [key userID]];
     }
 
@@ -83,7 +85,15 @@
     [panel setListsSecretKeys:YES];
 
     [panel runModalForKeyWildcard:nil usingContext:context];
-
+    /*
+    [panel beginSheetForKeyWildcard: nil
+                       usingContext: context
+                     modalForWindow: window
+                      modalDelegate: nil
+                     didEndSelector: nil
+                        contextInfo: nil];
+     */
+    
     return [panel selectedKey];
 }
 

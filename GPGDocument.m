@@ -39,10 +39,12 @@
     //needed later on for writing files
     objs = [NSMutableArray array];
     keys = [NSMutableArray array];
+    [keys addObject: @"Encrypted & Signed file"];
+    [objs addObject: @"gpg"];
     [keys addObject: @"Encrypted file"];
-    [objs addObject: @"gpg"];
+    [objs addObject: @"gpge"];
     [keys addObject: @"Signed file"];
-    [objs addObject: @"gpg"];
+    [objs addObject: @"gpgs"];
     [keys addObject: @"Detached signature"];
     [objs addObject: @"sig"];
     [keys addObject: @"Clearsigned file"];
@@ -155,8 +157,10 @@
 {
     [super windowControllerDidLoadNib:aController];
     [pathToFile setStringValue: [self fileName]];
-    if ([[self fileType] isEqualTo: @"Encrypted file"])
+    if ([[self fileType] isEqualTo: @"Encrypted & Signed file"])
         [actionList selectItemAtIndex: [defaults boolForKey: @"default_decrypt_and_verify"] ? 6 : 7];
+    if ([[self fileType] isEqualTo: @"Encrypted file"])
+        [actionList selectItemAtIndex: 7];
     else if ([[self fileType] isEqualTo: @"Signed file"])
         [actionList selectItemAtIndex: 8];
     else if ([[self fileType] isEqualTo: @"Detached signature"])

@@ -234,6 +234,12 @@
 				F511FDFE02629B770128824A,
 				089C165FFE840EACC02AAC07,
 				F571FE8C02B61F450128824A,
+				F527162C03B3AE020100011D,
+				F527162D03B3AE020100011D,
+				F527162E03B3AE030100011D,
+				F527162F03B3AE030100011D,
+				F527163003B3AE030100011D,
+				F527163103B3AE030100011D,
 			);
 			isa = PBXGroup;
 			name = Resources;
@@ -300,15 +306,15 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>gpg</string>
-				<string>pgp</string>
+				<string>gpge</string>
 			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentEncrypted.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Encrypted file</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
-				<string>GPGe</string>
-				<string>pgEF</string>
+				<string>GPGc</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
@@ -318,8 +324,10 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>gpg</string>
+				<string>gpgs</string>
 			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentSigned.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Signed file</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -336,6 +344,8 @@
 			<array>
 				<string>asc</string>
 			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentClearsigned.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Clearsigned file</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -352,6 +362,8 @@
 			<array>
 				<string>sig</string>
 			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentDetachedSignature.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Detached signature</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -380,13 +392,33 @@
 			<key>NSDocumentClass</key>
 			<string>GPGDocument</string>
 		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>gpg</string>
+				<string>pgp</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>DocumentEncryptedAndSigned.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>Encrypted &amp; Signed file</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>GPGe</string>
+				<string>pgEF</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>GPGDocument</string>
+		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>GPGFileTool</string>
 	<key>CFBundleGetInfoString</key>
 	<string>GPGFileTool Copyright Mac GPG Project</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>GPGFileTool.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>net.sourceforge.macgpg.GPGFileTool</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -437,6 +469,12 @@
 				F511FE0102629B770128824A,
 				F5A9BC1802B6A2620128824A,
 				F5C8211902FF5BDF01000104,
+				F527163203B3AE030100011D,
+				F527163303B3AE030100011D,
+				F527163403B3AE030100011D,
+				F527163503B3AE030100011D,
+				F527163603B3AE030100011D,
+				F527163703B3AE030100011D,
 			);
 			isa = PBXResourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +651,72 @@
 			isa = PBXFileReference;
 			path = Aenderungslog.rtf;
 			refType = 4;
+		};
+		F527162C03B3AE020100011D = {
+			isa = PBXFileReference;
+			path = DocumentClearsigned.icns;
+			refType = 4;
+		};
+		F527162D03B3AE020100011D = {
+			isa = PBXFileReference;
+			path = DocumentDetachedSignature.icns;
+			refType = 4;
+		};
+		F527162E03B3AE030100011D = {
+			isa = PBXFileReference;
+			path = DocumentEncrypted.icns;
+			refType = 4;
+		};
+		F527162F03B3AE030100011D = {
+			isa = PBXFileReference;
+			path = DocumentEncryptedAndSigned.icns;
+			refType = 4;
+		};
+		F527163003B3AE030100011D = {
+			isa = PBXFileReference;
+			path = DocumentSigned.icns;
+			refType = 4;
+		};
+		F527163103B3AE030100011D = {
+			isa = PBXFileReference;
+			path = GPGFileTool.icns;
+			refType = 4;
+		};
+		F527163203B3AE030100011D = {
+			fileRef = F527162C03B3AE020100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F527163303B3AE030100011D = {
+			fileRef = F527162D03B3AE020100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F527163403B3AE030100011D = {
+			fileRef = F527162E03B3AE030100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F527163503B3AE030100011D = {
+			fileRef = F527162F03B3AE030100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F527163603B3AE030100011D = {
+			fileRef = F527163003B3AE030100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F527163703B3AE030100011D = {
+			fileRef = F527163103B3AE030100011D;
+			isa = PBXBuildFile;
+			settings = {
+			};
 		};
 		F52FB274037F73FB012884B0 = {
 			isa = PBXFrameworkReference;

@@ -37,7 +37,7 @@
     switch ([actionList indexOfSelectedItem])	{
         case 0:
             returned_data = [self encryptAndSign];
-            returned_type = @"Encrypted file";
+            returned_type = @"Encrypted & Signed file";
             break;
         case 1:
             returned_data = [self encrypt];
