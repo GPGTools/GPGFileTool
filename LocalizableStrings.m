@@ -23,6 +23,9 @@
 
 #import "LocalizableStrings.h"
 
+NSString * FTClose = @"FTClose";
+NSString * FTOkay = @"FTOkay";
+
 NSString * FTVerifyFileFindTitle = @"FTVerifyFileFindTitle";
 NSString * FTVerifyFileFindPrompt = @"FTVerifyFileFindPrompt";
 
@@ -48,3 +51,8 @@ NSString * FTSigSeparator = @"FTSigSeparator";
 
 NSString * FTErrorTitle = @"FTErrorTitle";
 NSString * FTErrorMessage = @"FTErrorMessage";
+
+NSString * FTSecureDeleteSucceededTitle = @"FTSecureDeleteSucceededTitle";
+NSString * FTSecureDeleteSucceededMessage = @"FTSecureDeleteSucceededMessage";
+NSString * FTSecureDeleteFailedTitle = @"FTSecureDeleteFailedTitle";
+NSString * FTSecureDeleteFailedMessage = @"FTSecureDeleteFailedMessage";

@@ -146,7 +146,7 @@
 				StatusViewVisible = NO;
 				Template = F5CA7ECB015C094F0DCA290F;
 				ToolbarVisible = NO;
-				WindowLocation = "{48, 103}";
+				WindowLocation = "{94, 61}";
 			};
 			PBXWorkspaceContents = (
 				{
@@ -1021,7 +1021,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 2";
 		rLen = 0;
-		rLoc = 103;
+		rLoc = 138;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -1031,7 +1031,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.h: FTGetSigners";
 		rLen = 0;
-		rLoc = 1295;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 219;
@@ -1539,7 +1539,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 2";
 		rLen = 0;
-		rLoc = 103;
+		rLoc = 138;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -1859,7 +1859,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.h: FTGetSigners";
 		rLen = 0;
-		rLoc = 1295;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 219;
@@ -3027,7 +3027,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.m: FTSignatureStatus";
 		rLen = 0;
-		rLoc = 1468;
+		rLoc = 1533;
 		rType = 0;
 		vrLen = 1513;
 		vrLoc = 535;
@@ -3057,7 +3057,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 8";
 		rLen = 0;
-		rLoc = 361;
+		rLoc = 396;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 0;
@@ -3137,7 +3137,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.h: FTGetSigner";
 		rLen = 0;
-		rLoc = 1295;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 219;
@@ -3147,7 +3147,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.m: FTGetSigner";
 		rLen = 0;
-		rLoc = 1468;
+		rLoc = 1533;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 535;
@@ -3157,7 +3157,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.h: FTSignatureStatus";
 		rLen = 0;
-		rLoc = 1295;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 219;
@@ -3167,7 +3167,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.m: FTSignatureStatus";
 		rLen = 0;
-		rLoc = 1468;
+		rLoc = 1533;
 		rType = 0;
 		vrLen = 1513;
 		vrLoc = 535;
@@ -3187,7 +3187,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 11";
 		rLen = 0;
-		rLoc = 427;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 0;
@@ -3277,7 +3277,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: handleException:";
 		rLen = 0;
-		rLoc = 1312;
+		rLoc = 1302;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1169;
@@ -3434,7 +3434,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: handleException:";
 		rLen = 0;
-		rLoc = 1312;
+		rLoc = 1302;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 1169;
@@ -3484,7 +3484,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: handleException:";
 		rLen = 0;
-		rLoc = 1512;
+		rLoc = 1327;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 968;
@@ -3518,7 +3518,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 11";
 		rLen = 0;
-		rLoc = 427;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 0;
@@ -3872,7 +3872,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 2";
 		rLen = 0;
-		rLoc = 105;
+		rLoc = 140;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 0;
@@ -3936,7 +3936,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 2";
 		rLen = 0;
-		rLoc = 103;
+		rLoc = 138;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -4039,7 +4039,7 @@
 	7FBE05E204099EF300AB2044 = {
 		fileReference = F55C3AE603A3C2800100011D;
 		isa = PBXFileBreakpoint;
-		lineNumber = 44;
+		lineNumber = 42;
 		state = 1;
 	};
 	7FE1AD9804ADE1FE00000123 = {
@@ -4281,7 +4281,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.h: FTMultipleSignatureStatuses";
 		rLen = 0;
-		rLoc = 1295;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 1053;
 		vrLoc = 375;
@@ -4291,7 +4291,7 @@
 		isa = PBXTextBookmark;
 		name = "LocalizableStrings.m: FTMultipleSignatureStatuses";
 		rLen = 0;
-		rLoc = 1468;
+		rLoc = 1533;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 625;
@@ -4301,7 +4301,7 @@
 		isa = PBXTextBookmark;
 		name = "English: 8";
 		rLen = 0;
-		rLoc = 361;
+		rLoc = 396;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 0;

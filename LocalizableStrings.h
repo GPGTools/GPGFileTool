@@ -23,6 +23,9 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * FTClose;
+extern NSString * FTOkay;
+
 extern NSString * FTVerifyFileFindTitle;
 extern NSString * FTVerifyFileFindPrompt;
 
@@ -48,3 +51,8 @@ extern NSString * FTSigSeparator;
 
 extern NSString * FTErrorTitle;
 extern NSString * FTErrorMessage;
+
+extern NSString * FTSecureDeleteSucceededTitle;
+extern NSString * FTSecureDeleteSucceededMessage;
+extern NSString * FTSecureDeleteFailedTitle;
+extern NSString * FTSecureDeleteFailedMessage;
