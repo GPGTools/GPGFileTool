@@ -57,7 +57,10 @@
 			children = (
 				1058C7A7FEA54F5311CA2CBB,
 				F52FB274037F73FB012884B0,
-				F55C3B4503A3DFCE0100011D,
+				7FBE92BF04C20C5100000124,
+				7FB3DCAC04C0CBF700000124,
+				7FB3DCAD04C0CBF700000124,
+				7FB3DCAE04C0CBF700000124,
 			);
 			isa = PBXGroup;
 			name = "Linked Frameworks";
@@ -293,12 +296,13 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Library/Frameworks /Users/redbird/Developer/macgpgcvs/GPGAppKit/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
 				PRODUCT_NAME = GPGFileTool;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
@@ -561,7 +565,10 @@
 			files = (
 				1058C7A9FEA54F5311CA2CBB,
 				F52FB27A037F73FB012884B0,
-				F55C3B4F03A3DFCE0100011D,
+				7FB3DCAF04C0CBF700000124,
+				7FB3DCB004C0CBF700000124,
+				7FB3DCB104C0CBF700000124,
+				7FBE92C004C20C5100000124,
 			);
 			isa = PBXFrameworksBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -908,6 +915,78 @@
 			path = Swedish.lproj/Preferences.nib;
 			refType = 4;
 		};
+		7FB3DCAC04C0CBF700000124 = {
+			isa = PBXFrameworkReference;
+			name = OmniAppKit.framework;
+			path = /Users/redbird/Library/Frameworks/OmniAppKit.framework;
+			refType = 0;
+		};
+		7FB3DCAD04C0CBF700000124 = {
+			isa = PBXFrameworkReference;
+			name = OmniBase.framework;
+			path = /Users/redbird/Library/Frameworks/OmniBase.framework;
+			refType = 0;
+		};
+		7FB3DCAE04C0CBF700000124 = {
+			isa = PBXFrameworkReference;
+			name = OmniFoundation.framework;
+			path = /Users/redbird/Library/Frameworks/OmniFoundation.framework;
+			refType = 0;
+		};
+		7FB3DCAF04C0CBF700000124 = {
+			fileRef = 7FB3DCAC04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FB3DCB004C0CBF700000124 = {
+			fileRef = 7FB3DCAD04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FB3DCB104C0CBF700000124 = {
+			fileRef = 7FB3DCAE04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FB3DCB204C0CC0000000124 = {
+			fileRef = 7FB3DCAC04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FB3DCB304C0CC0000000124 = {
+			fileRef = 7FB3DCAD04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FB3DCB404C0CC0000000124 = {
+			fileRef = 7FB3DCAE04C0CBF700000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FBE92BF04C20C5100000124 = {
+			isa = PBXFrameworkReference;
+			name = GPGAppKit.framework;
+			path = ../GPGAppKit/build/GPGAppKit.framework;
+			refType = 4;
+		};
+		7FBE92C004C20C5100000124 = {
+			fileRef = 7FBE92BF04C20C5100000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7FBE92CE04C20C6D00000124 = {
+			fileRef = 7FBE92BF04C20C5100000124;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
 //7F0
 //7F1
 //7F2
@@ -1198,18 +1277,6 @@
 			settings = {
 			};
 		};
-		F55C3B4503A3DFCE0100011D = {
-			isa = PBXFrameworkReference;
-			name = GPGAppKit.framework;
-			path = ../GPGAppKit/build/GPGAppKit.framework;
-			refType = 4;
-		};
-		F55C3B4F03A3DFCE0100011D = {
-			fileRef = F55C3B4503A3DFCE0100011D;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F55C3B5203A3DFE10100011D = {
 			children = (
 				2A37F4AEFDCFA73011CA2CEA,
@@ -1224,12 +1291,6 @@
 		};
 		F55C3B5303A3E0860100011D = {
 			fileRef = F52FB274037F73FB012884B0;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		F55C3B5803A3E0B80100011D = {
-			fileRef = F55C3B4503A3DFCE0100011D;
 			isa = PBXBuildFile;
 			settings = {
 			};
@@ -1296,8 +1357,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F55C3B5803A3E0B80100011D,
 				F55C3B5303A3E0860100011D,
+				7FBE92CE04C20C6D00000124,
+				7FB3DCB204C0CC0000000124,
+				7FB3DCB304C0CC0000000124,
+				7FB3DCB404C0CC0000000124,
 			);
 			isa = PBXCopyFilesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;

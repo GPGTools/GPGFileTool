@@ -51,6 +51,8 @@
     //interface
     [ckbox_singleRecipient setState: [defaults boolForKey: @"select_single_recipient"] ? NSOnState : NSOffState];
     [ckbox_singleSigner setState: [defaults boolForKey: @"select_single_signer"] ? NSOnState : NSOffState];
+    [ckbox_listAllUIDs setState: [defaults boolForKey: @"list_all_uids"] ? NSOnState : NSOffState];
+    [ckbox_warnBeforeDelete setState: [defaults boolForKey: @"warn_before_delete"] ? NSOnState : NSOffState];
 
     //launch behavior
     activationBehaviorRow = [defaults integerForKey: @"activation_behavior"];
@@ -101,6 +103,8 @@
     //interface
     [defaults setBool: ([ckbox_singleRecipient state] == NSOnState) ? YES : NO forKey: @"select_single_recipient"];
     [defaults setBool: ([ckbox_singleSigner state] == NSOnState) ? YES : NO forKey: @"select_single_signer"];
+    [defaults setBool: ([ckbox_listAllUIDs state] == NSOnState) ? YES : NO forKey: @"list_all_uids"];
+    [defaults setBool: ([ckbox_warnBeforeDelete state] == NSOnState) ? YES : NO forKey: @"warn_before_delete"];
 
     activationBehaviorRow = [activationBehaviors selectedRow];
     switch (activationBehaviorRow)

@@ -25,6 +25,7 @@
 
 extern NSString * FTClose;
 extern NSString * FTOkay;
+extern NSString * FTCancel;
 
 extern NSString * FTVerifyFileFindTitle;
 extern NSString * FTVerifyFileFindPrompt;
@@ -56,3 +57,5 @@ extern NSString * FTSecureDeleteSucceededTitle;
 extern NSString * FTSecureDeleteSucceededMessage;
 extern NSString * FTSecureDeleteFailedTitle;
 extern NSString * FTSecureDeleteFailedMessage;
+extern NSString * FTWarningTitle;
+extern NSString * FTSecureDeleteWarningMessage;

@@ -66,8 +66,10 @@
     BOOL gotRecipient;
 
     // Init the panel
-    [panel setMinimumKeyValidity:GPGValidityMarginal];
-    [panel setListsSecretKeys:NO];
+    [panel setKeyFilter: self];
+    [panel setContextInfo: @"recipients"];
+    [panel setListsSecretKeys: NO];
+    [panel setListsAllUserIDs: [defaults boolForKey: @"list_all_uids"]];
     [panel setPrompt: NSLocalizedString(FTGetRecipient, nil)];
 
     gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
@@ -91,11 +93,10 @@
     id object;
 
     // Init the panel
-    [panel setMinimumKeyValidity:GPGValidityMarginal];
-    [panel setListsSecretKeys:NO];
-    [panel setListsAllNames: NO];
-    [panel setPrompt: NSLocalizedString(FTGetRecipients, nil)];
     [panel setKeyFilter: self];
+    [panel setContextInfo: @"recipients"];
+    [panel setListsSecretKeys:NO];
+    [panel setPrompt: NSLocalizedString(FTGetRecipients, nil)];
 
     gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
 
@@ -117,8 +118,10 @@
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGSingleKeySelectionPanel * panel = [GPGSingleKeySelectionPanel panel];
 
-    [panel setMinimumKeyValidity:GPGValidityUnknown];
-    [panel setListsSecretKeys:YES];
+    [panel setKeyFilter: self];
+    [panel setContextInfo: @"signers"];
+    [panel setListsSecretKeys: YES];
+    [panel setListsAllUserIDs: [defaults boolForKey: @"list_all_uids"]];
     [panel setPrompt: NSLocalizedString(FTGetSigner, nil)];
 
     [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
@@ -132,9 +135,9 @@
     BOOL gotSigners;
 
     // Init the panel
-    [panel setMinimumKeyValidity:GPGValidityUnknown];
-    [panel setListsSecretKeys:YES];
-    [panel setListsAllNames: NO];
+    [panel setKeyFilter: self];
+    [panel setContextInfo: @"signers"];
+    [panel setListsSecretKeys: YES];
     [panel setPrompt: NSLocalizedString(FTGetSigners, nil)];
 
     gotSigners = [panel runModalForKeyWildcard: nil usingContext: context relativeToWindow: [self window]];
@@ -473,9 +476,18 @@
 
 - (BOOL) shouldDisplayKey: (GPGKey *)key contextInfo: (id)info
 {
-    NSLog([key description]);
+    if ([info isEqualTo: @"recipients"])
+    {
+        if ([key validity] >= GPGValidityMarginal && [key canEncrypt])
+            return YES;
+    }
+    else if ([info isEqualTo: @"signers"])
+    {
+        if ([[key publicKey] canSign])
+            return YES;
+    }
 
-    return YES;
+    return NO;
 }
 
 @end

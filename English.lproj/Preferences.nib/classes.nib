@@ -11,11 +11,13 @@
                 "ckbox_armored" = NSButton; 
                 "ckbox_decryptAndVerify" = NSButton; 
                 "ckbox_deleteOriginal" = NSButton; 
+                "ckbox_listAllUIDs" = NSButton; 
                 "ckbox_openAfter" = NSButton; 
                 "ckbox_openUnlessCipher" = NSButton; 
                 "ckbox_showAfter" = NSButton; 
                 "ckbox_singleRecipient" = NSButton; 
                 "ckbox_singleSigner" = NSButton; 
+                "ckbox_warnBeforeDelete" = NSButton; 
             }; 
             SUPERCLASS = NSWindowController; 
         }

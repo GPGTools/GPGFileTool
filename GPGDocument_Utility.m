@@ -76,6 +76,15 @@
     NSTask *rmFileTask;
     NSMutableArray *args;
 
+    if ([defaults boolForKey: @"warn_before_delete"])
+    {
+        if (1 != NSRunAlertPanelRelativeToWindow(NSLocalizedString(FTWarningTitle, nil),
+                                                 NSLocalizedString(FTSecureDeleteWarningMessage, nil),
+                                                 NSLocalizedString(FTOkay, nil), NSLocalizedString(FTCancel, nil),
+                                                 nil, [self window]))
+            return;
+    }
+
     if ([[NSFileManager defaultManager] isDeletableFileAtPath: [self fileName]])
     {
         rmFileTask = [[NSTask alloc] init];

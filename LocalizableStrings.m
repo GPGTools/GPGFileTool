@@ -25,6 +25,7 @@
 
 NSString * FTClose = @"FTClose";
 NSString * FTOkay = @"FTOkay";
+NSString * FTCancel = @"FTCancel";
 
 NSString * FTVerifyFileFindTitle = @"FTVerifyFileFindTitle";
 NSString * FTVerifyFileFindPrompt = @"FTVerifyFileFindPrompt";
@@ -56,3 +57,5 @@ NSString * FTSecureDeleteSucceededTitle = @"FTSecureDeleteSucceededTitle";
 NSString * FTSecureDeleteSucceededMessage = @"FTSecureDeleteSucceededMessage";
 NSString * FTSecureDeleteFailedTitle = @"FTSecureDeleteFailedTitle";
 NSString * FTSecureDeleteFailedMessage = @"FTSecureDeleteFailedMessage";
+NSString * FTWarningTitle = @"FTWarningTitle";
+NSString * FTSecureDeleteWarningMessage = @"FTSecureDeleteWarningMessage";

@@ -33,6 +33,8 @@
  - default_decrypt_and_verify: (BOOL) whether to decrypt and verify by default (rather than decyrypt only)
  - select_single_recipient: (BOOL) display single recipient selection panel
  - select_single_singer: (BOOL) display single signer selection panel
+ - list_all_uids: (BOOL) should list all user IDs for single key selection panels
+ - warn_before_delete: (BOOL) give the user one last chance to not delete original
  - activation_behavior: (int) take an action from GPGFTActivationBehavior upon activation
 */
 

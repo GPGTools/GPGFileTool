@@ -43,7 +43,9 @@ typedef enum
         *ckbox_showAfter,
         *ckbox_singleRecipient,
         *ckbox_singleSigner,
-        *ckbox_deleteOriginal;
+        *ckbox_deleteOriginal,
+        *ckbox_warnBeforeDelete,
+        *ckbox_listAllUIDs;
     IBOutlet NSMatrix *activationBehaviors;
     IBOutlet NSPopUpButton *actionList;
 }
