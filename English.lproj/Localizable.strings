@@ -1,5 +1,5 @@
 FTVerifyFileFindTitle = "Select File to Verify against";
-FTVerifyFileFindPrompt = "Select";
+FTVerifyFileFindPrompt = "Select Original File";
 
 FTEnterPassphrasePrompt = "For key:  %@, %@";
 FTEnterPassphraseAgainPrompt = "Try again:  %@, %@";
