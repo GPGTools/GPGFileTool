@@ -28,6 +28,7 @@ NSString * FTVerifyFileFindPrompt = @"FTVerifyFileFindPrompt";
 
 NSString * FTEnterPassphrasePrompt = @"FTEnterPassphrasePrompt";
 NSString * FTEnterPassphraseAgainPrompt = @"FTEnterPassphraseAgainPrompt";
+NSString * FTEnterPassphraseForSymmetricKeyPrompt = @"FTEnterPassphraseForSymmetricKeyPrompt";
 
 NSString * FTSignatureStatus = @"FTSignatureStatus";
 NSString * FTMultipleSignatureStatuses = @"FTMultipleSignatureStatuses";

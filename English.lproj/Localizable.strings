@@ -3,6 +3,7 @@ FTVerifyFileFindPrompt = "Select";
 
 FTEnterPassphrasePrompt = "For key:  %@, %@";
 FTEnterPassphraseAgainPrompt = "Try again:  %@, %@";
+FTEnterPassphraseForSymmetricKeyPrompt = "For symmetrically encrypted data";
 
 FTSignatureStatus = "Signature Status";
 FTMultipleSignatureStatuses = "Multiple Signature Statuses";

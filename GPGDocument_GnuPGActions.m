@@ -26,7 +26,8 @@
 
 @implementation GPGDocument (GnuPGActions)
 
-- (NSString *) context:(GPGContext *)context passphraseForKey:(GPGKey *)key again:(BOOL)again {
+- (NSString *) context:(GPGContext *)context passphraseForKey:(GPGKey *)key again:(BOOL)again
+{
     GPGPassphrasePanel *ppanel = [GPGPassphrasePanel panel];
 
     if (key)  //Asymmetric encryption
@@ -35,18 +36,19 @@
         {
             [ppanel runModalWithPrompt: [NSString stringWithFormat:
                 NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
-                    relativeToWindow: [self window]];
+                      relativeToWindow: [self window]];
         }
         else
         {
             [ppanel runModalWithPrompt: [NSString stringWithFormat:
                 NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
-                    relativeToWindow: [self window]];
+                      relativeToWindow: [self window]];
         }
     }
     else  //Symmetric encryption
     {
-        [ppanel runModalWithPrompt: @"Enter passphrase for symmetric encryption:" relativeToWindow: [self window]];
+        [ppanel runModalWithPrompt: NSLocalizedString(FTEnterPassphraseForSymmetricKeyPrompt, nil)
+                  relativeToWindow: [self window]];
     }
 
     return [ppanel passphrase];
