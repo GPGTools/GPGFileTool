@@ -525,7 +525,7 @@
             
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeNormal]
                 data];
-            [context wait: YES];
+            //[context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];
@@ -552,7 +552,7 @@
 
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeDetach]
                 data];
-            [context wait: YES];
+            //[context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];
@@ -579,7 +579,7 @@
 
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeClear]
                 data];
-            [context wait: YES];
+            //[context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];

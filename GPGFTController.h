@@ -1,4 +1,3 @@
-/* GPGFTController */
 //
 //  GPGFTController.h
 //  GPGFileTool
