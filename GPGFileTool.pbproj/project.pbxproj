@@ -129,6 +129,7 @@
 				4A9504D0FFE6A4CB11CA0CBA,
 				4A9504D1FFE6A4CB11CA0CBA,
 			);
+			hasScannedForEncodings = 1;
 			isa = PBXProject;
 			knownRegions = (
 				English,
@@ -173,11 +174,13 @@
 			refType = 4;
 		};
 		2A37F4ACFDCFA73011CA2CEA = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGDocument.m;
 			refType = 4;
 		};
 		2A37F4AEFDCFA73011CA2CEA = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGDocument.h;
 			refType = 4;
@@ -194,6 +197,7 @@
 			refType = 4;
 		};
 		2A37F4B0FDCFA73011CA2CEA = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = main.m;
 			refType = 4;
@@ -428,11 +432,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0 Alpha</string>
+	<string>0.9.1</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>26</string>
+	<string>27</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -440,7 +444,6 @@
 </dict>
 </plist>
 ";
-			shouldUseHeadermap = 1;
 		};
 		2A37F4C7FDCFA73011CA2CEA = {
 			buildActionMask = 2147483647;
@@ -561,11 +564,13 @@
 //F53
 //F54
 		F511FDFC02629B760128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGPrefController.h;
 			refType = 4;
 		};
 		F511FDFD02629B760128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGPrefController.m;
 			refType = 4;
@@ -606,6 +611,7 @@
 			};
 		};
 		F516EFD5030808A501000104 = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = French;
 			path = French.lproj/Credits.html;
@@ -630,18 +636,21 @@
 			refType = 4;
 		};
 		F516EFD9030808A501000104 = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = French;
 			path = French.lproj/InfoPlist.strings;
 			refType = 4;
 		};
 		F516EFDA030808A501000104 = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = French;
 			path = French.lproj/Localizable.strings;
 			refType = 4;
 		};
 		F516EFDB030808A501000104 = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = Spanish;
 			path = Spanish.lproj/Localizable.strings;
@@ -731,11 +740,13 @@
 			};
 		};
 		F530C423025276AC0128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGFTController.h;
 			refType = 4;
 		};
 		F530C424025276AC0128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGFTController.m;
 			refType = 4;
@@ -753,6 +764,7 @@
 			};
 		};
 		F54747D8030EF14B012884B0 = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = Spanish;
 			path = Spanish.lproj/Credits.html;
@@ -764,6 +776,7 @@
 			refType = 4;
 		};
 		F5516F2102B7E16E0128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = German;
 			path = German.lproj/Credits.html;
@@ -788,12 +801,14 @@
 			refType = 4;
 		};
 		F5516F2502B7E16E0128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = German;
 			path = German.lproj/InfoPlist.strings;
 			refType = 4;
 		};
 		F5516F2602B7E16E0128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = German;
 			path = German.lproj/Localizable.strings;
@@ -822,6 +837,7 @@
 			refType = 4;
 		};
 		F55C3AE103A3C1AF0100011D = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGDocument_IBActions.m;
 			refType = 4;
@@ -833,6 +849,7 @@
 			};
 		};
 		F55C3AE303A3C2220100011D = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGDocument_GnuPGActions.m;
 			refType = 4;
@@ -844,6 +861,7 @@
 			};
 		};
 		F55C3AE603A3C2800100011D = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = GPGDocument_Utility.m;
 			refType = 4;
@@ -891,11 +909,13 @@
 			};
 		};
 		F55C3B5903A3E2640100011D = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = NSString_GPGFTExtensions.h;
 			refType = 4;
 		};
 		F55C3B5A03A3E2640100011D = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = NSString_GPGFTExtensions.m;
 			refType = 4;
@@ -913,11 +933,13 @@
 			};
 		};
 		F571FE8802B61E510128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = LocalizableStrings.h;
 			refType = 4;
 		};
 		F571FE8902B61E510128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			path = LocalizableStrings.m;
 			refType = 4;
@@ -935,6 +957,7 @@
 			refType = 4;
 		};
 		F571FE8D02B61F450128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = English;
 			path = English.lproj/Localizable.strings;
@@ -964,6 +987,7 @@
 			refType = 4;
 		};
 		F5A9BC1702B6A2620128824A = {
+			fileEncoding = 4;
 			isa = PBXFileReference;
 			name = English;
 			path = English.lproj/Credits.html;

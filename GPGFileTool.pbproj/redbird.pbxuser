@@ -14,14 +14,14 @@
 			F5F548D3025219C30128824A,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 62107111;
+			PBXPerProjectTemplateStateSaveDate = 63489636;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
 						Split0 = {
 							Split0 = {
 								NavContent0 = {
-									bookmark = F527166603B3B7330100011D;
+									bookmark = 7FEE9B2103C39FCC0000011D;
 									history = (
 										F527163803B3B7330100011D,
 										F527163903B3B7330100011D,
@@ -30,10 +30,13 @@
 										F527163C03B3B7330100011D,
 										F527163D03B3B7330100011D,
 										F527163E03B3B7330100011D,
-										F527163F03B3B7330100011D,
-										F527164003B3B7330100011D,
-										F527164103B3B7330100011D,
-										F527164203B3B7330100011D,
+										F584028403B3EB380100011D,
+										F584028503B3EB380100011D,
+										F584028603B3EB380100011D,
+										7FD9085D03B7659D0000011D,
+										7FDE5FE603B767000000011D,
+										7FDE5FE703B767000000011D,
+										7FD06D1E03B7853C0000011D,
 									);
 									prevStack = (
 										F573038203ACDF390100011D,
@@ -73,16 +76,25 @@
 										F527166303B3B7330100011D,
 										F527166403B3B7330100011D,
 										F527166503B3B7330100011D,
+										F584028703B3EB380100011D,
+										F584028803B3EB380100011D,
+										F584028903B3EB380100011D,
+										7FD9085F03B7659D0000011D,
+										7FD9086003B7659D0000011D,
+										7FDE5FE903B767000000011D,
+										7FDE5FEA03B767000000011D,
+										7FDE5FEB03B767000000011D,
 									);
 								};
 								NavCount = 1;
 								NavGeometry0 = {
-									Frame = "{{0, 0}, {740, 510}}";
+									Frame = "{{0, 0}, {740, 373}}";
 									NavBarVisible = YES;
 								};
+								NavSplitVertical = NO;
 							};
 							SplitCount = 1;
-							Tab0 = {
+							Tab1 = {
 								Debugger = {
 									Split0 = {
 										SplitCount = 2;
@@ -92,12 +104,12 @@
 								};
 								LauncherConfigVersion = 7;
 							};
-							Tab1 = {
+							Tab2 = {
 								LauncherConfigVersion = 3;
 								Runner = {
 								};
 							};
-							TabCount = 4;
+							TabCount = 5;
 						};
 						SplitCount = 1;
 						Tab1 = {
@@ -112,24 +124,29 @@
 					ContentSize = "{1024, 684}";
 					LeftSlideOut = {
 						ActiveTab = 0;
+						ActiveTabName = PBXGroupTreeModule;
 						Collapsed = NO;
 						Frame = "{{0, 23}, {1024, 661}}";
 						Split0 = {
 							ActiveTab = 2;
+							ActiveTabName = PBXBuildResultsModule;
 							Collapsed = NO;
 							Frame = "{{284, 0}, {740, 661}}";
 							Split0 = {
-								Frame = "{{0, 151}, {740, 510}}";
+								Frame = "{{0, 288}, {740, 373}}";
 							};
 							SplitCount = 1;
 							Tab0 = {
+								Frame = "{{0, 0}, {740, 214}}";
+							};
+							Tab1 = {
 								Debugger = {
 									Collapsed = NO;
-									Frame = "{{0, 0}, {740, 214}}";
+									Frame = "{{0, 0}, {740, 150}}";
 									Split0 = {
-										Frame = "{{0, 24}, {740, 190}}";
+										Frame = "{{0, 24}, {740, 126}}";
 										Split0 = {
-											Frame = "{{0, 0}, {362, 190}}";
+											Frame = "{{0, 0}, {363, 126}}";
 										};
 										Split1 = {
 											DebugVariablesTableConfiguration = (
@@ -138,9 +155,9 @@
 												Value,
 												85,
 												Summary,
-												135.123,
+												134.123,
 											);
-											Frame = "{{371, 0}, {369, 190}}";
+											Frame = "{{372, 0}, {368, 126}}";
 										};
 										SplitCount = 2;
 									};
@@ -154,25 +171,26 @@
 									TabCount = 2;
 									TabsVisible = YES;
 								};
-								Frame = "{{0, 0}, {740, 214}}";
+								Frame = "{{0, 0}, {740, 125}}";
 								LauncherConfigVersion = 7;
 							};
-							Tab1 = {
-								Frame = "{{0, 0}, {740, 125}}";
+							Tab2 = {
+								Frame = "{{0, 0}, {740, 127}}";
 								LauncherConfigVersion = 3;
 								Runner = {
-									Frame = "{{0, 0}, {740, 125}}";
+									Frame = "{{0, 0}, {740, 127}}";
 								};
 							};
-							Tab2 = {
-								BuildMessageFrame = "{{0, 0}, {742, 120}}";
-								BuildTranscriptFrame = "{{0, 129}, {742, 0}}";
-								Frame = "{{0, 0}, {740, 127}}";
-							};
 							Tab3 = {
-								Frame = "{{0, 0}, {740, 265}}";
+								BuildMessageFrame = "{{0, 0}, {742, 231}}";
+								BuildTranscriptFrame = "{{0, 240}, {742, 2}}";
+								BuildTranscriptFrameExpanded = YES;
+								Frame = "{{0, 0}, {740, 264}}";
 							};
-							TabCount = 4;
+							Tab4 = {
+								Frame = "{{0, 0}, {740, 295}}";
+							};
+							TabCount = 5;
 							TabsVisible = YES;
 						};
 						SplitCount = 1;
@@ -226,15 +244,26 @@
 						TabCount = 5;
 						TabsVisible = YES;
 					};
+					NavBarShownByDefault = YES;
 					StatusViewVisible = YES;
 					Template = F5F68CF101725D4C0D7A8F4C;
 					ToolbarVisible = YES;
 					WindowLocation = "{0, 0}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 62107111;
+			PBXWorkspaceStateSaveDate = 63489636;
 		};
 		perUserProjectItems = {
+			7FD06D1E03B7853C0000011D = 7FD06D1E03B7853C0000011D;
+			7FD9085D03B7659D0000011D = 7FD9085D03B7659D0000011D;
+			7FD9085F03B7659D0000011D = 7FD9085F03B7659D0000011D;
+			7FD9086003B7659D0000011D = 7FD9086003B7659D0000011D;
+			7FDE5FE603B767000000011D = 7FDE5FE603B767000000011D;
+			7FDE5FE703B767000000011D = 7FDE5FE703B767000000011D;
+			7FDE5FE903B767000000011D = 7FDE5FE903B767000000011D;
+			7FDE5FEA03B767000000011D = 7FDE5FEA03B767000000011D;
+			7FDE5FEB03B767000000011D = 7FDE5FEB03B767000000011D;
+			7FEE9B2103C39FCC0000011D = 7FEE9B2103C39FCC0000011D;
 			F527163803B3B7330100011D = F527163803B3B7330100011D;
 			F527163903B3B7330100011D = F527163903B3B7330100011D;
 			F527163A03B3B7330100011D = F527163A03B3B7330100011D;
@@ -242,10 +271,6 @@
 			F527163C03B3B7330100011D = F527163C03B3B7330100011D;
 			F527163D03B3B7330100011D = F527163D03B3B7330100011D;
 			F527163E03B3B7330100011D = F527163E03B3B7330100011D;
-			F527163F03B3B7330100011D = F527163F03B3B7330100011D;
-			F527164003B3B7330100011D = F527164003B3B7330100011D;
-			F527164103B3B7330100011D = F527164103B3B7330100011D;
-			F527164203B3B7330100011D = F527164203B3B7330100011D;
 			F527164303B3B7330100011D = F527164303B3B7330100011D;
 			F527164403B3B7330100011D = F527164403B3B7330100011D;
 			F527164503B3B7330100011D = F527164503B3B7330100011D;
@@ -281,9 +306,14 @@
 			F527166303B3B7330100011D = F527166303B3B7330100011D;
 			F527166403B3B7330100011D = F527166403B3B7330100011D;
 			F527166503B3B7330100011D = F527166503B3B7330100011D;
-			F527166603B3B7330100011D = F527166603B3B7330100011D;
 			F573038203ACDF390100011D = F573038203ACDF390100011D;
 			F573038303ACDF390100011D = F573038303ACDF390100011D;
+			F584028403B3EB380100011D = F584028403B3EB380100011D;
+			F584028503B3EB380100011D = F584028503B3EB380100011D;
+			F584028603B3EB380100011D = F584028603B3EB380100011D;
+			F584028703B3EB380100011D = F584028703B3EB380100011D;
+			F584028803B3EB380100011D = F584028803B3EB380100011D;
+			F584028903B3EB380100011D = F584028903B3EB380100011D;
 		};
 		projectwideBuildSettings = {
 		};
@@ -300,6 +330,128 @@
 		executables = (
 			F5F548D3025219C30128824A,
 		);
+	};
+	7FD06D1E03B7853C0000011D = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: ppanel";
+		rLen = 58;
+		rLoc = 1081;
+		rType = 0;
+		vrLen = 741;
+		vrLoc = 803;
+	};
+	7FD9085D03B7659D0000011D = {
+		fRef = 7FD9086203B7659D0000011D;
+		glyphRangeLength = 2;
+		glyphRangeLocation = 4;
+		isa = PBXDocBookmark;
+		name = "CocoaTopics.html: ...";
+	};
+	7FD9085F03B7659D0000011D = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: ppanel";
+		rLen = 0;
+		rLoc = 1139;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 691;
+	};
+	7FD9086003B7659D0000011D = {
+		fRef = 7FD9086403B7659D0000011D;
+		glyphRangeLength = 2;
+		glyphRangeLocation = 4;
+		isa = PBXDocBookmark;
+		name = "CocoaTopics.html: ...";
+	};
+	7FD9086203B7659D0000011D = {
+		isa = PBXFileReference;
+		name = CocoaTopics.html;
+		path = /Developer/Documentation/Cocoa/CocoaTopics.html;
+		refType = 0;
+	};
+	7FD9086403B7659D0000011D = {
+		isa = PBXFileReference;
+		name = CocoaTopics.html;
+		path = /Developer/Documentation/Cocoa/CocoaTopics.html;
+		refType = 0;
+	};
+	7FDE5FE603B767000000011D = {
+		fRef = 7FDE5FEF03B767000000011D;
+		glyphRangeLength = 0;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+	};
+	7FDE5FE703B767000000011D = {
+		fRef = 7FDE5FF003B767000000011D;
+		isa = PBXTextBookmark;
+		name = "GPGPassphrasePanel.m: 96";
+		rLen = 146;
+		rLoc = 2965;
+		rType = 0;
+		vrLen = 1192;
+		vrLoc = 2587;
+	};
+	7FDE5FE903B767000000011D = {
+		fRef = 7FDE5FED03B767000000011D;
+		glyphRangeLength = 0;
+		glyphRangeLocation = 0;
+		isa = PBXDocBookmark;
+	};
+	7FDE5FEA03B767000000011D = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
+		rLen = 0;
+		rLoc = 1139;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 691;
+	};
+	7FDE5FEB03B767000000011D = {
+		fRef = 7FDE5FEE03B767000000011D;
+		isa = PBXTextBookmark;
+		name = "GPGPassphrasePanel.m: 96";
+		rLen = 146;
+		rLoc = 2965;
+		rType = 0;
+		vrLen = 1192;
+		vrLoc = 2587;
+	};
+	7FDE5FED03B767000000011D = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/Sheets/index.html;
+		refType = 0;
+	};
+	7FDE5FEE03B767000000011D = {
+		isa = PBXFileReference;
+		name = GPGPassphrasePanel.m;
+		path = /Users/redbird/Development/macgpgcvs/GPGAppKit/GPGPassphrasePanel.m;
+		refType = 0;
+	};
+	7FDE5FEF03B767000000011D = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Developer/Documentation/Cocoa/TasksAndConcepts/ProgrammingTopics/Sheets/index.html;
+		refType = 0;
+	};
+	7FDE5FF003B767000000011D = {
+		isa = PBXFileReference;
+		name = GPGPassphrasePanel.m;
+		path = /Users/redbird/Development/macgpgcvs/GPGAppKit/GPGPassphrasePanel.m;
+		refType = 0;
+	};
+	7FEE9B2103C39FCC0000011D = {
+		fRef = F55C3AE303A3C2220100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
+		rLen = 0;
+		rLoc = 1138;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 936;
 	};
 	F527163803B3B7330100011D = {
 		fRef = F527162C03B3AE020100011D;
@@ -340,67 +492,13 @@
 	F527163E03B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
-	};
-	F527163F03B3B7330100011D = {
-		fRef = F55C3AE103A3C1AF0100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_IBActions.m: doIt:";
-		rLen = 0;
-		rLoc = 2737;
-		rType = 0;
-		vrLen = 1135;
-		vrLoc = 1842;
-	};
-	F527164003B3B7330100011D = {
-		fRef = F55C3AE603A3C2800100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_Utility.m: __VERSION__";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1203;
-		vrLoc = 3;
-	};
-	F527164103B3B7330100011D = {
-		fRef = F55C3AE303A3C2220100011D;
-		isa = PBXTextBookmark;
-		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
-		rLen = 0;
-		rLoc = 1595;
-		rType = 0;
-		vrLen = 1181;
-		vrLoc = 768;
-	};
-	F527164203B3B7330100011D = {
-		fRef = 2A37F4ACFDCFA73011CA2CEA;
-		isa = PBXTextBookmark;
-		name = "GPGDocument.m: init";
-		rLen = 0;
-		rLoc = 1271;
-		rType = 0;
-		vrLen = 1105;
-		vrLoc = 0;
 	};
 	F527164303B3B7330100011D = {
 		fRef = F55C3AE303A3C2220100011D;
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1504;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 2347;
@@ -424,20 +522,6 @@
 	F527164803B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527164903B3B7330100011D = {
 		fRef = 2A37F4ACFDCFA73011CA2CEA;
@@ -462,20 +546,6 @@
 	F527164B03B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527164C03B3B7330100011D = {
 		fRef = F55C3AE103A3C1AF0100011D;
@@ -492,7 +562,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1504;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 4577;
@@ -520,20 +590,6 @@
 	F527165003B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527165103B3B7330100011D = {
 		fRef = F55C3AE103A3C1AF0100011D;
@@ -550,7 +606,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1650;
+		rLoc = 1504;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 4577;
@@ -580,7 +636,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1595;
+		rLoc = 1501;
 		rType = 0;
 		vrLen = 1212;
 		vrLoc = 768;
@@ -588,27 +644,13 @@
 	F527165603B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527165703B3B7330100011D = {
 		fRef = F55C3AE303A3C2220100011D;
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1595;
+		rLoc = 1501;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
@@ -646,20 +688,6 @@
 	F527165B03B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527165C03B3B7330100011D = {
 		fRef = 2A37F4AEFDCFA73011CA2CEA;
@@ -684,20 +712,6 @@
 	F527165E03B3B7330100011D = {
 		isa = PBXTargetBookmark;
 		trg = 2A37F4C6FDCFA73011CA2CEA;
-		uiCtxt = {
-			TOCViewDetailVisibleRect = "{{0, 0}, {503, 441}}";
-			TOCViewExpandedItems = (
-				"com.apple.target-editor-pane.settings",
-				"com.apple.target-editor-pane.settings.simple",
-				"com.apple.target-editor-pane.info-plist",
-				"com.apple.target-editor-pane.info-plist.simple",
-				"com.apple.target-editor-pane.buildphases",
-			);
-			TOCViewMasterVisibleRect = "{{0, 0}, {198, 456}}";
-			TOCViewSelectedItems = (
-				PBXProductDocumentTypesSettingsModule,
-			);
-		};
 	};
 	F527165F03B3B7330100011D = {
 		fRef = F55C3AE103A3C1AF0100011D;
@@ -714,7 +728,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1595;
+		rLoc = 1501;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
@@ -764,20 +778,10 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1595;
+		rLoc = 1501;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 768;
-	};
-	F527166603B3B7330100011D = {
-		fRef = 2A37F4ACFDCFA73011CA2CEA;
-		isa = PBXTextBookmark;
-		name = "GPGDocument.m: writeFileWithData:ofType:";
-		rLen = 0;
-		rLoc = 3087;
-		rType = 0;
-		vrLen = 1217;
-		vrLoc = 2493;
 	};
 	F55C3BBC03A3EB340100011D = {
 		fileReference = F55C3AE303A3C2220100011D;
@@ -795,7 +799,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_GnuPGActions.m: context:passphraseForKey:again:";
 		rLen = 0;
-		rLoc = 1368;
+		rLoc = 1321;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 691;
@@ -810,10 +814,74 @@
 		vrLen = 822;
 		vrLoc = 809;
 	};
+	F584028403B3EB380100011D = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: writeFileWithData:ofType:";
+		rLen = 0;
+		rLoc = 3087;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 3220;
+	};
+	F584028503B3EB380100011D = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2737;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 1842;
+	};
+	F584028603B3EB380100011D = {
+		fRef = F55C3AE603A3C2800100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_Utility.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 3;
+	};
+	F584028703B3EB380100011D = {
+		fRef = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXTextBookmark;
+		name = "GPGDocument.m: writeFileWithData:ofType:";
+		rLen = 0;
+		rLoc = 3087;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 3220;
+	};
+	F584028803B3EB380100011D = {
+		fRef = F55C3AE103A3C1AF0100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_IBActions.m: doIt:";
+		rLen = 0;
+		rLoc = 2737;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 1842;
+	};
+	F584028903B3EB380100011D = {
+		fRef = F55C3AE603A3C2800100011D;
+		isa = PBXTextBookmark;
+		name = "GPGDocument_Utility.m: __VERSION__";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 3;
+	};
 	F5F548D3025219C30128824A = {
 		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
 		argumentStrings = (
 		);
+		configStateDict = {
+		};
 		debuggerPlugin = GDBDebugging;
 		dylibVariantSuffix = "";
 		enableDebugStr = 1;

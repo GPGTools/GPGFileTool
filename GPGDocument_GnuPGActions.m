@@ -32,15 +32,12 @@
     if (again)
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
-                  /*relativeToWindow: window*/];
+            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]];
     }
     else
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
-                  /*relativeToWindow: window*/];
-        //[ppanel runModalWithPrompt: [key userID]];
+            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]];
     }
 
     return [ppanel passphrase];
