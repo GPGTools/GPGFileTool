@@ -16,7 +16,7 @@
     
     [super init];
 
-    defaults = [NSUserDefaults standardUserDefaults];
+    defaults = [[NSUserDefaults standardUserDefaults] retain];
     
     gpg_data = nil;
 
@@ -43,7 +43,8 @@
     if (gpg_data)
         [gpg_data release];
     [types release];
-    
+    [defaults release];    
+
     [super dealloc];
 }
 
@@ -134,7 +135,7 @@
     NS_DURING
 #warning something in this next line causes a crash
         gpg_data = [[GPGData alloc] initWithData: data];
-        return YES;
+        NS_VALUERETURN(YES, BOOL);
     NS_HANDLER
         return NO;
     NS_ENDHANDLER
