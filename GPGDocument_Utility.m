@@ -42,24 +42,7 @@
 
 - (void)openFileWithFilename: (NSString *)filename
 {
-    NSTask *open_file_task = [[NSTask alloc] init];
-    NSMutableArray *args = [NSMutableArray array];
-
-    if ([[self fileType] isEqualTo: @"Data"])	{
-        [args addObject: filename];
-    }
-    else	{
-        [args addObject: @"-e"];
-        [args addObject: filename];
-    }
-
-    [open_file_task setLaunchPath: @"/usr/bin/open"];
-    [open_file_task setArguments: args];
-    [open_file_task launch];
-
-    [open_file_task waitUntilExit];  //usually runs right away, but a good measure
-
-    [open_file_task release];
+    [[NSWorkspace sharedWorkspace] openFile: filename];
 }
 
 - (void)showInFinder: (NSString *)filename

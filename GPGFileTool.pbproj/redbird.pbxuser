@@ -1245,7 +1245,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: 79";
 		rLen = 0;
-		rLoc = 2772;
+		rLoc = 2308;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 795;
@@ -2933,7 +2933,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: 45";
 		rLen = 0;
-		rLoc = 1837;
+		rLoc = 1622;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -2953,7 +2953,7 @@
 		isa = PBXTextBookmark;
 		name = "GPGDocument_Utility.m: 57";
 		rLen = 42;
-		rLoc = 2089;
+		rLoc = 1625;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1654;

@@ -54,6 +54,11 @@
     [[prefController window] makeKeyAndOrderFront:nil];
 }
 
+- (IBAction)showGPGPrefs: (id)sender
+{
+    [[NSWorkspace sharedWorkspace] openFile: @"/Library/PreferencePanes/GnuPG.prefPane"];
+}
+
 /*====================
  Application delegate
 ====================*/

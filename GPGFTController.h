@@ -46,5 +46,6 @@
 }
 
 - (IBAction)showPrefs: (id)sender;
+- (IBAction)showGPGPrefs: (id)sender;
 
 @end
