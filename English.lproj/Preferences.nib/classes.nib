@@ -6,12 +6,12 @@
             CLASS = GPGPrefController; 
             LANGUAGE = ObjC; 
             OUTLETS = {
-                action_list = NSPopUpButton; 
-                ckbox_armored = NSButton; 
-                ckbox_decrypt_and_verify = NSButton; 
-                ckbox_open_after = NSButton; 
-                ckbox_open_unless_cipher = NSButton; 
-                ckbox_show_after = NSButton; 
+                "action_list" = NSPopUpButton; 
+                "ckbox_armored" = NSButton; 
+                "ckbox_decrypt_and_verify" = NSButton; 
+                "ckbox_open_after" = NSButton; 
+                "ckbox_open_unless_cipher" = NSButton; 
+                "ckbox_show_after" = NSButton; 
                 window = NSWindow; 
             }; 
             SUPERCLASS = NSWindowController; 

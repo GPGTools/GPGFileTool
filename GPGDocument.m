@@ -112,11 +112,10 @@
 {
     NSData *orig_data = nil;
 
-#warning This feature keeps returning null, even though it shouldn't, so the open panel is always used right now
     NS_DURING
         //get the data from the original file
         orig_data = [NSData dataWithContentsOfFile:
-            [[self fileName] substringToIndex: [[self fileName] length] - 5]]; //strip the .sig extension
+            [[self fileName] substringToIndex: [[self fileName] length] - 4]]; //strip the .sig extension
         //NSLog([[self fileName] substringToIndex: [[self fileName] length] - 4]);
         //NSLog(@"%@", orig_data);
     NS_HANDLER
