@@ -34,5 +34,6 @@
 }
 
 - (IBAction)apply: (id)sender;
+- (IBAction)openAfterChanged: (id)sender;
 
 @end

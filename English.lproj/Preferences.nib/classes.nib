@@ -2,7 +2,7 @@
     IBClasses = (
         {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
         {
-            ACTIONS = {apply = id; }; 
+            ACTIONS = {apply = id; openAfterChanged = id; }; 
             CLASS = GPGPrefController; 
             LANGUAGE = ObjC; 
             OUTLETS = {

@@ -43,6 +43,8 @@
     [ckbox_showAfter setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
 
     [actionList selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
+
+    [self openAfterChanged: self];
 }
 
 - (BOOL)windowShouldClose: (id)sender
@@ -50,6 +52,12 @@
     [self apply: self];
 
     return YES;
+}
+
+- (void)dealloc
+{
+    [defaults release];
+    [super dealloc];
 }
 
 - (IBAction)apply: (id)sender
@@ -62,13 +70,19 @@
 
     [defaults setInteger: [actionList indexOfSelectedItem] forKey: @"user_default_action"];
 
-    [defaults synchronize];    
+    [defaults synchronize];
 }
 
-- (void)dealloc
+- (IBAction)openAfterChanged: (id)sender
 {
-    [defaults release];
-    [super dealloc];
+    if ([ckbox_openAfter state] == NSOffState)
+    {
+        [ckbox_openUnlessCipher setEnabled: NO];
+    }
+    else
+    {
+        [ckbox_openUnlessCipher setEnabled: YES];
+    }
 }
 
 @end
