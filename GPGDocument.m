@@ -21,8 +21,6 @@
     
     gpg_data = nil;
 
-    ppanel = [GPGPassphrasePanel panel];
-
     //needed later on for writing files
     objs = [NSMutableArray array];
     keys = [NSMutableArray array];
@@ -116,8 +114,8 @@
 
         [op setTreatsFilePackagesAsDirectories: YES];
         [op setAllowsMultipleSelection: NO];
-        [op setTitle: @"Select File to Verify against"];
-        [op setPrompt: @"Select"];
+        [op setTitle: NSLocalizedString(FTVerifyFileFindTitle, nil)];
+        [op setPrompt: NSLocalizedString(FTVerifyFileFindPrompt, nil)];
 
         if([op runModal] == NSOKButton)	{
             orig_data = [NSData dataWithContentsOfFile: [op filename]];
@@ -303,22 +301,20 @@
 @implementation GPGDocument (GnuPGActions)
 
 - (NSString *) context:(GPGContext *)context passphraseForDescription:(NSString *)description userInfo:(NSMutableDictionary *)userInfo {
-    NSString *pass;
-
-    //NSLog(@"%@", description);
-    //[panel resetToDefaults];
-    // This lot should be run as a sheet using the commented out code below,
-    // but needs to run modally, hence the use of runModalFor...
-    //[[GPGPassphrasePanel passphrasePanel] beginSheetWithPrompt: [context keyIdentifierFromMessageString:description]
-    //modalForWindow: [GPGPassphrasePanel passphrasePanel]
-    //modalDelegate: self
-    //didEndSelector: nil
-    //contextInfo: nil];
-    [ppanel runModalWithPrompt: description];
-    pass = [ppanel passphrase];
-    [ppanel resetToDefaults];
+    GPGPassphrasePanel *ppanel = [GPGPassphrasePanel panel];
+    NSString *new_string;
+    NSScanner *scanner = [NSScanner scannerWithString:description];
     
-    return pass;
+    [scanner scanUpToString:@"\n" intoString:nil];
+    [scanner scanUpToString:@" " intoString:nil];
+    [scanner scanString:@" " intoString:nil];
+
+    if (![scanner scanUpToString:@"\n" intoString:&new_string])
+        new_string = [NSString string];
+
+    [ppanel runModalWithPrompt: [NSString stringWithFormat: @"%@", new_string]];
+
+    return [ppanel passphrase];
 }
 
 - (GPGRecipients *) get_recipients
@@ -357,7 +353,6 @@
 
     [panel resetToDefaults];
     [panel setMinimumKeyValidity:GPGValidityUltimate];
-    //[panel setPrompt:NSLocalizedString(GDTSignerSelectionPrompt,GDTSignerSelectionPrompt)];
     [panel setListsSecretKeys:YES];
 
     [panel runModalForKeyWildcard:nil usingContext:context];
@@ -365,36 +360,81 @@
     return [panel selectedKey];
 }
 
-/*
- //currently unused function
-- (void)show_verification_status: (GPGSignatureStatus)status with_keys: (NSArray *) signees
+- (void)show_verification_status: (NSArray *) signatures
 {
-    GPGKey *signee = [signees objectAtIndex: 0];
-    
-    switch (status)	{
-        case 0:
-        case 1:
-        case 2:
-            NSRunInformationalAlertPanel(@"Signature Status", @"%d signature from:\n\n%@\n%@\n%@", nil, nil, nil, status, [signee userID], [signee fingerprint], [signee creationDate]);
-            break;
-        case 3:
-            NSRunInformationalAlertPanel(@"Signature Status", @"No such key in your keyring.", nil, nil, nil);
-            break;
-        case 4:
-            NSRunInformationalAlertPanel(@"Signature Status", @"No signature on data.", nil, nil, nil);
-            break;
-        case 5:
-            NSRunInformationalAlertPanel(@"Signature Status", @"An error occured while trying to verify the data.", nil, nil, nil);
-            break;
-        case 6:
-            NSRunInformationalAlertPanel(@"Signature Status", @"", nil, nil, nil, status, [signee userID], [signee fingerprint], [signee creationDate]);
-            break;
-        default:
-            NSRunInformationalAlertPanel(@"Signature Status", @"Invalid signature status.", nil, nil, nil);
-            break;
+    if ([signatures count] == 0)	{
+        NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil);
+    }
+    else if ([signatures count] == 1)	{
+        GPGSignature *sig;
+        GPGKey *sig_key;
+        sig = [signatures objectAtIndex: 0];
+        sig_key = [sig key];
+
+        switch ([sig status])	{
+            case GPGSignatureStatusGood:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                break;
+            case GPGSignatureStatusBad:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTBadSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                break;
+            case GPGSignatureStatusGoodButExpired:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButExpiredSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                break;
+            case GPGSignatureStatusGoodButKeyExpired:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                break;
+            case GPGSignatureStatusNoKey:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoKeySigStatus, nil), nil, nil, nil, [sig fingerprint]);
+                break;
+            case GPGSignatureStatusNoSignature:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil);
+                break;
+            default:
+                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTErrorSigStatus, nil), nil, nil, nil);
+                break;
+        }
+    }
+    else	{
+        int i;
+        NSMutableArray *keys = [NSMutableArray array];
+        NSMutableString *statuses = [NSMutableString string];        
+
+        for (i = 0; i < [signatures count]; i++)	{
+            [keys addObject: [(GPGSignature *)[signatures objectAtIndex: i] key]];
+        }
+            
+        for (i = 0; i < [signatures count]; i++)	{
+            if (i > 0)
+                [statuses appendString: NSLocalizedString(FTSigSeparator, nil)];
+            switch ([[signatures objectAtIndex: i] status])	{
+                case GPGSignatureStatusGood:
+                    [statuses appendFormat: NSLocalizedString(FTGoodSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    break;
+                case GPGSignatureStatusBad:
+                    [statuses appendFormat: NSLocalizedString(FTBadSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    break;
+                case GPGSignatureStatusGoodButExpired:
+                    [statuses appendFormat: NSLocalizedString(FTGoodButExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    break;
+                case GPGSignatureStatusGoodButKeyExpired:
+                    [statuses appendFormat: NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), [[signatures objectAtIndex: i] creationDate], GPGValidityDescription([[signatures objectAtIndex: i] validity]), [[keys objectAtIndex: i] userID], [[keys objectAtIndex: i] fingerprint]];
+                    break;
+                case GPGSignatureStatusNoKey:
+                    [statuses appendFormat: NSLocalizedString(FTNoKeySigStatus, nil), [[signatures objectAtIndex: i] fingerprint]];
+                    break;
+                case GPGSignatureStatusNoSignature:
+                    [statuses appendFormat: NSLocalizedString(FTNoSignatureSigStatus, nil)];
+                    break;
+                default:
+                    [statuses appendFormat: NSLocalizedString(FTErrorSigStatus, nil)];
+                    break;
+            }            
+        }
+        
+        NSRunInformationalAlertPanel(NSLocalizedString(FTMultipleSignatureStatuses, nil), statuses, nil, nil, nil);
     }
 }
-*/
 
 - (NSData *)encrypt_and_sign
 {
@@ -467,9 +507,10 @@
             [context setUsesArmor: [ckbox_armored state] ? YES : NO];
             [context addSignerKey: signer];
             [context setPassphraseDelegate: self];
-
+            
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeNormal]
                 data];
+            [context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];
@@ -496,6 +537,7 @@
 
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeDetach]
                 data];
+            [context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];
@@ -522,6 +564,7 @@
 
             returned_data = [[context signedData:gpg_data signatureMode: GPGSignatureModeClear]
                 data];
+            [context wait: YES];
 
         NS_HANDLER
             [self handle_exception: localException];
@@ -539,16 +582,13 @@
     
     NS_DURING
         GPGContext *context = [[[GPGContext alloc] init] autorelease];
-        GPGKey *signee;
+        //GPGKey *signee;
 
         [context setPassphraseDelegate: self];
 
         returned_data = [[context decryptedData: gpg_data signatureStatus: &sig_status] data];
-        signee = [context keyOfSignatureAtIndex: 0];
 
-        NSRunInformationalAlertPanel(@"Signature Status", @"Status %d signature from:\n\n%@\n%@\n%@", nil, nil, nil, sig_status, [signee userID], [signee fingerprint], [signee creationDate]);
-        /*NSBeginInformationalAlertSheet(@"Signature Status", nil, nil, nil, window, nil, nil, nil, nil,
-            @"%@", &sig_status);*/;
+        [self show_verification_status: [context signatures]];
     NS_HANDLER
         [self handle_exception: localException];
     NS_ENDHANDLER
@@ -575,20 +615,14 @@
 
 - (NSData *)verify
 {
-    GPGSignatureStatus sig_status;
-
     NS_DURING
         GPGContext *context = [[[GPGContext alloc] init] autorelease];
-        GPGKey *signee;
 
         [context setPassphraseDelegate: self];
 
-        sig_status = [context verifySignedData: gpg_data];
-        signee = [context keyOfSignatureAtIndex: 0];
+        [context verifySignedData: gpg_data];
 
-        NSRunInformationalAlertPanel(@"Signature Status", @"Status %d signature from:\n\n%@\n%@\nCreated: %@", nil, nil, nil, sig_status, [signee userID], [signee fingerprint], [signee creationDate]);
-        /*NSBeginInformationalAlertSheet(@"Signature Status", nil, nil, nil, window, nil, nil, nil, nil,
-            @"%@", &sig_status);*/;
+        [self show_verification_status: [context signatures]];
     NS_HANDLER
         [self handle_exception: localException];
     NS_ENDHANDLER
@@ -602,7 +636,6 @@
 
     NS_DURING
         GPGContext *context = [[[GPGContext alloc] init] autorelease];
-        GPGKey *signee;
         GPGData *orig_data;
 
         orig_data = [[[GPGData alloc] initWithData: [self data_for_detached_signature]] autorelease];
@@ -610,11 +643,8 @@
         [context setPassphraseDelegate: self];
 
         sig_status = [context verifySignatureData: gpg_data againstData: orig_data];
-        signee = [context keyOfSignatureAtIndex: 0];
 
-        NSRunInformationalAlertPanel(@"Signature Status", @"Status %d signature from:\n\n%@\n%@\nCreated: %@", nil, nil, nil, sig_status, [signee userID], [signee fingerprint], [signee creationDate]);
-        /*NSBeginInformationalAlertSheet(@"Signature Status", nil, nil, nil, window, nil, nil, nil, nil,
-            @"%@", &sig_status);*/;
+        [self show_verification_status: [context signatures]];
     NS_HANDLER
         [self handle_exception: localException];
     NS_ENDHANDLER
@@ -629,7 +659,7 @@
 - (void)handle_exception: (NSException *) exception
 {
     //NSLog(@"an error occured:  %@", exception);
-    NSRunAlertPanel(@"Error", @"An error occured:  %@", nil, nil, nil, exception);
+    NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
 }
 
 @end

@@ -2,7 +2,6 @@
 //  LocalizableStrings.m
 //  Mac_GPG_Keys
 //
-//  Created by Simon Stapleton on Sat Feb 09 2002.
 //  Copyright (C) 2001 Mac GPG Project.
 //
 //  This code is free software; you can redistribute it and/or modify it under
@@ -21,6 +20,21 @@
 //  More info at <http://macgpg.sourceforge.net/> or <macgpg@rbisland.cx>
 //
 
-#import "PKLocalizableStrings.h"
+#import "LocalizableStrings.h"
 
-NSString * PKYes = @"Yes";
+NSString * FTVerifyFileFindTitle = @"FTVerifyFileFindTitle";
+NSString * FTVerifyFileFindPrompt = @"FTVerifyFileFindPrompt";
+
+NSString * FTSignatureStatus = @"FTSignatureStatus";
+NSString * FTMultipleSignatureStatuses = @"FTMultipleSignatureStatuses";
+NSString * FTGoodSigStatus = @"FTGoodSigStatus";
+NSString * FTBadSigStatus = @"FTBadSigStatus";
+NSString * FTGoodButExpiredSigStatus = @"FTGoodButExpiredSigStatus";
+NSString * FTGoodButKeyExpiredSigStatus = @"FTGoodButKeyExpiredSigStatus";
+NSString * FTNoKeySigStatus = @"FTNoKeySigStatus";
+NSString * FTNoSignatureSigStatus = @"FTNoSignatureSigStatus";
+NSString * FTErrorSigStatus = @"FTErrorSigStatus";
+NSString * FTSigSeparator = @"FTSigSeparator";
+
+NSString * FTErrorTitle = @"FTErrorTitle";
+NSString * FTErrorMessage = @"FTErrorMessage";

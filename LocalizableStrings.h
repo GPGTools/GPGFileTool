@@ -23,4 +23,19 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * Yes;
+extern NSString * FTVerifyFileFindTitle;
+extern NSString * FTVerifyFileFindPrompt;
+
+extern NSString * FTSignatureStatus;
+extern NSString * FTMultipleSignatureStatuses;
+extern NSString * FTGoodSigStatus;
+extern NSString * FTBadSigStatus;
+extern NSString * FTGoodButExpiredSigStatus;
+extern NSString * FTGoodButKeyExpiredSigStatus;
+extern NSString * FTNoKeySigStatus;
+extern NSString * FTNoSignatureSigStatus;
+extern NSString * FTErrorSigStatus;
+extern NSString * FTSigSeparator;
+
+extern NSString * FTErrorTitle;
+extern NSString * FTErrorMessage;

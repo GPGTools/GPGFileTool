@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Foundation/NSDebug.h>
 
 int main(int argc, const char *argv[])
 {

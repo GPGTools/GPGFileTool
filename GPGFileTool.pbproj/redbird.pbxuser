@@ -7,6 +7,8 @@
 			2A37F4C6FDCFA73011CA2CEA,
 		);
 		breakpoints = (
+			F5F8356302EC69A30128824A,
+			F540E45B02FF4A78017CFA49,
 		);
 		perUserDictionary = {
 			PBXWorkspaceConfiguration = {
@@ -23,14 +25,15 @@
 						SplitCount = 1;
 						Tab0 = {
 							Debugger = {
+								ActiveTab = 1;
 								Frame = "{{0, 0}, {781, 208}}";
 								Split0 = {
-									Frame = "{{0, 24}, {781, 184}}";
+									Frame = "{{0, 74}, {781, 134}}";
 									Split0 = {
-										Frame = "{{0, 0}, {382, 184}}";
+										Frame = "{{0, 0}, {382, 134}}";
 									};
 									Split1 = {
-										Frame = "{{391, 0}, {390, 184}}";
+										Frame = "{{391, 0}, {390, 134}}";
 									};
 									SplitCount = 2;
 								};
@@ -39,7 +42,7 @@
 									Frame = "{{0, 0}, {800, 50}}";
 								};
 								Tab1 = {
-									Frame = "{{0, 0}, {800, 50}}";
+									Frame = "{{0, 0}, {781, 50}}";
 								};
 								TabCount = 2;
 							};
@@ -91,7 +94,7 @@
 					};
 					TabCount = 5;
 				};
-				WindowLocation = "{0, 10}";
+				WindowLocation = "{-1, 10}";
 			};
 		};
 		wantsIndex = 1;
@@ -110,6 +113,17 @@
 			);
 		};
 	};
+	F540E45B02FF4A78017CFA49 = {
+		fileReference = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXFileBreakpoint;
+		lineNumber = 589;
+		state = 1;
+	};
+	F571FE8D02B61F450128824A = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 208}, {750, 502}}";
+		};
+	};
 	F5F548D3025219C30128824A = {
 		activeArgIndex = 2147483647;
 		argumentStrings = (
@@ -118,11 +132,22 @@
 		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
 		);
 		isa = PBXExecutable;
 		shlibInfoDictList = (
 		);
 		sourceDirectories = (
 		);
+	};
+	F5F8356302EC69A30128824A = {
+		fileReference = 2A37F4ACFDCFA73011CA2CEA;
+		isa = PBXFileBreakpoint;
+		lineNumber = 317;
+		state = 1;
 	};
 }

@@ -16,7 +16,6 @@
     NSUserDefaults *defaults;
     GPGData *gpg_data;
     NSDictionary *types;
-    GPGPassphrasePanel *ppanel;
     
     IBOutlet NSTextField *path_to_file;
     IBOutlet NSButton *ckbox_armored, *ckbox_open_after, *ckbox_show_after;
@@ -41,7 +40,7 @@
 
 - (GPGRecipients *) get_recipients;
 - (GPGKey *) get_signer;
-//- (void)show_verification_status: (GPGSignatureStatus)status with_keys: (NSArray *) signees;
+- (void)show_verification_status: (NSArray *) signatures;
 
 - (NSData *)encrypt_and_sign;
 - (NSData *)encrypt;

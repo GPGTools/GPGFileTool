@@ -51,7 +51,7 @@
 //104
 		1058C7A6FEA54F5311CA2CBB = {
 			children = (
-				F54CC4140252401F0128824A,
+				F5C180B502FD923701000104,
 				1058C7A7FEA54F5311CA2CBB,
 				F5D7EA360285C1C70128824A,
 			);
@@ -191,18 +191,12 @@
 		};
 		2A37F4B4FDCFA73011CA2CEA = {
 			children = (
-				2A37F4B5FDCFA73011CA2CEA,
+				F5C8211C02FF680901000104,
 				F5516F2302B7E16E0128824A,
 			);
 			isa = PBXVariantGroup;
 			name = GPGDocument.nib;
 			path = "";
-			refType = 4;
-		};
-		2A37F4B5FDCFA73011CA2CEA = {
-			isa = PBXFileReference;
-			name = GPGDocument.nib;
-			path = English.lproj/GPGDocument.nib;
 			refType = 4;
 		};
 		2A37F4B6FDCFA73011CA2CEA = {
@@ -266,7 +260,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -391,11 +385,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.8.1</string>
+	<string>0.8.8</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>13</string>
+	<string>17</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -411,6 +405,7 @@
 				2A37F4C8FDCFA73011CA2CEA,
 				F530C425025276AC0128824A,
 				F511FE0002629B770128824A,
+				F5C8211A02FF5E2D01000104,
 			);
 			isa = PBXHeadersBuildPhase;
 			name = Headers;
@@ -429,6 +424,7 @@
 				089C1661FE840EACC02AAC07,
 				F511FE0102629B770128824A,
 				F5A9BC1802B6A2620128824A,
+				F5C8211902FF5BDF01000104,
 			);
 			isa = PBXResourcesBuildPhase;
 			name = "Bundle Resources";
@@ -440,6 +436,7 @@
 				2A37F4D0FDCFA73011CA2CEA,
 				F530C426025276AC0128824A,
 				F511FE0202629B770128824A,
+				F5C8211B02FF5E2D01000104,
 			);
 			isa = PBXSourcesBuildPhase;
 			name = Sources;
@@ -464,8 +461,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1058C7A9FEA54F5311CA2CBB,
-				F5933614025A0F1B0128824A,
 				F5D7EA370285C1C70128824A,
+				F5C180B602FD923701000104,
 			);
 			isa = PBXFrameworksBuildPhase;
 			name = "Frameworks & Libraries";
@@ -575,12 +572,6 @@
 			settings = {
 			};
 		};
-		F54CC4140252401F0128824A = {
-			isa = PBXFrameworkReference;
-			name = GPGME.framework;
-			path = ../GPGME/build/GPGME.framework;
-			refType = 2;
-		};
 		F5516F2002B7E1140128824A = {
 			isa = PBXFileReference;
 			path = "Bitte lesen.rtf";
@@ -668,28 +659,16 @@
 			path = English.lproj/Localizable.strings;
 			refType = 4;
 		};
-		F5933614025A0F1B0128824A = {
-			fileRef = F54CC4140252401F0128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
 		F5933615025A0F1B0128824A = {
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F5933616025A0F1B0128824A,
+				F5C180B702FD924601000104,
 				F5D7EA380285C1C70128824A,
 			);
 			isa = PBXCopyFilesBuildPhase;
 			name = "Copy Files";
-		};
-		F5933616025A0F1B0128824A = {
-			fileRef = F54CC4140252401F0128824A;
-			isa = PBXBuildFile;
-			settings = {
-			};
 		};
 		F5A9BC1602B6A2620128824A = {
 			children = (
@@ -712,6 +691,48 @@
 			isa = PBXBuildFile;
 			settings = {
 			};
+		};
+		F5C180B502FD923701000104 = {
+			isa = PBXFrameworkReference;
+			name = GPGME.framework;
+			path = ../GPGME/build/GPGME.framework;
+			refType = 2;
+		};
+		F5C180B602FD923701000104 = {
+			fileRef = F5C180B502FD923701000104;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C180B702FD924601000104 = {
+			fileRef = F5C180B502FD923701000104;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C8211902FF5BDF01000104 = {
+			fileRef = F571FE8C02B61F450128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C8211A02FF5E2D01000104 = {
+			fileRef = F571FE8802B61E510128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C8211B02FF5E2D01000104 = {
+			fileRef = F571FE8902B61E510128824A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C8211C02FF680901000104 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/GPGDocument.nib;
+			refType = 4;
 		};
 		F5D7EA360285C1C70128824A = {
 			isa = PBXFrameworkReference;

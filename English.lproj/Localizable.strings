@@ -1,1 +1,16 @@
-Yes = "Yes";
+FTVerifyFileFindTitle = "Select File to Verify against";
+FTVerifyFileFindPrompt = "Select";
+
+FTSignatureStatus = "Signature Status";
+FTMultipleSignatureStatuses = "Multiple Signature Statuses";
+FTGoodSigStatus = "Good signature made %@ with %@ validity from:\n\n%@\n%@";
+FTBadSigStatus = "Bad signature made %@ with %@ validity from:\n\n%@\n%@";
+FTGoodButExpiredSigStatus = "Good, but EXPIRED, signature made %@ with %@ validity from:\n\n%@\n%@";
+FTGoodButKeyExpiredSigStatus = "Good signature made %@ with %@ validity from EXPIRED key:\n\n%@\n%@";
+FTNoKeySigStatus = "No such key in your keyring:\n\n%@.";
+FTNoSignatureSigStatus = "No signature on data.";
+FTErrorSigStatus = "An error occured while trying to verify the data.";
+FTSigSeparator = "\n------------------------\n";
+
+FTErrorTitle = "Error";
+FTErrorMessage = "An error occured:  %@";
