@@ -28,7 +28,7 @@
 
 - (NSString *) context:(GPGContext *)context passphraseForKey:(GPGKey *)key again:(BOOL)again {
     GPGPassphrasePanel *ppanel = [GPGPassphrasePanel panel];
-
+    
     if (again)
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
@@ -82,6 +82,7 @@
     [panel setListsSecretKeys:YES];
 
     [panel runModalForKeyWildcard:nil usingContext:context];
+
     /*
     [panel beginSheetForKeyWildcard: nil
                        usingContext: context
@@ -89,7 +90,17 @@
                       modalDelegate: nil
                      didEndSelector: nil
                         contextInfo: nil];
-     */
+
+    NSLog(@"%@", [window attachedSheet]);
+
+    while ( [window attachedSheet] )
+    {
+        NSAutoreleasePool *sheetpool;
+        sheetpool = [[NSAutoreleasePool alloc] init];
+        [NSThread sleepUntilData: [NSDate dateWithTimeIntervalSinceNow: 1.0]];
+        [sheetpool release];
+    }
+    */
     
     return [panel selectedKey];
 }

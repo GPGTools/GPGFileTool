@@ -47,11 +47,21 @@
 	<key>NoteColumn</key>
 	<string>8d8fe76c3d08b212581e824a</string>
 	<key>NoteHeight</key>
-	<real>1.850000e+02</real>
+	<integer>185</integer>
 	<key>Other Information</key>
 	<dict>
-		<key>NotesHeight</key>
-		<integer>185</integer>
+		<key>Page Layout</key>
+		<data>
+		BAt0eXBlZHN0cmVhbYED6IQBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVj
+		dACFkoSEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCU
+		hAFpCJKEhIQITlNTdHJpbmcBlIQBKw5OU0JvdHRvbU1hcmdpboaShISECE5T
+		TnVtYmVyAISEB05TVmFsdWUAlIQBKoSEAWadJIaShJmZFk5TSG9yaXpvbnRh
+		bGx5Q2VudGVyZWSGkoSbnISEAXOeAIaShJmZDE5TTGVmdE1hcmdpboaShJuc
+		nZ0khpKEmZkNTlNSaWdodE1hcmdpboaShJucnZ0khpKEmZkUTlNWZXJ0aWNh
+		bFBhZ2luYXRpb26GkoSbnKCeAIaShJmZFE5TVmVydGljYWxseUNlbnRlcmVk
+		hpKfkoSZmQtOU1RvcE1hcmdpboaShJucnZ0khpKEmZkVTlNIb3Jpem9uYWxQ
+		YWdpbmF0aW9uhpKEm5ygngCGhoY=
+		</data>
 		<key>SpellCheckingEnabled</key>
 		<true/>
 	</dict>
@@ -67,7 +77,10 @@
 					<dict>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -107,7 +120,10 @@ uid and/or the short key ID.}</string>
 					<dict>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -121,7 +137,10 @@ uid and/or the short key ID.}</string>
 					<dict>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -135,7 +154,10 @@ uid and/or the short key ID.}</string>
 					<dict>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -149,7 +171,10 @@ uid and/or the short key ID.}</string>
 					<dict>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -160,10 +185,30 @@ uid and/or the short key ID.}</string>
 						<key>State</key>
 						<integer>1</integer>
 					</dict>
+					<dict>
+						<key>Cols</key>
+						<array>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs24 \cf0 show in Finder after shows wrong file}</string>
+						</array>
+						<key>State</key>
+						<integer>1</integer>
+					</dict>
 				</array>
 				<key>Cols</key>
 				<array>
-					<string>*empty*</string>
+					<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 					<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -185,25 +230,31 @@ uid and/or the short key ID.}</string>
 							<dict>
 								<key>Cols</key>
 								<array>
-									<string>*empty*</string>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 									<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 use sheets}</string>
+\f0\fs24 \cf0 use sheets}</string>
 								</array>
 							</dict>
 						</array>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 For 1.0}</string>
+\f0\fs24 \cf0 For 1.0}</string>
 						</array>
 						<key>Expanded</key>
 						<true/>
@@ -214,49 +265,61 @@ uid and/or the short key ID.}</string>
 							<dict>
 								<key>Cols</key>
 								<array>
-									<string>*empty*</string>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 									<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 tar directories automatically}</string>
+\f0\fs24 \cf0 tar directories automatically}</string>
 								</array>
 							</dict>
 							<dict>
 								<key>Cols</key>
 								<array>
-									<string>*empty*</string>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 									<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 applescriptable}</string>
+\f0\fs24 \cf0 applescriptable}</string>
 								</array>
 							</dict>
 							<dict>
 								<key>Cols</key>
 								<array>
-									<string>*empty*</string>
+									<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 									<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 wipe files after encrypt/wipe any random file}</string>
+\f0\fs24 \cf0 wipe files after encrypt/wipe any random file}</string>
 								</array>
 							</dict>
 						</array>
 						<key>Cols</key>
 						<array>
-							<string>*empty*</string>
+							<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 							<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\f0\fs24 \cf2 For 2.0}</string>
+\f0\fs24 \cf0 For 2.0}</string>
 						</array>
 						<key>Expanded</key>
 						<true/>
@@ -264,7 +327,10 @@ uid and/or the short key ID.}</string>
 				</array>
 				<key>Cols</key>
 				<array>
-					<string>*empty*</string>
+					<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 					<string>{\rtf1\mac\ansicpg10000\cocoartf102
 {\fonttbl\f0\fswiss\fcharset77 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -278,8 +344,14 @@ uid and/or the short key ID.}</string>
 		</array>
 		<key>Cols</key>
 		<array>
-			<string>*empty*</string>
-			<string>*empty*</string>
+			<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
+			<string>{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+}</string>
 		</array>
 		<key>Expanded</key>
 		<true/>
@@ -294,6 +366,8 @@ uid and/or the short key ID.}</string>
 				<key>type</key>
 				<string>None</string>
 			</dict>
+			<key>ShouldAllowSorting</key>
+			<true/>
 			<key>TextColor</key>
 			<dict>
 				<key>b</key>
@@ -317,6 +391,8 @@ uid and/or the short key ID.}</string>
 				<key>type</key>
 				<string>None</string>
 			</dict>
+			<key>ShouldAllowSorting</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Heading</key>
@@ -324,6 +400,8 @@ uid and/or the short key ID.}</string>
 				<key>type</key>
 				<string>None</string>
 			</dict>
+			<key>ShouldAllowSorting</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Heading</key>
@@ -331,9 +409,11 @@ uid and/or the short key ID.}</string>
 				<key>type</key>
 				<string>None</string>
 			</dict>
+			<key>ShouldAllowSorting</key>
+			<true/>
 		</dict>
 	</array>
 	<key>Version</key>
-	<integer>5</integer>
+	<integer>6</integer>
 </dict>
 </plist>

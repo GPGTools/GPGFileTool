@@ -81,56 +81,22 @@
         BOOL wrote_file = NO;
         wrote_file = [self writeFileWithData: returned_data ofType: returned_type];
         if (wrote_file)	{
-            if ([ckbox_openAfter state])
-                [self openFile: self];
             if ([ckbox_showAfter state])
-                [self showFileInFinder: self];
+                [self showInFinder: outFilename];
+            if ([ckbox_openAfter state])
+                [self openFileWithFilename: outFilename];
         }
     }
 }
 
 - (IBAction)openFile:(id)sender
 {
-    NSTask *open_file_task = [[NSTask alloc] init];
-    NSMutableArray *args = [NSMutableArray array];
-
-    if ([[self fileType] isEqualTo: @"Data"])	{
-        [args addObject: [self fileName]];
-    }
-    else	{
-        [args addObject: @"-e"];
-        [args addObject: [self fileName]];
-    }
-
-    [open_file_task setLaunchPath: @"/usr/bin/open"];
-    [open_file_task setArguments: args];
-    [open_file_task launch];
-
-    [open_file_task waitUntilExit];  //usually runs right away, but a good measure
-
-    [open_file_task release];
+    [self openFileWithFilename: [self fileName]];
 }
 
 - (IBAction)showFileInFinder:(id)sender
 {
-    NSTask *open_file_task = [[NSTask alloc] init];
-    NSMutableArray *args = [NSMutableArray array];
-    NSMutableString *script = [NSMutableString string];
-
-    [script appendString: @"tell application \"Finder\" to (reveal file \""];
-    [script appendString: [[self fileName] unixAsMacPath]];
-    [script appendString: @"\") activate"];
-
-    [args addObject: @"-e"];
-    [args addObject: script];
-
-    [open_file_task setLaunchPath: @"/usr/bin/osascript"];
-    [open_file_task setArguments: args];
-    [open_file_task launch];
-
-    [open_file_task waitUntilExit]; //good since this can take several seconds
-
-    [open_file_task release];
+    [self showInFinder: [self fileName]];
 }
 
 @end

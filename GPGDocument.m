@@ -61,7 +61,7 @@
     if (gpgData)
         [gpgData release];
     [types release];
-    [defaults release];    
+    [defaults release];
 
     [super dealloc];
 }
@@ -99,6 +99,8 @@
 
         if([sp runModalForDirectory: nil file: new_filename] == NSOKButton){
             [data writeToFile:[sp filename] atomically:NO];
+            [outFilename release];
+            outFilename = [[sp filename] copy];
             NS_VALUERETURN(YES, BOOL);
         }
         else

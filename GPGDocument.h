@@ -30,6 +30,7 @@
     NSUserDefaults *defaults;
     GPGData *gpgData;
     NSDictionary *types;
+    NSString *outFilename;
     
     IBOutlet NSTextField *pathToFile;
     IBOutlet NSButton *ckbox_armored, *ckbox_openAfter, *ckbox_showAfter;
@@ -72,5 +73,7 @@
 @interface GPGDocument (Utility)
 
 - (void)handleException: (NSException *) exception;
+- (void)openFileWithFilename: (NSString *)filename;
+- (void)showInFinder: (NSString *)filename;
 
 @end
