@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IBFramework Version</key>
-	<string>286.0</string>
+	<string>291.0</string>
 	<key>IBGroupedObjects</key>
 	<dict>
 		<key>0</key>
@@ -14,11 +14,7 @@
 	</dict>
 	<key>IBLastGroupID</key>
 	<string>2</string>
-	<key>IBOpenObjects</key>
-	<array>
-		<integer>5</integer>
-	</array>
 	<key>IBSystem Version</key>
-	<string>6F21</string>
+	<string>6I32</string>
 </dict>
 </plist>
