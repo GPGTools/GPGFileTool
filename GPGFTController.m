@@ -74,10 +74,28 @@
  Application notifications
 ====================*/
 
-- (void)applicationDidFinishLaunching:(NSNotification *)notification
+- (void)applicationDidFinishLaunching: (NSNotification *)notification
 {
-    if ([[NSUserDefaults standardUserDefaults] integerForKey: @"launch_behavior"] == GPGFT_LBOpen && [[NSApp windows] count] == 0)
-        [fileMenu performActionForItemAtIndex: 0];
+    NSDocumentController *dc = [NSDocumentController sharedDocumentController];
+    
+    if ([[NSUserDefaults standardUserDefaults] integerForKey: @"activation_behavior"] == GPGFT_ABOpenLaunchOnly
+        &&
+        [[dc documents] count] == 0)
+    {
+        [dc openDocument: self];
+    }
+}
+
+- (void)applicationDidBecomeActive: (NSNotification *)notification
+{
+    NSDocumentController *dc = [NSDocumentController sharedDocumentController];
+    
+    if ([[NSUserDefaults standardUserDefaults] integerForKey: @"activation_behavior"] == GPGFT_ABOpen
+        &&
+        [[dc documents] count] == 0)
+    {
+        [dc openDocument: self];
+    }
 }
     
 @end

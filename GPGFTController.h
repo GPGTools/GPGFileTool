@@ -33,6 +33,7 @@
  - default_decrypt_and_verify: (BOOL) whether to decrypt and verify by default (rather than decyrypt only)
  - select_single_recipient: (BOOL) display single recipient selection panel
  - select_single_singer: (BOOL) display single signer selection panel
+ - activation_behavior: (int) take an action from GPGFTActivationBehavior upon activation
 */
 
 #import <Cocoa/Cocoa.h>

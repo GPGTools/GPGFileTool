@@ -36,7 +36,7 @@
 
 - (void)awakeFromNib
 {
-    int launchBehaviorRow;
+    int activationBehaviorRow;
     
     //defaults
     [ckbox_armored setState: [defaults boolForKey: @"default_armored"] ? NSOnState : NSOffState];
@@ -52,20 +52,20 @@
     [ckbox_singleSigner setState: [defaults boolForKey: @"select_single_signer"] ? NSOnState : NSOffState];
 
     //launch behavior
-    launchBehaviorRow = [defaults integerForKey: @"launch_behavior"];
-    switch (launchBehaviorRow)
+    activationBehaviorRow = [defaults integerForKey: @"activation_behavior"];
+    switch (activationBehaviorRow)
     {
-        case GPGFT_LBOpen:
-            launchBehaviorRow = 1;
+        case GPGFT_ABOpen:
+            activationBehaviorRow = 1;
             break;
-        case GPGFT_LBDoNothing:
-            launchBehaviorRow = 0;
+        case GPGFT_ABDoNothing:
+            activationBehaviorRow = 0;
             break;
         default:
             //just use the setting
             break;
     }
-    [launchBehaviors selectCellAtRow: launchBehaviorRow column: 0];
+    [activationBehaviors selectCellAtRow: activationBehaviorRow column: 0];
 
     [self openAfterChanged: self];
 }
@@ -85,7 +85,7 @@
 
 - (IBAction)apply: (id)sender
 {
-    int launchBehaviorRow;
+    int activationBehaviorRow;
     
     //defaults
     [defaults setBool: ([ckbox_armored state] == NSOnState) ? YES : NO forKey: @"default_armored"];
@@ -100,20 +100,20 @@
     [defaults setBool: ([ckbox_singleRecipient state] == NSOnState) ? YES : NO forKey: @"select_single_recipient"];
     [defaults setBool: ([ckbox_singleSigner state] == NSOnState) ? YES : NO forKey: @"select_single_signer"];
 
-    launchBehaviorRow = [launchBehaviors selectedRow];
-    switch (launchBehaviorRow)
+    activationBehaviorRow = [activationBehaviors selectedRow];
+    switch (activationBehaviorRow)
     {
         case 1:
-            launchBehaviorRow = GPGFT_LBOpen;
+            activationBehaviorRow = GPGFT_ABOpen;
             break;
         case 0:
-            launchBehaviorRow = GPGFT_LBDoNothing;
+            activationBehaviorRow = GPGFT_ABDoNothing;
             break;
         default:
             //just use the setting
             break;
     }
-    [defaults setInteger: launchBehaviorRow forKey: @"launch_behavior"];
+    [defaults setInteger: activationBehaviorRow forKey: @"activation_behavior"];
 
     [defaults synchronize];
 }

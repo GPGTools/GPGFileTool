@@ -26,9 +26,10 @@
 
 typedef enum
 {
-    GPGFT_LBOpen = 0,
-    GPGFT_LBDoNothing = 1
-} GPGFTLaunchBehavior;
+    GPGFT_ABOpen = 0,
+    GPGFT_ABDoNothing = 1,
+    GPGFT_ABOpenLaunchOnly = 2
+} GPGFTActivationBehavior;
 
 @interface GPGPrefController : NSWindowController
 {
@@ -42,7 +43,7 @@ typedef enum
         *ckbox_showAfter,
         *ckbox_singleRecipient,
         *ckbox_singleSigner;
-    IBOutlet NSMatrix *launchBehaviors;
+    IBOutlet NSMatrix *activationBehaviors;
     IBOutlet NSPopUpButton *actionList;
 }
 
