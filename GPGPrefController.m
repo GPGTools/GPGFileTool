@@ -36,6 +36,8 @@
 
 - (void)awakeFromNib
 {
+    int launchBehaviorRow;
+    
     //defaults
     [ckbox_armored setState: [defaults boolForKey: @"default_armored"] ? NSOnState : NSOffState];
     [ckbox_decryptAndVerify setState: [defaults boolForKey: @"default_decrypt_and_verify"] ? NSOnState : NSOffState];
@@ -48,6 +50,22 @@
     //interface
     [ckbox_singleRecipient setState: [defaults boolForKey: @"select_single_recipient"] ? NSOnState : NSOffState];
     [ckbox_singleSigner setState: [defaults boolForKey: @"select_single_signer"] ? NSOnState : NSOffState];
+
+    //launch behavior
+    launchBehaviorRow = [defaults integerForKey: @"launch_behavior"];
+    switch (launchBehaviorRow)
+    {
+        case GPGFT_LBOpen:
+            launchBehaviorRow = 1;
+            break;
+        case GPGFT_LBDoNothing:
+            launchBehaviorRow = 0;
+            break;
+        default:
+            //just use the setting
+            break;
+    }
+    [launchBehaviors selectCellAtRow: launchBehaviorRow column: 0];
 
     [self openAfterChanged: self];
 }
@@ -67,6 +85,8 @@
 
 - (IBAction)apply: (id)sender
 {
+    int launchBehaviorRow;
+    
     //defaults
     [defaults setBool: ([ckbox_armored state] == NSOnState) ? YES : NO forKey: @"default_armored"];
     [defaults setBool: ([ckbox_decryptAndVerify state] == NSOnState) ? YES : NO forKey: @"default_decrypt_and_verify"];
@@ -79,6 +99,21 @@
     //interface
     [defaults setBool: ([ckbox_singleRecipient state] == NSOnState) ? YES : NO forKey: @"select_single_recipient"];
     [defaults setBool: ([ckbox_singleSigner state] == NSOnState) ? YES : NO forKey: @"select_single_signer"];
+
+    launchBehaviorRow = [launchBehaviors selectedRow];
+    switch (launchBehaviorRow)
+    {
+        case 1:
+            launchBehaviorRow = GPGFT_LBOpen;
+            break;
+        case 0:
+            launchBehaviorRow = GPGFT_LBDoNothing;
+            break;
+        default:
+            //just use the setting
+            break;
+    }
+    [defaults setInteger: launchBehaviorRow forKey: @"launch_behavior"];
 
     [defaults synchronize];
 }

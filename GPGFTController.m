@@ -65,6 +65,8 @@
 
 - (BOOL)applicationShouldOpenUntitledFile:(NSApplication *)sender
 {
+    //we only handle files with data in them
+    //and create new ones based on them
     return NO;
 }
 
@@ -74,7 +76,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
-    //find some way to do openDocument if nothing was dropped on
+    if ([[NSUserDefaults standardUserDefaults] integerForKey: @"launch_behavior"] == GPGFT_LBOpen && [[NSApp windows] count] == 0)
+        [fileMenu performActionForItemAtIndex: 0];
 }
     
 @end

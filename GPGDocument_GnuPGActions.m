@@ -116,7 +116,7 @@
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
     GPGSingleKeySelectionPanel * panel = [GPGSingleKeySelectionPanel panel];
 
-    [panel setMinimumKeyValidity:GPGValidityUltimate];
+    [panel setMinimumKeyValidity:GPGValidityUnknown];
     [panel setListsSecretKeys:YES];
     [panel setPrompt: NSLocalizedString(FTGetSigner, nil)];
 
@@ -131,7 +131,7 @@
     BOOL gotSigners;
 
     // Init the panel
-    [panel setMinimumKeyValidity:GPGValidityUltimate];
+    [panel setMinimumKeyValidity:GPGValidityUnknown];
     [panel setListsSecretKeys:YES];
     [panel setListsAllNames: NO];
     [panel setPrompt: NSLocalizedString(FTGetSigners, nil)];

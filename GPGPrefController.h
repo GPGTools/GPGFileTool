@@ -24,12 +24,25 @@
 
 #import <Cocoa/Cocoa.h>
 
+typedef enum
+{
+    GPGFT_LBOpen = 0,
+    GPGFT_LBDoNothing = 1
+} GPGFTLaunchBehavior;
+
 @interface GPGPrefController : NSWindowController
 {
     NSUserDefaults *defaults;
     
-    IBOutlet NSButton *ckbox_armored, *ckbox_decryptAndVerify, *ckbox_openAfter, *ckbox_openUnlessCipher,
-    *ckbox_showAfter, *ckbox_singleRecipient, *ckbox_singleSigner;
+    IBOutlet NSButton
+        *ckbox_armored,
+        *ckbox_decryptAndVerify,
+        *ckbox_openAfter,
+        *ckbox_openUnlessCipher,
+        *ckbox_showAfter,
+        *ckbox_singleRecipient,
+        *ckbox_singleSigner;
+    IBOutlet NSMatrix *launchBehaviors;
     IBOutlet NSPopUpButton *actionList;
 }
 

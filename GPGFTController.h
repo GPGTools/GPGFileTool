@@ -31,6 +31,8 @@
  - default_open_unless_ciphered: (BOOL) whether it should open up a file just after it's been gpg'd (most likely in Mac GPG)
  - default_show_after: (BOOL) whether to show the file in the Finder after acting on it by default
  - default_decrypt_and_verify: (BOOL) whether to decrypt and verify by default (rather than decyrypt only)
+ - select_single_recipient: (BOOL) display single recipient selection panel
+ - select_single_singer: (BOOL) display single signer selection panel
 */
 
 #import <Cocoa/Cocoa.h>
@@ -42,7 +44,7 @@
 
     GPGPrefController *prefController;
 
-    IBOutlet NSMenuItem *openMenu;
+    IBOutlet NSMenu *fileMenu;
 }
 
 - (IBAction)showPrefs: (id)sender;

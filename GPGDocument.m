@@ -198,23 +198,9 @@
 
 - (BOOL)loadDataRepresentation:(NSData *)data ofType:(NSString *)filetype
 {
-    
     NS_DURING
-        gpgData = [[GPGData alloc] initWithData: data];
-        NS_VALUERETURN(YES, BOOL);
-    NS_HANDLER
-        return NO;
-    NS_ENDHANDLER
-}
-
-- (BOOL)loadFileWrapperRepresentation:(NSFileWrapper *)wrapper ofType:(NSString *)filetype
-{
-    NS_DURING
-        if ([wrapper isDirectory])
-            gpgData = [[GPGData alloc] initWithData: [wrapper serializedRepresentation]];
-        else
-            gpgData = [[GPGData alloc] initWithData: [wrapper regularFileContents]];
-        NS_VALUERETURN(YES, BOOL);
+            gpgData = [[GPGData alloc] initWithData: data];
+            NS_VALUERETURN(YES, BOOL);
     NS_HANDLER
         return NO;
     NS_ENDHANDLER

@@ -14,6 +14,7 @@
                 "ckbox_showAfter" = NSButton; 
                 "ckbox_singleRecipient" = NSButton; 
                 "ckbox_singleSigner" = NSButton; 
+                launchBehaviors = NSMatrix; 
             }; 
             SUPERCLASS = NSWindowController; 
         }

@@ -5,7 +5,7 @@
             ACTIONS = {showGPGPrefs = id; showPrefs = id; }; 
             CLASS = GPGFTController; 
             LANGUAGE = ObjC; 
-            OUTLETS = {openMenu = NSMenuItem; }; 
+            OUTLETS = {fileMenu = NSMenu; }; 
             SUPERCLASS = NSObject; 
         }
     ); 
