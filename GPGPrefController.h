@@ -10,4 +10,7 @@
     *ckbox_show_after;
     IBOutlet NSPopUpButton *action_list;
 }
+
+- (IBAction)apply: (id)sender;
+
 @end

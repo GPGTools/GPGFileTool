@@ -24,6 +24,13 @@
 
 - (BOOL)windowShouldClose: (id)sender
 {
+    [self apply: self];
+
+    return YES;
+}
+
+- (IBAction)apply: (id)sender
+{
     [defaults setBool: ([ckbox_armored state] == NSOnState) ? YES : NO forKey: @"default_armored"];
     [defaults setBool: ([ckbox_decrypt_and_verify state] == NSOnState) ? YES : NO forKey: @"default_decrypt_and_verify"];
     [defaults setBool: ([ckbox_open_after state] == NSOnState) ? YES : NO forKey: @"default_open_after"];
@@ -32,9 +39,7 @@
 
     [defaults setInteger: [action_list indexOfSelectedItem] forKey: @"user_default_action"];
 
-    [defaults synchronize];
-    
-    return YES;
+    [defaults synchronize];    
 }
 
 - (void)dealloc
