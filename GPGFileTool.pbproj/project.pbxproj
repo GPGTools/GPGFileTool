@@ -24,6 +24,7 @@
 				F516EFD9030808A501000104,
 				7F11B78703E32CCF0088D5B5,
 				7F11B78C03E32CE50088D5B5,
+				7F7B9579042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = InfoPlist.strings;
@@ -140,6 +141,7 @@
 				German,
 				Spanish,
 				Italian,
+				Swedish,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
 			projectDirPath = "";
@@ -151,7 +153,8 @@
 			children = (
 				2A37F4ABFDCFA73011CA2CEA,
 				2A37F4AFFDCFA73011CA2CEA,
-				F555C86D02B4DE810128824A,
+				F5D07E980392CF8F012884B0,
+				7F7B9557042B5A4E0028F28B,
 				2A37F4B8FDCFA73011CA2CEA,
 				2A37F4C3FDCFA73011CA2CEA,
 				19C28FB0FE9D524F11CA2CBB,
@@ -212,6 +215,7 @@
 				F516EFD7030808A501000104,
 				7F11B78603E32CCF0088D5B5,
 				7F11B78B03E32CE50088D5B5,
+				7F7B9578042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = GPGDocument.nib;
@@ -225,6 +229,7 @@
 				F516EFD6030808A501000104,
 				7F11B78903E32CCF0088D5B5,
 				7F11B78D03E32CE50088D5B5,
+				7F7B957B042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = MainMenu.nib;
@@ -443,7 +448,7 @@
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>32</string>
+	<string>33</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -485,6 +490,18 @@
 				F527163503B3AE030100011D,
 				F527163603B3AE030100011D,
 				F527163703B3AE030100011D,
+				7F7B956B042B5A4E0028F28B,
+				7F7B956C042B5A4E0028F28B,
+				7F7B956D042B5A4E0028F28B,
+				7F7B956E042B5A4E0028F28B,
+				7F7B956F042B5A4E0028F28B,
+				7F7B9570042B5A4E0028F28B,
+				7F7B9571042B5A4E0028F28B,
+				7F7B9572042B5A4E0028F28B,
+				7F7B9573042B5A4E0028F28B,
+				7F7B9574042B5A4E0028F28B,
+				7F7B9575042B5A4E0028F28B,
+				7F7B9576042B5A4E0028F28B,
 			);
 			isa = PBXResourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,64 +647,247 @@
 			path = Spanish.lproj/Preferences.nib;
 			refType = 4;
 		};
-		7F11B78F03E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = Cambiamenti.rtf;
-			path = Documentation/Cambiamenti.rtf;
-			refType = 4;
-		};
-		7F11B79003E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = "Diario de cambios.rtf";
-			path = "Documentation/Diario de cambios.rtf";
-			refType = 4;
-		};
-		7F11B79103E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = Leame.rtf;
-			path = Documentation/Leame.rtf;
-			refType = 4;
-		};
-		7F11B79203E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = Leggimi.rtf;
-			path = Documentation/Leggimi.rtf;
-			refType = 4;
-		};
-		7F11B79303E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = "Lisez-moi.rtf";
-			path = "Documentation/Lisez-moi.rtf";
-			refType = 4;
-		};
-		7F11B79403E32D120088D5B5 = {
-			isa = PBXFileReference;
-			name = "Log des modifications.rtf";
-			path = "Documentation/Log des modifications.rtf";
-			refType = 4;
-		};
-		7F11B79B03E32D180088D5B5 = {
+		7F7B9557042B5A4E0028F28B = {
 			children = (
-				F555C86F02B4DE810128824A,
-				F5516F2002B7E1140128824A,
-				7F11B79103E32D120088D5B5,
-				7F11B79203E32D120088D5B5,
-				7F11B79303E32D120088D5B5,
+				7F7B9558042B5A4E0028F28B,
+				7F7B9559042B5A4E0028F28B,
+				7F7B955C042B5A4E0028F28B,
+				7F7B955F042B5A4E0028F28B,
+				7F7B9562042B5A4E0028F28B,
+				7F7B9565042B5A4E0028F28B,
+				7F7B9568042B5A4E0028F28B,
 			);
 			isa = PBXGroup;
-			name = "Read Me";
+			path = Documentation;
 			refType = 4;
 		};
-		7F11B79C03E32D430088D5B5 = {
+		7F7B9558042B5A4E0028F28B = {
 			children = (
-				F555C86E02B4DE810128824A,
-				F522F306036F887C012884B0,
-				7F11B78F03E32D120088D5B5,
-				7F11B79003E32D120088D5B5,
-				7F11B79403E32D120088D5B5,
 			);
 			isa = PBXGroup;
-			name = "Change Log";
+			path = Dansk;
+			refType = 4;
+		};
+		7F7B9559042B5A4E0028F28B = {
+			children = (
+				7F7B955A042B5A4E0028F28B,
+				7F7B955B042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = Deutsch;
+			refType = 4;
+		};
+		7F7B955A042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = Aenderungslog.rtf;
+			refType = 4;
+		};
+		7F7B955B042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Bitte lesen.rtf";
+			refType = 4;
+		};
+		7F7B955C042B5A4E0028F28B = {
+			children = (
+				7F7B955D042B5A4E0028F28B,
+				7F7B955E042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = English;
+			refType = 4;
+		};
+		7F7B955D042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Change Log.rtf";
+			refType = 4;
+		};
+		7F7B955E042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Read Me.rtf";
+			refType = 4;
+		};
+		7F7B955F042B5A4E0028F28B = {
+			children = (
+				7F7B9560042B5A4E0028F28B,
+				7F7B9561042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = Espanol;
+			refType = 4;
+		};
+		7F7B9560042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Diario de cambios.rtf";
+			refType = 4;
+		};
+		7F7B9561042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = Leame.rtf;
+			refType = 4;
+		};
+		7F7B9562042B5A4E0028F28B = {
+			children = (
+				7F7B9563042B5A4E0028F28B,
+				7F7B9564042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = Francais;
+			refType = 4;
+		};
+		7F7B9563042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Lisez-moi.rtf";
+			refType = 4;
+		};
+		7F7B9564042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Log des modifications.rtf";
+			refType = 4;
+		};
+		7F7B9565042B5A4E0028F28B = {
+			children = (
+				7F7B9566042B5A4E0028F28B,
+				7F7B9567042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = Italiano;
+			refType = 4;
+		};
+		7F7B9566042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = Cambiamenti.rtf;
+			refType = 4;
+		};
+		7F7B9567042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = Leggimi.rtf;
+			refType = 4;
+		};
+		7F7B9568042B5A4E0028F28B = {
+			children = (
+				7F7B9569042B5A4E0028F28B,
+				7F7B956A042B5A4E0028F28B,
+			);
+			isa = PBXGroup;
+			path = Svensk;
+			refType = 4;
+		};
+		7F7B9569042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = Foeraendringslogg.rtf;
+			refType = 4;
+		};
+		7F7B956A042B5A4E0028F28B = {
+			isa = PBXFileReference;
+			path = "Laes mig.rtf";
+			refType = 4;
+		};
+		7F7B956B042B5A4E0028F28B = {
+			fileRef = 7F7B955A042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B956C042B5A4E0028F28B = {
+			fileRef = 7F7B955B042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B956D042B5A4E0028F28B = {
+			fileRef = 7F7B955D042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B956E042B5A4E0028F28B = {
+			fileRef = 7F7B955E042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B956F042B5A4E0028F28B = {
+			fileRef = 7F7B9560042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9570042B5A4E0028F28B = {
+			fileRef = 7F7B9561042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9571042B5A4E0028F28B = {
+			fileRef = 7F7B9563042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9572042B5A4E0028F28B = {
+			fileRef = 7F7B9564042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9573042B5A4E0028F28B = {
+			fileRef = 7F7B9566042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9574042B5A4E0028F28B = {
+			fileRef = 7F7B9567042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9575042B5A4E0028F28B = {
+			fileRef = 7F7B9569042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9576042B5A4E0028F28B = {
+			fileRef = 7F7B956A042B5A4E0028F28B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F7B9577042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/Credits.html;
+			refType = 4;
+		};
+		7F7B9578042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/GPGDocument.nib;
+			refType = 4;
+		};
+		7F7B9579042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		7F7B957A042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/Localizable.strings;
+			refType = 4;
+		};
+		7F7B957B042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		7F7B957C042B5AAB0028F28B = {
+			isa = PBXFileReference;
+			name = Swedish;
+			path = Swedish.lproj/Preferences.nib;
 			refType = 4;
 		};
 //7F0
@@ -719,6 +919,7 @@
 				F516EFD8030808A501000104,
 				7F11B78A03E32CCF0088D5B5,
 				7F11B78E03E32CE50088D5B5,
+				7F7B957C042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = Preferences.nib;
@@ -793,12 +994,6 @@
 			isa = PBXFileReference;
 			name = Spanish;
 			path = Spanish.lproj/Localizable.strings;
-			refType = 4;
-		};
-		F522F306036F887C012884B0 = {
-			isa = PBXFileReference;
-			name = Aenderungslog.rtf;
-			path = Documentation/Aenderungslog.rtf;
 			refType = 4;
 		};
 		F527162C03B3AE020100011D = {
@@ -910,12 +1105,6 @@
 			path = Spanish.lproj/Credits.html;
 			refType = 4;
 		};
-		F5516F2002B7E1140128824A = {
-			isa = PBXFileReference;
-			name = "Bitte lesen.rtf";
-			path = "Documentation/Bitte lesen.rtf";
-			refType = 4;
-		};
 		F5516F2102B7E16E0128824A = {
 			fileEncoding = 4;
 			isa = PBXFileReference;
@@ -953,28 +1142,6 @@
 			isa = PBXFileReference;
 			name = German;
 			path = German.lproj/Localizable.strings;
-			refType = 4;
-		};
-		F555C86D02B4DE810128824A = {
-			children = (
-				7F11B79B03E32D180088D5B5,
-				7F11B79C03E32D430088D5B5,
-				F5D07E980392CF8F012884B0,
-			);
-			isa = PBXGroup;
-			name = Documentation;
-			refType = 4;
-		};
-		F555C86E02B4DE810128824A = {
-			isa = PBXFileReference;
-			name = "Change Log.rtf";
-			path = "Documentation/Change Log.rtf";
-			refType = 4;
-		};
-		F555C86F02B4DE810128824A = {
-			isa = PBXFileReference;
-			name = "Read Me.rtf";
-			path = "Documentation/Read Me.rtf";
 			refType = 4;
 		};
 		F55C3AE103A3C1AF0100011D = {
@@ -1092,6 +1259,7 @@
 				F516EFDA030808A501000104,
 				F516EFDB030808A501000104,
 				7F11B78803E32CCF0088D5B5,
+				7F7B957A042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = Localizable.strings;
@@ -1123,6 +1291,7 @@
 				F516EFD5030808A501000104,
 				F54747D8030EF14B012884B0,
 				7F11B78503E32CCF0088D5B5,
+				7F7B9577042B5AAB0028F28B,
 			);
 			isa = PBXVariantGroup;
 			name = Credits.html;
