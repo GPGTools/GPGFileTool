@@ -1,0 +1,18 @@
+/* Traducción: Quique - http://sindominio.net/quique - 14 Agt 2002 */
+
+FTVerifyFileFindTitle = "Seleccionar el fichero a verificar";
+FTVerifyFileFindPrompt = "Seleccionar";
+
+FTSignatureStatus = "Estado de firma";
+FTMultipleSignatureStatuses = "Estados múltiples de firma";
+FTGoodSigStatus = "Firma válida realizada %@ con %@ validez de:\n\n%@\n%@";
+FTBadSigStatus = "Firma no válida realizada %@ con %@ validez de:\n\n%@\n%@";
+FTGoodButExpiredSigStatus = "Firma válida, pero EXPIRADA, realizada %@ con %@ validez de:\n\n%@\n%@";
+FTGoodButKeyExpiredSigStatus = "Firma válida realizada %@ con %@ validez de la clave EXPIRADA:\n\n%@\n%@";
+FTNoKeySigStatus = "Su anillo no contiene esta clave:\n\n%@.";
+FTNoSignatureSigStatus = "No hay ninguna firma en los datos.";
+FTErrorSigStatus = "Se ha producido un error al intentar verificar los datos.";
+FTSigSeparator = "\n------------------------\n";
+
+FTErrorTitle = "Error";
+FTErrorMessage = "Se ha producido un error:  %@";

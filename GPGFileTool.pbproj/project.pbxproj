@@ -625,6 +625,12 @@
 			settings = {
 			};
 		};
+		F54747D8030EF14B012884B0 = {
+			isa = PBXFileReference;
+			name = Spanish;
+			path = Spanish.lproj/Credits.html;
+			refType = 4;
+		};
 		F5516F2002B7E1140128824A = {
 			isa = PBXFileReference;
 			path = "Bitte lesen.rtf";
@@ -730,6 +736,7 @@
 				F5A9BC1702B6A2620128824A,
 				F5516F2102B7E16E0128824A,
 				F516EFD5030808A501000104,
+				F54747D8030EF14B012884B0,
 			);
 			isa = PBXVariantGroup;
 			name = Credits.html;
