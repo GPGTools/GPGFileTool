@@ -2,12 +2,12 @@
 
 @implementation GPGPrefController
 
-- (id)init
+- (id)initWithWindow:(NSWindow *)window
 {
-    [super init];
+    [super initWithWindow:window];
 
 #warning defaults keeps coming up with nothing in it
-    defaults = [NSUserDefaults standardUserDefaults];
+    defaults = [[NSUserDefaults standardUserDefaults] retain];
 
     return self;
 }
@@ -45,6 +45,7 @@
 
 - (void)dealloc
 {
+    [defaults release];
     [super dealloc];
 }
 
