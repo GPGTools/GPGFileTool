@@ -44,6 +44,7 @@
     [ckbox_openAfter setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
     [ckbox_openUnlessCipher setState: [defaults boolForKey: @"default_open_unless_ciphered"] ? NSOnState : NSOffState];
     [ckbox_showAfter setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
+    [ckbox_deleteOriginal setState: [defaults boolForKey: @"default_delete_original"] ? NSOnState : NSOffState];
 
     [actionList selectItemAtIndex: [defaults integerForKey: @"user_default_action"]];
 
@@ -93,6 +94,7 @@
     [defaults setBool: ([ckbox_openAfter state] == NSOnState) ? YES : NO forKey: @"default_open_after"];
     [defaults setBool: ([ckbox_openUnlessCipher state] == NSOnState) ? YES : NO forKey: @"default_open_unless_ciphered"];
     [defaults setBool: ([ckbox_showAfter state] == NSOnState) ? YES : NO forKey: @"default_show_after"];
+    [defaults setBool: ([ckbox_deleteOriginal state] == NSOnState) ? YES : NO forKey: @"default_delete_original"];
 
     [defaults setInteger: [actionList indexOfSelectedItem] forKey: @"user_default_action"];
 

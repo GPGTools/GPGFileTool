@@ -95,6 +95,7 @@
     [panel setListsSecretKeys:NO];
     [panel setListsAllNames: NO];
     [panel setPrompt: NSLocalizedString(FTGetRecipients, nil)];
+    [panel setKeyFilter: self];
 
     gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
 
@@ -468,6 +469,13 @@
     NS_ENDHANDLER
 
     return nil;
+}
+
+- (BOOL) shouldDisplayKey: (GPGKey *)key contextInfo: (id)info
+{
+    NSLog([key description]);
+
+    return YES;
 }
 
 @end

@@ -137,10 +137,8 @@
         [op setTitle: NSLocalizedString(FTVerifyFileFindTitle, nil)];
         [op setPrompt: NSLocalizedString(FTVerifyFileFindPrompt, nil)];
 
-        //if([op runModal] == NSOKButton)	{
         if ([op runModalForDirectory: nil file: nil types: nil relativeToWindow: [self window]] == NSOKButton)	{
             orig_data = [NSData dataWithContentsOfFile: [op filename]];
-            //NSLog([op filename]);
         }
     }
 
@@ -183,6 +181,7 @@
     [ckbox_showAfter setState: [defaults boolForKey: @"default_show_after"] ? NSOnState : NSOffState];
     if (!([defaults boolForKey: @"default_open_unless_ciphered"] && [[self fileType] isNotEqualTo: @"Data"]))
         [ckbox_openAfter setState: [defaults boolForKey: @"default_open_after"] ? NSOnState : NSOffState];
+    [ckbox_deleteOriginal setState: [defaults boolForKey: @"default_delete_original"] ? NSOnState : NSOffState];
 
     [self actionSelectionChanged: self];
 }

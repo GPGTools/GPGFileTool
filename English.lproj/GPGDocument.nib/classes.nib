@@ -13,6 +13,7 @@
             OUTLETS = {
                 actionList = NSPopUpButton; 
                 "ckbox_armored" = NSButton; 
+                "ckbox_deleteOriginal" = NSButton; 
                 "ckbox_openAfter" = NSButton; 
                 "ckbox_showAfter" = NSButton; 
                 pathToFile = NSTextField; 

@@ -10,6 +10,7 @@
                 activationBehaviors = NSMatrix; 
                 "ckbox_armored" = NSButton; 
                 "ckbox_decryptAndVerify" = NSButton; 
+                "ckbox_deleteOriginal" = NSButton; 
                 "ckbox_openAfter" = NSButton; 
                 "ckbox_openUnlessCipher" = NSButton; 
                 "ckbox_showAfter" = NSButton; 

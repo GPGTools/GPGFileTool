@@ -85,10 +85,12 @@
         BOOL wrote_file = NO;
         wrote_file = [self writeFileWithData: returned_data ofType: returned_type];
         if (wrote_file)	{
-            if ([ckbox_showAfter state])
+            if ([ckbox_showAfter state] == NSOnState)
                 [self showInFinder: outFilename];
-            if ([ckbox_openAfter state])
+            if ([ckbox_openAfter state] == NSOnState)
                 [self openFileWithFilename: outFilename];
+            if ([ckbox_deleteOriginal state] == NSOnState)
+                [self deleteOriginalFile];
         }
     }
 }
@@ -111,57 +113,68 @@
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
             [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: YES];
             break;
         case GPGFTEncrypt:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: YES];
             break;
         case GPGFTSign:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTSignDetached:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTClearsign:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTSymmetricallyEncrypt:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: YES];
             break;
         //Separator
         case GPGFTDecryptAndVerify:
             [ckbox_armored setEnabled: NO];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTDecrypt:
             [ckbox_armored setEnabled: NO];
             [ckbox_openAfter setEnabled: YES];
-            [ckbox_showAfter setEnabled: YES];            
+            [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTVerify:
             [ckbox_armored setEnabled: NO];
             [ckbox_openAfter setEnabled: NO];
-            [ckbox_showAfter setEnabled: NO];            
+            [ckbox_showAfter setEnabled: NO];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         case GPGFTVerifyDetached:
             [ckbox_armored setEnabled: NO];
             [ckbox_openAfter setEnabled: NO];
             [ckbox_showAfter setEnabled: NO];
+            [ckbox_deleteOriginal setEnabled: NO];
             break;
         default:
             [ckbox_armored setEnabled: YES];
             [ckbox_openAfter setEnabled: YES];
             [ckbox_showAfter setEnabled: YES];
+            [ckbox_deleteOriginal setEnabled: YES];
             
             NSBeginAlertSheet(@"D'oh", nil, nil, nil, [self window], nil, nil, nil, nil,
                               @"Hey, you can't do that on GPGFileTool.");

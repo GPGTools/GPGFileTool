@@ -42,7 +42,8 @@ typedef enum
         *ckbox_openUnlessCipher,
         *ckbox_showAfter,
         *ckbox_singleRecipient,
-        *ckbox_singleSigner;
+        *ckbox_singleSigner,
+        *ckbox_deleteOriginal;
     IBOutlet NSMatrix *activationBehaviors;
     IBOutlet NSPopUpButton *actionList;
 }

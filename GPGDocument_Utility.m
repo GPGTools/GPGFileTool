@@ -72,4 +72,38 @@
     [open_file_task release];
 }
 
+- (void)deleteOriginalFile
+{
+    NSTask *rmFileTask;
+    NSMutableArray *args;
+
+    if ([[NSFileManager defaultManager] isDeletableFileAtPath: [self fileName]])
+    {
+        rmFileTask = [[NSTask alloc] init];
+        args = [[NSMutableArray alloc] init];
+        [args addObject: @"-fP"];
+        [args addObject: [self fileName]];
+    
+        [rmFileTask setLaunchPath: @"/bin/rm"];
+        [rmFileTask setArguments: args];
+        [rmFileTask launch];
+    
+        [rmFileTask waitUntilExit]; //good since this can take several seconds
+    
+        [rmFileTask release];
+        [args release];
+
+        NSBeginAlertSheet(@"Original File Securely Deleted", @"Close", nil, nil, [self window], self, @selector(sheetDidEnd:returnCode:contextInfo:), nil, nil, @"The original file was successful securely deleted.  This window will now close because the file no longer exists.");
+    }
+    else
+    {
+        NSBeginAlertSheet(@"Secure Delete of Original File Failed", @"OK", nil, nil, [self window], nil, nil, nil, nil, @"Was unable to securely delete the original file.  It may be in use by another application or you may not have permission to delete it.  Look at it in the Finder for details.");
+    }
+}
+
+- (void)sheetDidEnd:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void *)contextInfo
+{
+    [[self window] close];
+}
+
 @end

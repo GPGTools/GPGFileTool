@@ -48,7 +48,11 @@ typedef enum
     NSString *outFilename;
     
     IBOutlet NSTextField *pathToFile;
-    IBOutlet NSButton *ckbox_armored, *ckbox_openAfter, *ckbox_showAfter;
+    IBOutlet NSButton
+        *ckbox_armored,
+        *ckbox_openAfter,
+        *ckbox_showAfter,
+        *ckbox_deleteOriginal;
     IBOutlet NSPopUpButton *actionList;
 }
 
@@ -94,5 +98,6 @@ typedef enum
 - (void)handleException: (NSException *)exception;
 - (void)openFileWithFilename: (NSString *)filename;
 - (void)showInFinder: (NSString *)filename;
+- (void)deleteOriginalFile;
 
 @end
