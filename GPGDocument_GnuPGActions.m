@@ -74,11 +74,6 @@
     return recipients;
 }
 
-- (void)sheetDidEndForWindow: (NSWindow *)window returnCode: (int)rc contextInfo: (void *)context
-{
-    [[[self window] attachedSheet] close];
-}
-
 - (GPGKey *) getSigner
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
@@ -89,7 +84,6 @@
     [panel setListsSecretKeys:YES];
 
     [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
-    
     return [panel selectedKey];
 }
 
@@ -259,6 +253,7 @@
     NSData *returned_data = nil;
 
     signer = [self getSigner];
+    //NSLog("%@", signer);
 
     if (signer)	{
         NS_DURING
