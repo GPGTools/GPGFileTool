@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {showPrefs = id; }; 
+            CLASS = GPGFTController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {openMenu = NSMenuItem; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {apply = id; }; 
+            CLASS = GPGPrefController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionList = NSPopUpButton; 
+                "ckbox_armored" = NSButton; 
+                "ckbox_decryptAndVerify" = NSButton; 
+                "ckbox_openAfter" = NSButton; 
+                "ckbox_openUnlessCipher" = NSButton; 
+                "ckbox_showAfter" = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
