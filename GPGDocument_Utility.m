@@ -23,13 +23,21 @@
 
 #import "GPGDocument.h"
 #import "LocalizableStrings.h"
+#import "NSString_GPGFTExtensions.h"
+#import <unistd.h>
 
 @implementation GPGDocument (Utility)
+
+- (NSWindow *)window
+{
+    return [[[self windowControllers] objectAtIndex: 0] window];
+}
 
 - (void)handleException: (NSException *) exception
 {
     //NSLog(@"an error occured:  %@", exception);
-    NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
+    //NSRunAlertPanel(NSLocalizedString(FTErrorTitle, nil), NSLocalizedString(FTErrorMessage, nil), nil, nil, nil, exception);
+    NSBeginAlertSheet(NSLocalizedString(FTErrorTitle, nil), nil, nil, nil, [self window], nil, nil, nil, nil, NSLocalizedString(FTErrorMessage, nil), exception);
 }
 
 - (void)openFileWithFilename: (NSString *)filename

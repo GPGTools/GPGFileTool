@@ -32,12 +32,14 @@
     if (again)
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]];
+            NSLocalizedString(FTEnterPassphraseAgainPrompt, nil), [key userID], [key shortKeyID]]
+                  relativeToWindow: [self window]];
     }
     else
     {
         [ppanel runModalWithPrompt: [NSString stringWithFormat:
-            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]];
+            NSLocalizedString(FTEnterPassphrasePrompt, nil), [key userID], [key shortKeyID]]
+                  relativeToWindow: [self window]];
     }
 
     return [ppanel passphrase];
@@ -57,7 +59,7 @@
     [panel setMinimumKeyValidity:GPGValidityMarginal];
     [panel setListsSecretKeys:NO];
 
-    gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context];
+    gotRecipient = [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
 
     // Populate the recipients
     if (gotRecipient) {
@@ -72,6 +74,11 @@
     return recipients;
 }
 
+- (void)sheetDidEndForWindow: (NSWindow *)window returnCode: (int)rc contextInfo: (void *)context
+{
+    [[[self window] attachedSheet] close];
+}
+
 - (GPGKey *) getSigner
 {
     GPGContext * context = [[[GPGContext alloc] init] autorelease];
@@ -81,26 +88,7 @@
     [panel setMinimumKeyValidity:GPGValidityUltimate];
     [panel setListsSecretKeys:YES];
 
-    [panel runModalForKeyWildcard:nil usingContext:context];
-
-    /*
-    [panel beginSheetForKeyWildcard: nil
-                       usingContext: context
-                     modalForWindow: window
-                      modalDelegate: nil
-                     didEndSelector: nil
-                        contextInfo: nil];
-
-    NSLog(@"%@", [window attachedSheet]);
-
-    while ( [window attachedSheet] )
-    {
-        NSAutoreleasePool *sheetpool;
-        sheetpool = [[NSAutoreleasePool alloc] init];
-        [NSThread sleepUntilData: [NSDate dateWithTimeIntervalSinceNow: 1.0]];
-        [sheetpool release];
-    }
-    */
+    [panel runModalForKeyWildcard:nil usingContext:context relativeToWindow: [self window]];
     
     return [panel selectedKey];
 }
@@ -108,7 +96,7 @@
 - (void)showVerificationStatus: (NSArray *) signatures
 {
     if ([signatures count] == 0)	{
-        NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil);
+        NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil, [self window]);
     }
     else if ([signatures count] == 1)	{
         GPGSignature *sig;
@@ -118,25 +106,25 @@
 
         switch ([sig status])	{
             case GPGSignatureStatusGood:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodSigStatus, nil), nil, nil, nil, [self window], [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
                 break;
             case GPGSignatureStatusBad:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTBadSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTBadSigStatus, nil), nil, nil, nil, [self window], [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
                 break;
             case GPGSignatureStatusGoodButExpired:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButExpiredSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButExpiredSigStatus, nil), nil, nil, nil, [self window], [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
                 break;
             case GPGSignatureStatusGoodButKeyExpired:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), nil, nil, nil, [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTGoodButKeyExpiredSigStatus, nil), nil, nil, nil, [self window], [sig creationDate], GPGValidityDescription([sig validity]), [sig_key userID], [sig_key fingerprint]);
                 break;
             case GPGSignatureStatusNoKey:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoKeySigStatus, nil), nil, nil, nil, [sig fingerprint]);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoKeySigStatus, nil), nil, nil, nil, [self window], [sig fingerprint]);
                 break;
             case GPGSignatureStatusNoSignature:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTNoSignatureSigStatus, nil), nil, nil, nil, [self window]);
                 break;
             default:
-                NSRunInformationalAlertPanel(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTErrorSigStatus, nil), nil, nil, nil);
+                NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTSignatureStatus, nil), NSLocalizedString(FTErrorSigStatus, nil), nil, nil, nil, [self window]);
                 break;
         }
     }
@@ -177,7 +165,7 @@
             }
         }
 
-        NSRunInformationalAlertPanel(NSLocalizedString(FTMultipleSignatureStatuses, nil), statuses, nil, nil, nil);
+        NSRunInformationalAlertPanelRelativeToWindow(NSLocalizedString(FTMultipleSignatureStatuses, nil), statuses, nil, nil, nil, [self window]);
     }
 }
 

@@ -73,7 +73,7 @@
             returned_type = @"Data";
             break;
         default:
-            NSBeginAlertSheet(@"D'oh", nil, nil, nil, window, nil, nil, nil, nil,
+            NSBeginAlertSheet(@"D'oh", nil, nil, nil, [self window], nil, nil, nil, nil,
                               @"Hey, you can't do that on GPGFileTool.");
             break;
     }

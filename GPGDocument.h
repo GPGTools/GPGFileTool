@@ -35,7 +35,6 @@
     IBOutlet NSTextField *pathToFile;
     IBOutlet NSButton *ckbox_armored, *ckbox_openAfter, *ckbox_showAfter;
     IBOutlet NSPopUpButton *actionList;
-    IBOutlet NSWindow *window;
 }
 
 - (BOOL)writeFileWithData: (NSData *)data ofType: (NSString *)type;
@@ -72,6 +71,7 @@
 
 @interface GPGDocument (Utility)
 
+- (NSWindow *)window;
 - (void)handleException: (NSException *) exception;
 - (void)openFileWithFilename: (NSString *)filename;
 - (void)showInFinder: (NSString *)filename;

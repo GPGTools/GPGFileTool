@@ -97,7 +97,7 @@
             [new_filename appendString: [types objectForKey: type]];
         }
 
-        if([sp runModalForDirectory: nil file: new_filename] == NSOKButton){
+        if([sp runModalForDirectory: nil file: new_filename relativeToWindow: [self window]] == NSOKButton){
             [data writeToFile:[sp filename] atomically:NO];
             [outFilename release];
             outFilename = [[sp filename] copy];
@@ -159,9 +159,10 @@
 {
     [super windowControllerDidLoadNib:aController];
     [pathToFile setStringValue: [self fileName]];
+    //NSLog([self fileType]);
     if ([[self fileType] isEqualTo: @"Encrypted & Signed file"])
         [actionList selectItemAtIndex: [defaults boolForKey: @"default_decrypt_and_verify"] ? 6 : 7];
-    if ([[self fileType] isEqualTo: @"Encrypted file"])
+    else if ([[self fileType] isEqualTo: @"Encrypted file"])
         [actionList selectItemAtIndex: 7];
     else if ([[self fileType] isEqualTo: @"Signed file"])
         [actionList selectItemAtIndex: 8];

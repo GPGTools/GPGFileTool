@@ -288,7 +288,7 @@
 				F5933615025A0F1B0128824A,
 			);
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build /Users/redbird/Development/macgpgcvs/GPGME/build /Users/redbird/Development/macgpgcvs/GPGAppKit/build";
+				FRAMEWORK_SEARCH_PATHS = "../GPGME/build ../GPGAppKit/build";
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
@@ -439,11 +439,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.9.1</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>dGPG</string>
 	<key>CFBundleVersion</key>
-	<string>28</string>
+	<string>32</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
