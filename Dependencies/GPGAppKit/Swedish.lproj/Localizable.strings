@@ -1,0 +1,11 @@
+GPGAppKitOKButtonText = "OK";
+GPGAppKitCancelButtonText = "Avbryt";
+
+GPGAppKitPassphrasePanelTitle = "Lšsenord";
+GPGAppKitPassphrasePromptPrefix = "Ange lšsenord:";
+
+GPGAppKitSingleKeySelectionPanelTitle = "Nyckel";
+GPGAppKitSingleKeySelectionPanelPrompt = "VŠlj nyckel";
+
+GPGAppKitMultiKeySelectionPanelTitle = "Nycklar";
+GPGAppKitMultiKeySelectionPanelPrompt = "VŠlj nycklar";

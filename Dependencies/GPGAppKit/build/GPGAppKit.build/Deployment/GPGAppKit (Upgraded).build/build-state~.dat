@@ -1,0 +1,1003 @@
+TGPGAppKit (Upgraded)
+v7
+r0
+t317295832.758635
+cCheck dependencies
+cSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current A
+cSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources Versions/Current/Resources
+cSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit Versions/Current/GPGAppKit
+cSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers Versions/Current/Headers
+cProcessInfoPlistFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Info.plist Info-GPGAppKit__Upgraded_.plist
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGPassphrasePanelController.h GPGPassphrasePanelController.h
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKitDefines.h GPGAppKitDefines.h
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGSingleKeySelectionPanelController.h GPGSingleKeySelectionPanelController.h
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKit.h GPGAppKit.h
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGMultiKeySelectionPanelController.h GPGMultiKeySelectionPanelController.h
+cCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGKeySelectionPanelController.h GPGKeySelectionPanelController.h
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/InfoPlist.strings German.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/InfoPlist.strings French.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/InfoPlist.strings Italian.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/InfoPlist.strings Spanish.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/InfoPlist.strings Swedish.lproj/InfoPlist.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/Localizable.strings French.lproj/Localizable.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/Localizable.strings Italian.lproj/Localizable.strings
+cCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/Localizable.strings Swedish.lproj/Localizable.strings
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib
+cStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib
+cCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGPassphrasePanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKitDefines.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGSingleKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGMultiKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/../GPGME/build/GPGME.framework/GPGME
+c00000000000000000000000000000000
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/InfoPlist.strings
+c000000004D39518B0000000000000234
+t1295602059
+s564
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/Localizable.strings
+c000000004D39518B0000000000000181
+t1295602059
+s385
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/InfoPlist.strings
+c000000004D39518B0000000000000248
+t1295602059
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/Localizable.strings
+c000000004D39518B0000000000000334
+t1295602059
+s820
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKit.h
+c000000004D39518B00000000000003CF
+t1295602059
+s975
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.h
+c000000004D39518B0000000000000549
+t1295602059
+s1353
+i<Foundation/Foundation.h>
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m
+c000000004D39518B000000000000063A
+t1295602059
+s1594
+i"GPGAppKitDefines.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h
+c000000004D39518B0000000000000907
+t1295602059
+s2311
+i<AppKit/AppKit.h>
+i<GPGME/GPGME.h>
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m
+c000000004D39518B0000000000001369
+t1295602059
+s4969
+i"GPGKeySelectionPanelController.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.h
+c000000004D39518B00000000000005AB
+t1295602059
+s1451
+i<AppKit/AppKit.h>
+i"GPGKeySelectionPanelController.h"
+i"GPGAppKitDefines.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m
+c000000004D39518B0000000000000FBB
+t1295602059
+s4027
+i"GPGKeySelectionPanelController.h"
+i"GPGMultiKeySelectionPanelController.h"
+i<OmniAppKit/OmniAppKit.h>
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.h
+c000000004D39518B0000000000000793
+t1295602059
+s1939
+i<AppKit/AppKit.h>
+i"GPGAppKitDefines.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m
+c000000004D395408000000000000147B
+t1295602696
+s5243
+i"GPGPassphrasePanelController.h"
+i<MacGPGME/MacGPGME.h>
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h
+c000000004D39518B00000000000005B0
+t1295602059
+s1456
+i<AppKit/AppKit.h>
+i<GPGME/GPGME.h>
+i"GPGKeySelectionPanelController.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m
+c000000004D39518B0000000000000FF2
+t1295602059
+s4082
+i"GPGKeySelectionPanelController.h"
+i"GPGSingleKeySelectionPanelController.h"
+i"GPGAppKitDefines.h"
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/InfoPlist.strings
+c000000004D39518B0000000000000248
+t1295602059
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/Localizable.strings
+c000000004D39518C00000000000001A7
+t1295602060
+s423
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/InfoPlist.strings
+c000000004D39518C000000000000024C
+t1295602060
+s588
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/Localizable.strings
+c000000004D39518C0000000000000198
+t1295602060
+s408
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/InfoPlist.strings
+c000000004D39518C0000000000000258
+t1295602060
+s600
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/Localizable.strings
+c000000004D39518C0000000000000346
+t1295602060
+s838
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib
+c000000004D3951B100000000000000AA
+t1295602097
+s170
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/InfoPlist.strings
+c000000004D39518C0000000000000248
+t1295602060
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/Localizable.strings
+c000000004D39518C000000000000017A
+t1295602060
+s378
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit
+t3
+s26
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers
+t3
+s24
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources
+t3
+s26
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/GPGAppKit
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKit.h
+t1295603028
+s975
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKitDefines.h
+t1295603028
+s1353
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGKeySelectionPanelController.h
+t1295603028
+s2311
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGMultiKeySelectionPanelController.h
+t1295603028
+s1451
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGPassphrasePanelController.h
+t1295603028
+s1939
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGSingleKeySelectionPanelController.h
+t1295603028
+s1456
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s6947
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGPassphrasePanel.nib
+t1295603029
+s5587
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s6082
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1295603028
+s564
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/Localizable.strings
+t1295603029
+s772
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGPassphrasePanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/InfoPlist.strings
+t1295603029
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/Localizable.strings
+t1295603029
+s820
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGPassphrasePanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/InfoPlist.strings
+t1295603028
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/Localizable.strings
+t1295603029
+s832
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Info.plist
+t1295603028
+s732
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGPassphrasePanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/InfoPlist.strings
+t1295603029
+s588
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/Localizable.strings
+t1295603029
+s818
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGPassphrasePanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/InfoPlist.strings
+t1295603029
+s600
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/Localizable.strings
+t1295603029
+s838
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGMultiKeySelectionPanel.nib
+t1295603029
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGPassphrasePanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGSingleKeySelectionPanel.nib
+t1295603030
+s102
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/InfoPlist.strings
+t1295603029
+s584
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/Localizable.strings
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current
+t3
+s1
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKit.LinkFileList
+c000000004D3955540000000000000320
+t1295603028
+s800
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKitDefines.o
+t1295603031
+s6668
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGKeySelectionPanelController.o
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGMultiKeySelectionPanelController.o
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGPassphrasePanelController.o
+t2
+s0
+
+N/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGSingleKeySelectionPanelController.o
+t2
+s0
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Users/redbird/Library/Frameworks/OmniAppKit.framework/OmniAppKit
+c00000000000000000000000000000000
+t2
+s0
+
+NInfo-GPGAppKit__Upgraded_.plist
+c000000004D3951F9000000000000033C
+t1295602169
+s828
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317295828#317295828#0(0"0(0#1#0"8642209568#0"0#
+
+CCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKitDefines.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317295830.726133
+e317295831.315045
+r1
+xCompileC
+xbuild/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKitDefines.o
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m317295830#317295831#0(0"0(0#0#66"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m8636880192#1085"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -gdwarf-2 "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/GPGAppKit.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment -F../GPGME/build -F"/Users/willner/Library/Frameworks" -I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/include "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources/i386" "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources" -c /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.m -o "/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGAppKitDefines.o"0#
+
+CCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317295832.091023
+e317295832.758563
+r0
+xCompileC
+xbuild/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGKeySelectionPanelController.o
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directory
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:70: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:89: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:105: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:142: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m: In function ‘-[GPGKeySelectionPanelController resetKeyListForWildcard:usingContext:]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: ‘GPGContext’ undeclared (first use in this function)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: (Each undeclared identifier is reported only once
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: for each function it appears in.)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: ‘theContext’ undeclared (first use in this function)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:148: error: ‘GPGKey’ undeclared (first use in this function)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:148: error: ‘key’ undeclared (first use in this function)
+lSLF07#2@88"Compile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#317295832#0(2577"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directoryIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:70: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:89: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:105: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:142: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m: In function ‘-[GPGKeySelectionPanelController resetKeyListForWildcard:usingContext:]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: ‘GPGContext’ undeclared (first use in this function)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: (Each undeclared identifier is reported only once/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: for each function it appears in.)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:145: error: ‘theContext’ undeclared (first use in this function)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:148: error: ‘GPGKey’ undeclared (first use in this function)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m:148: error: ‘key’ undeclared (first use in this function)14(4@40"GPGME/GPGME.h: No such file or directory317295832#107#136#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"GPGME/GPGME.h: No such file or directory in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#28"*: No such file or directory0(4@40"Expected ‘)’ before ‘GPGContext’317295832#350#125#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#475#125#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#600#125#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#725#125#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#19"expected * before *0(4@36"Expected ‘)’ before ‘GPGKey’317295832#850#121#2(7@102"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@120"Expected ‘)’ before ‘GPGKey’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#971#125#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#70#0#70#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#1096#125#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#89#0#89#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#1221#126#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#105#0#105#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#1347#126#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#142#0#142#0#19"expected * before *0(4@56"‘GPGContext’ undeclared (first use in this function)317295832#1642#146#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#145#0#145#0#0"0(4@56"‘theContext’ undeclared (first use in this function)317295832#2058#146#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#145#0#145#0#0"0(4@52"‘GPGKey’ undeclared (first use in this function)317295832#2204#142#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#148#0#148#0#0"0(4@49"‘key’ undeclared (first use in this function)317295832#2346#139#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m317294859#148#0#148#0#0"0(0#0#80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m8633659008#1113"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -gdwarf-2 "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/GPGAppKit.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment -F../GPGME/build -F"/Users/willner/Library/Frameworks" -I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/include "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources/i386" "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources" -c /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.m -o "/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGKeySelectionPanelController.o"1#
+
+CCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGMultiKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317295831.485394
+e317295832.245267
+r0
+xCompileC
+xbuild/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGMultiKeySelectionPanelController.o
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directory
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController resetToDefaults]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:58: warning: class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDelegate' protocol
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:59: warning: class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDataSource' protocol
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: At top level:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:65: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController tableView:objectValueForTableColumn:row:]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: no ‘-userID’ method found
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: (Messages without a matching method signature
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: will be assumed to return ‘id’ and accept
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: ‘...’ as arguments.)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:86: warning: no ‘-shortKeyID’ method found
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController selectedKeys]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:112: warning: ‘selectedRowEnumerator’ is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:663)
+lSLF07#2@93"Compile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295831#317295832#0(3063"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directoryIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController resetToDefaults]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:58: warning: class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDelegate' protocol/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:59: warning: class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDataSource' protocol/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: At top level:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:65: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController tableView:objectValueForTableColumn:row:]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: no ‘-userID’ method found/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: (Messages without a matching method signature/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: will be assumed to return ‘id’ and accept/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:82: warning: ‘...’ as arguments.)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:86: warning: no ‘-shortKeyID’ method found/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m: In function ‘-[GPGMultiKeySelectionPanelController selectedKeys]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m:112: warning: ‘selectedRowEnumerator’ is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:663)16(4@40"GPGME/GPGME.h: No such file or directory317295832#112#136#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"GPGME/GPGME.h: No such file or directory in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#28"*: No such file or directory0(4@40"Expected ‘)’ before ‘GPGContext’317295832#360#125#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#485#125#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#610#125#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#735#125#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#19"expected * before *0(4@36"Expected ‘)’ before ‘GPGKey’317295832#860#121#2(7@107"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@120"Expected ‘)’ before ‘GPGKey’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#19"expected * before *0(22@97"Class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDelegate' protocol317295832#1138#197#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#58#0#58#0#45"class '*' does not implement the '*' protocol0(22@99"Class 'GPGMultiKeySelectionPanelController' does not implement the 'NSTableViewDataSource' protocol317295832#1335#199#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#59#0#59#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:317295832#1534#101#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#0#0#0#0#0"0(4@40"Expected ‘)’ before ‘GPGContext’317295832#1635#130#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#65#0#65#0#19"expected * before *0(22@29"No ‘-userID’ method found317295832#1947#125#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#82#0#82#0#0"0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317295832#2072#145#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#82#0#82#0#0"0(22@45"Will be assumed to return ‘id’ and accept317295832#2217#141#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#82#0#82#0#0"0(22@24"‘...’ as arguments.)317295832#2358#120#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#82#0#82#0#0"0(22@33"No ‘-shortKeyID’ method found317295832#2478#129#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#86#0#86#0#0"0(22@125"‘selectedRowEnumerator’ is deprecated (declared at /System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:663)317295832#2761#222#0(6@85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m317294859#112#0#112#0#0"0(0#0#85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m8630780384#1123"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -gdwarf-2 "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/GPGAppKit.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment -F../GPGME/build -F"/Users/willner/Library/Frameworks" -I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/include "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources/i386" "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources" -c /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.m -o "/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGMultiKeySelectionPanelController.o"1#
+
+CCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGPassphrasePanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317295830.724713
+e317295831.485159
+r0
+xCompileC
+xbuild/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGPassphrasePanelController.o
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m:24:30: error: MacGPGME/MacGPGME.h: No such file or directory
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m: In function ‘-[GPGPassphrasePanelController controlTextDidChange:]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m:170: warning: incompatible Objective-C types initializing ‘struct NSText *’, expected ‘struct NSTextView *’
+lSLF07#2@86"Compile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m317295830#317295831#0(488"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m:24:30: error: MacGPGME/MacGPGME.h: No such file or directory/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m: In function ‘-[GPGPassphrasePanelController controlTextDidChange:]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m:170: warning: incompatible Objective-C types initializing ‘struct NSText *’, expected ‘struct NSTextView *’2(4@46"MacGPGME/MacGPGME.h: No such file or directory317295831#0#140#0(6@78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m317295496#24#0#24#0#28"*: No such file or directory0(22@101"Incompatible Objective-C types initializing ‘struct NSText *’, expected ‘struct NSTextView *’317295831#289#187#0(6@78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m317295496#170#0#170#0#0"0(0#0#78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m8637290016#1109"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -gdwarf-2 "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/GPGAppKit.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment -F../GPGME/build -F"/Users/willner/Library/Frameworks" -I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/include "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources/i386" "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources" -c /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.m -o "/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGPassphrasePanelController.o"1#
+
+CCompileC "build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGSingleKeySelectionPanelController.o" /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317295831.315145
+e317295832.090929
+r0
+xCompileC
+xbuild/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGSingleKeySelectionPanelController.o
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directory
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:23:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’
+oIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:24:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h:46: error: expected ‘)’ before ‘GPGKey’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:73: error: expected ‘)’ before ‘GPGContext’
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m: In function ‘-[GPGSingleKeySelectionPanelController displayKeys]’:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: no ‘-userID’ method found
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: (Messages without a matching method signature
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: will be assumed to return ‘id’ and accept
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: ‘...’ as arguments.)
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:96: warning: no ‘-userIDs’ method found
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m: At top level:
+o/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:108: error: expected ‘)’ before ‘GPGKey’
+lSLF07#2@94"Compile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295831#317295832#0(2485"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:24:24: error: GPGME/GPGME.h: No such file or directoryIn file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:23:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:47: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:53: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:56: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:60: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h:71: error: expected ‘)’ before ‘GPGKey’In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:24:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h:46: error: expected ‘)’ before ‘GPGKey’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:73: error: expected ‘)’ before ‘GPGContext’/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m: In function ‘-[GPGSingleKeySelectionPanelController displayKeys]’:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: no ‘-userID’ method found/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: (Messages without a matching method signature/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: will be assumed to return ‘id’ and accept/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:92: warning: ‘...’ as arguments.)/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:96: warning: no ‘-userIDs’ method found/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m: At top level:/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m:108: error: expected ‘)’ before ‘GPGKey’15(4@40"GPGME/GPGME.h: No such file or directory317295832#113#136#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"GPGME/GPGME.h: No such file or directory in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#24#0#24#0#28"*: No such file or directory0(4@40"Expected ‘)’ before ‘GPGContext’317295832#362#125#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#47#0#47#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#487#125#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#53#0#53#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#612#125#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#56#0#56#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#737#125#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@124"Expected ‘)’ before ‘GPGContext’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#60#0#60#0#19"expected * before *0(4@36"Expected ‘)’ before ‘GPGKey’317295832#862#121#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#23#0#23#0#0"0(13@120"Expected ‘)’ before ‘GPGKey’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#0"0(6@80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h317294859#71#0#71#0#19"expected * before *0(4@36"Expected ‘)’ before ‘GPGKey’317295832#1096#127#2(7@108"In file included from /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#24#0#24#0#0"0(13@126"Expected ‘)’ before ‘GPGKey’ in /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h317295832#18446744073709551615#0#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h317294859#46#0#46#0#0"0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h317294859#46#0#46#0#19"expected * before *0(4@40"Expected ‘)’ before ‘GPGContext’317295832#1223#131#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#73#0#73#0#19"expected * before *0(22@29"No ‘-userID’ method found317295832#1509#126#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#92#0#92#0#0"0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317295832#1635#146#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#92#0#92#0#0"0(22@45"Will be assumed to return ‘id’ and accept317295832#1781#142#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#92#0#92#0#0"0(22@24"‘...’ as arguments.)317295832#1923#121#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#92#0#92#0#0"0(22@30"No ‘-userIDs’ method found317295832#2044#127#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#96#0#96#0#0"0(23@13"At top level:317295832#2171#102#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#0#0#0#0#0"0(4@36"Expected ‘)’ before ‘GPGKey’317295832#2273#128#0(6@86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m317294859#108#0#108#0#19"expected * before *0(0#0#86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m8634622016#1125"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -gdwarf-2 "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/GPGAppKit.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment -F../GPGME/build -F"/Users/willner/Library/Frameworks" -I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/include "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources/i386" "-I/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/DerivedSources" -c /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.m -o "/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/GPGAppKit.build/Deployment/GPGAppKit (Upgraded).build/Objects-normal/i386/GPGSingleKeySelectionPanelController.o"1#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317295828.947182
+e317295828.986457
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317295828#317295828#0(0"0(0#0#79"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/InfoPlist.strings8608026240#399"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s317295829.097059
+e317295829.151719
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings317295829#317295829#0(0"0(0#0#81"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/Localizable.strings8637781408#400"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/InfoPlist.strings French.lproj/InfoPlist.strings
+s317295828.984793
+e317295829.053175
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/InfoPlist.strings
+xFrench.lproj/InfoPlist.strings
+oFrench.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@35"Copy French.lproj/InfoPlist.strings317295828#317295829#0(132"French.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/InfoPlist.strings8636611232#396"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 French.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/Localizable.strings French.lproj/Localizable.strings
+s317295829.176128
+e317295829.240373
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/Localizable.strings
+xFrench.lproj/Localizable.strings
+oFrench.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@37"Copy French.lproj/Localizable.strings317295829#317295829#0(134"French.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/Localizable.strings8637323136#398"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 French.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/InfoPlist.strings German.lproj/InfoPlist.strings
+s317295828.948326
+e317295828.984680
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/InfoPlist.strings
+xGerman.lproj/InfoPlist.strings
+oGerman.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@35"Copy German.lproj/InfoPlist.strings317295828#317295828#0(132"German.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/InfoPlist.strings8637484000#396"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 German.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/Localizable.strings German.lproj/Localizable.strings
+s317295829.151812
+e317295829.223733
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/Localizable.strings
+xGerman.lproj/Localizable.strings
+lSLF07#2@37"Copy German.lproj/Localizable.strings317295829#317295829#0(0"0(0#0#80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/Localizable.strings8636363904#398"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 German.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/InfoPlist.strings Italian.lproj/InfoPlist.strings
+s317295828.986532
+e317295829.028839
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/InfoPlist.strings
+xItalian.lproj/InfoPlist.strings
+oItalian.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@36"Copy Italian.lproj/InfoPlist.strings317295828#317295829#0(133"Italian.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#79"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/InfoPlist.strings8636172416#398"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Italian.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/Localizable.strings Italian.lproj/Localizable.strings
+s317295829.223838
+e317295829.262100
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/Localizable.strings
+xItalian.lproj/Localizable.strings
+lSLF07#2@38"Copy Italian.lproj/Localizable.strings317295829#317295829#0(0"0(0#0#81"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/Localizable.strings8641905696#400"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Italian.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/InfoPlist.strings Spanish.lproj/InfoPlist.strings
+s317295829.028937
+e317295829.133867
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/InfoPlist.strings
+xSpanish.lproj/InfoPlist.strings
+oSpanish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@36"Copy Spanish.lproj/InfoPlist.strings317295829#317295829#0(133"Spanish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#79"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/InfoPlist.strings8630718752#398"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Spanish.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/Localizable.strings Spanish.lproj/Localizable.strings
+s317295829.133970
+e317295829.176035
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/Localizable.strings
+xSpanish.lproj/Localizable.strings
+oSpanish.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@38"Copy Spanish.lproj/Localizable.strings317295829#317295829#0(135"Spanish.lproj/Localizable.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#81"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/Localizable.strings8639828672#400"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Spanish.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/InfoPlist.strings Swedish.lproj/InfoPlist.strings
+s317295829.053266
+e317295829.096972
+r1
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/InfoPlist.strings
+xSwedish.lproj/InfoPlist.strings
+oSwedish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@36"Copy Swedish.lproj/InfoPlist.strings317295829#317295829#0(133"Swedish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#79"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/InfoPlist.strings8594704128#398"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Swedish.lproj/InfoPlist.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj0#
+
+CCopyStringsFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/Localizable.strings Swedish.lproj/Localizable.strings
+s317295829.240468
+e317295829.292078
+r0
+xCopyStringsFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/Localizable.strings
+xSwedish.lproj/Localizable.strings
+oSwedish.lproj/Localizable.strings: Conversion of string failed. The string is empty.
+o
+o/usr/bin/iconv: Swedish.lproj/Localizable.strings:4:34: cannot convert
+lSLF07#2@38"Copy Swedish.lproj/Localizable.strings317295829#317295829#0(278"Swedish.lproj/Localizable.strings: Conversion of string failed. The string is empty./usr/bin/iconv: Swedish.lproj/Localizable.strings:4:34: cannot convertCommand /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 11(4@120"Command /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings failed with exit code 1317295829#18446744073709551615#0#0(1@0"0(0#0#81"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/Localizable.strings8638210912#400"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Swedish.lproj/Localizable.strings --outdir /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj1#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKit.h GPGAppKit.h
+s317295828.877660
+e317295828.912241
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKit.h
+xGPGAppKit.h
+lSLF07#2@16"Copy GPGAppKit.h317295828#317295828#0(0"0(0#0#59"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKit.h8636842336#402"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKit.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKitDefines.h GPGAppKitDefines.h
+s317295828.873980
+e317295828.912456
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGAppKitDefines.h
+xGPGAppKitDefines.h
+lSLF07#2@23"Copy GPGAppKitDefines.h317295828#317295828#0(0"0(0#0#66"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.h8637593920#409"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGAppKitDefines.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGKeySelectionPanelController.h GPGKeySelectionPanelController.h
+s317295828.881046
+e317295828.947077
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGKeySelectionPanelController.h
+xGPGKeySelectionPanelController.h
+lSLF07#2@37"Copy GPGKeySelectionPanelController.h317295828#317295828#0(0"0(0#0#80"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h8636112960#423"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGKeySelectionPanelController.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGMultiKeySelectionPanelController.h GPGMultiKeySelectionPanelController.h
+s317295828.879401
+e317295828.912564
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGMultiKeySelectionPanelController.h
+xGPGMultiKeySelectionPanelController.h
+lSLF07#2@42"Copy GPGMultiKeySelectionPanelController.h317295828#317295828#0(0"0(0#0#85"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.h8636393216#428"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGMultiKeySelectionPanelController.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGPassphrasePanelController.h GPGPassphrasePanelController.h
+s317295828.872840
+e317295828.885273
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGPassphrasePanelController.h
+xGPGPassphrasePanelController.h
+lSLF07#2@35"Copy GPGPassphrasePanelController.h317295828#317295828#0(0"0(0#0#78"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.h8643990336#421"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGPassphrasePanelController.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CCpHeader build/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGSingleKeySelectionPanelController.h GPGSingleKeySelectionPanelController.h
+s317295828.875864
+e317295828.919459
+r1
+xCpHeader
+xbuild/Deployment/GPGAppKit.framework/Versions/A/Headers/GPGSingleKeySelectionPanelController.h
+xGPGSingleKeySelectionPanelController.h
+lSLF07#2@43"Copy GPGSingleKeySelectionPanelController.h317295828#317295828#0(0"0(0#0#86"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h8637067584#429"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/GPGSingleKeySelectionPanelController.h /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Headers0#
+
+CLd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/GPGAppKit normal i386
+r0
+
+CProcessInfoPlistFile /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Info.plist Info-GPGAppKit__Upgraded_.plist
+s317295828.866140
+e317295828.872756
+r1
+xProcessInfoPlistFile
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Info.plist
+xInfo-GPGAppKit__Upgraded_.plist
+lSLF07#2@39"Process Info-GPGAppKit__Upgraded_.plist317295828#317295828#0(0"0(0#0#79"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Info-GPGAppKit__Upgraded_.plist8634998848#274"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    builtin-infoPlistUtility Info-GPGAppKit__Upgraded_.plist -expandbuildsettings -platform macosx -o /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Info.plist0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.262872
+e317295829.432407
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@52"StripNIB English.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib8641492640#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib
+s317295829.806883
+e317295829.930293
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib
+lSLF07#2@45"StripNIB English.lproj/GPGPassphrasePanel.nib317295829#317295829#0(0"0(0#0#84"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib8634251104#357"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.259278
+e317295830.379260
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@53"StripNIB English.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#92"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib8632685472#373"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/English.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/English.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.432498
+e317295829.619053
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@51"StripNIB French.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#90"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib8642740640#369"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib
+s317295829.930478
+e317295830.115452
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib
+lSLF07#2@44"StripNIB French.lproj/GPGPassphrasePanel.nib317295829#317295830#0(0"0(0#0#83"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib8637343392#355"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.379356
+e317295830.504603
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@52"StripNIB French.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib8629724000#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/French.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/French.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.292160
+e317295829.443633
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@51"StripNIB German.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#90"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib8643189120#369"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib
+s317295829.870265
+e317295830.104444
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib
+lSLF07#2@44"StripNIB German.lproj/GPGPassphrasePanel.nib317295829#317295830#0(0"0(0#0#83"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib8639826112#355"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.360422
+e317295830.487657
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@52"StripNIB German.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib8631548320#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/German.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/German.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.443724
+e317295829.736876
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@52"StripNIB Italian.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib8641956960#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib
+s317295830.104542
+e317295830.242454
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib
+lSLF07#2@45"StripNIB Italian.lproj/GPGPassphrasePanel.nib317295830#317295830#0(0"0(0#0#84"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib8634592224#357"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.487747
+e317295830.611362
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@53"StripNIB Italian.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#92"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib8627833472#373"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Italian.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Italian.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.619145
+e317295829.806791
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@52"StripNIB Spanish.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib8642667872#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib
+s317295830.115557
+e317295830.259193
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib
+lSLF07#2@45"StripNIB Spanish.lproj/GPGPassphrasePanel.nib317295830#317295830#0(0"0(0#0#84"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib8634319264#357"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.504698
+e317295830.634931
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@53"StripNIB Spanish.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#92"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib8625017952#373"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Spanish.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Spanish.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib
+s317295829.736973
+e317295829.870170
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib
+lSLF07#2@52"StripNIB Swedish.lproj/GPGMultiKeySelectionPanel.nib317295829#317295829#0(0"0(0#0#91"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib8634293024#371"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGMultiKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGMultiKeySelectionPanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib
+s317295830.242546
+e317295830.360327
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib
+lSLF07#2@45"StripNIB Swedish.lproj/GPGPassphrasePanel.nib317295830#317295830#0(0"0(0#0#84"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib8633644992#357"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGPassphrasePanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGPassphrasePanel.nib0#
+
+CStripNIB /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib
+s317295830.611451
+e317295830.724613
+r1
+xStripNIB
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib
+lSLF07#2@53"StripNIB Swedish.lproj/GPGSingleKeySelectionPanel.nib317295830#317295830#0(0"0(0#0#92"/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib8609306080#373"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /Developer/usr/bin/ibtool --strip /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/A/Resources/Swedish.lproj/GPGSingleKeySelectionPanel.nib --output-format human-readable-text /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/Swedish.lproj/GPGSingleKeySelectionPanel.nib0#
+
+CSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit Versions/Current/GPGAppKit
+s317295828.835161
+e317295828.866082
+r1
+xSymLink
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit
+xVersions/Current/GPGAppKit
+lSLF07#2@102"Process /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit317295828#317295828#0(0"0(0#0#0"8637077536#193"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /bin/ln -sf Versions/Current/GPGAppKit /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/GPGAppKit0#
+
+CSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers Versions/Current/Headers
+s317295828.837173
+e317295828.865843
+r1
+xSymLink
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers
+xVersions/Current/Headers
+lSLF07#2@100"Process /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers317295828#317295828#0(0"0(0#0#0"8625863392#189"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /bin/ln -sf Versions/Current/Headers /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Headers0#
+
+CSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources Versions/Current/Resources
+s317295828.814735
+e317295828.835052
+r1
+xSymLink
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources
+xVersions/Current/Resources
+lSLF07#2@102"Process /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources317295828#317295828#0(0"0(0#0#0"8630540608#193"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /bin/ln -sf Versions/Current/Resources /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Resources0#
+
+CSymLink /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current A
+s317295828.812650
+e317295828.837104
+r1
+xSymLink
+x/Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current
+xA
+lSLF07#2@109"Process /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current317295828#317295828#0(0"0(0#0#0"8630712000#175"    cd /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit    /bin/ln -sf A /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework/Versions/Current0#
+
+CTouch /Data/Temp/t/GPGFileTool/Dependencies/GPGAppKit/build/Deployment/GPGAppKit.framework
+r0
+
